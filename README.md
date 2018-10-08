@@ -5,14 +5,14 @@
 
 This ontology is the Anatomy Ontology for the following Echinobase organisms:
 
-..*Strongylocentrotus purpuratus
-..*Patiria miniata 
-..*Lytechinus variegatus
-..*Eucidaris tribuloides
-..*Parastichopus parvimensis
-..*Ophiothrix spiculata
-..*Strongylocentrotus franciscanus
-..*Allocentrotus fragilis
+*Strongylocentrotus purpuratus
+*Patiria miniata 
+*Lytechinus variegatus
+*Eucidaris tribuloides
+*Parastichopus parvimensis
+*Ophiothrix spiculata
+*Strongylocentrotus franciscanus
+*Allocentrotus fragilis
 
 
 Strongylocentrotus purpuratus:  
