@@ -5,14 +5,14 @@
 
 This ontology is the Anatomy Ontology for the following Echinobase organisms:
 
-Strongylocentrotus purpuratus  
-Patiria miniata 
-Lytechinus variegatus 
-Eucidaris tribuloides 
-Parastichopus parvimensis 
-Ophiothrix spiculata 
-Strongylocentrotus franciscanus 
-Allocentrotus fragilis 
+.Strongylocentrotus purpuratus  
+.Patiria miniata 
+.Lytechinus variegatus 
+.Eucidaris tribuloides 
+.Parastichopus parvimensis 
+.Ophiothrix spiculata 
+.Strongylocentrotus franciscanus 
+.Allocentrotus fragilis 
 
 Strongylocentrotus purpuratus  
 The purple sea urchin, Strongylocentrotus purpuratus, lives along the eastern edge of the Pacific Ocean extending from Ensenada, Mexico to British Columbia, Canada. This sea urchin species is deep purple in color, eggs are orange when secreted in water, and lives in lower inter-tidal and nearshore sub-tidal communities. January, February, and March function as the typical active reproductive months for the species. Sexual maturity is reached around two years.
