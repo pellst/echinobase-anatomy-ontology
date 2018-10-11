@@ -1,0 +1,219 @@
+Prefix(:=<http://purl.obolibrary.org/obo/ecao.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/ecao.owl>
+Import(<http://purl.obolibrary.org/obo/ecao/imports/ro_import.owl>)
+Import(<http://purl.obolibrary.org/obo/ecao/imports/bfo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/ecao/imports/uberon_import.owl>)
+Annotation(rdfs:comment "echinobase anatomy ontology")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/ECAO_00000000>))
+Declaration(Class(:OWLClass_00000000))
+Declaration(Class(:OWLClass_00000001))
+Declaration(Class(:OWLClass_00000002))
+Declaration(Class(:OWLClass_00000003))
+Declaration(Class(:OWLClass_00000004))
+Declaration(Class(:OWLClass_00000006))
+Declaration(Class(:OWLClass_00000007))
+Declaration(Class(:OWLClass_00000008))
+Declaration(Class(:OWLClass_00000009))
+Declaration(Class(:OWLClass_00000010))
+Declaration(Class(:OWLClass_00000011))
+Declaration(Class(:OWLClass_00000012))
+Declaration(Class(:OWLClass_00000013))
+Declaration(Class(:OWLClass_00000014))
+Declaration(Class(:OWLClass_00000015))
+Declaration(Class(:OWLClass_00000016))
+Declaration(Class(:OWLClass_00000017))
+Declaration(Class(:OWLClass_00000018))
+Declaration(Class(:OWLClass_00000019))
+Declaration(Class(:OWLClass_00000020))
+Declaration(Class(:OWLClass_00000021))
+Declaration(Class(:OWLClass_00000022))
+Declaration(Class(:OWLClass_00000023))
+Declaration(Class(:OWLClass_00000024))
+Declaration(Class(:OWLClass_00000025))
+Declaration(Class(:OWLClass_00000026))
+Declaration(Class(:OWLClass_00000027))
+Declaration(Class(:OWLClass_00000028))
+Declaration(Class(:OWLClass_00000029))
+Declaration(Class(:OWLClass_00000030))
+Declaration(Class(:OWLClass_00000031))
+Declaration(Class(:OWLClass_00000032))
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/ECAO_00000000> (ecao)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECAO_00000000> "ecao"@en)
+
+# Class: :OWLClass_00000000 (anatomical entity)
+
+AnnotationAssertion(rdfs:label :OWLClass_00000000 "anatomical entity"@en)
+SubClassOf(:OWLClass_00000000 <http://purl.obolibrary.org/obo/ECAO_00000000>)
+
+# Class: :OWLClass_00000001 (tube)
+
+AnnotationAssertion(rdfs:label :OWLClass_00000001 "tube"@en)
+SubClassOf(:OWLClass_00000001 :OWLClass_00000000)
+
+# Class: :OWLClass_00000002 (mouth)
+
+AnnotationAssertion(rdfs:label :OWLClass_00000002 "mouth"@en)
+SubClassOf(:OWLClass_00000002 :OWLClass_00000001)
+
+# Class: :OWLClass_00000003 (anus)
+
+AnnotationAssertion(rdfs:label :OWLClass_00000003 "anus"@en)
+SubClassOf(:OWLClass_00000003 :OWLClass_00000001)
+
+# Class: :OWLClass_00000004 (intestine)
+
+AnnotationAssertion(rdfs:label :OWLClass_00000004 "intestine"@en)
+SubClassOf(:OWLClass_00000004 :OWLClass_00000006)
+
+# Class: :OWLClass_00000006 (organ)
+
+AnnotationAssertion(rdfs:label :OWLClass_00000006 "organ"@en)
+SubClassOf(:OWLClass_00000006 :OWLClass_00000000)
+
+# Class: :OWLClass_00000007 (tissue)
+
+AnnotationAssertion(rdfs:label :OWLClass_00000007 "tissue"@en)
+SubClassOf(:OWLClass_00000007 :OWLClass_00000000)
+
+# Class: :OWLClass_00000008 (gonads)
+
+AnnotationAssertion(rdfs:label :OWLClass_00000008 "gonads"@en)
+SubClassOf(:OWLClass_00000008 :OWLClass_00000006)
+
+# Class: :OWLClass_00000009 (structure)
+
+AnnotationAssertion(rdfs:label :OWLClass_00000009 "structure"@en)
+SubClassOf(:OWLClass_00000009 :OWLClass_00000000)
+
+# Class: :OWLClass_00000010 (aboral haemal ring)
+
+AnnotationAssertion(rdfs:label :OWLClass_00000010 "aboral haemal ring"@en)
+SubClassOf(:OWLClass_00000010 :OWLClass_00000009)
+
+# Class: :OWLClass_00000011 (aristotles lantern)
+
+AnnotationAssertion(rdfs:label :OWLClass_00000011 "aristotles lantern"@en)
+SubClassOf(:OWLClass_00000011 :OWLClass_00000009)
+
+# Class: :OWLClass_00000012 (pharynx)
+
+AnnotationAssertion(rdfs:label :OWLClass_00000012 "pharynx"@en)
+SubClassOf(:OWLClass_00000012 :OWLClass_00000001)
+
+# Class: :OWLClass_00000013 (madreporite)
+
+AnnotationAssertion(rdfs:label :OWLClass_00000013 "madreporite"@en)
+SubClassOf(:OWLClass_00000013 :OWLClass_00000009)
+
+# Class: :OWLClass_00000014 (interambulacral area)
+
+AnnotationAssertion(rdfs:label :OWLClass_00000014 "interambulacral area"@en)
+SubClassOf(:OWLClass_00000014 :OWLClass_00000009)
+
+# Class: :OWLClass_00000015 (ampullae)
+
+AnnotationAssertion(rdfs:label :OWLClass_00000015 "ampullae"@en)
+SubClassOf(:OWLClass_00000015 :OWLClass_00000009)
+
+# Class: :OWLClass_00000016 (tube feet)
+
+AnnotationAssertion(rdfs:label :OWLClass_00000016 "tube feet"@en)
+SubClassOf(:OWLClass_00000016 :OWLClass_00000000)
+
+# Class: :OWLClass_00000017 (spine)
+
+AnnotationAssertion(rdfs:label :OWLClass_00000017 "spine"@en)
+SubClassOf(:OWLClass_00000017 :OWLClass_00000009)
+
+# Class: :OWLClass_00000018 (gland)
+
+AnnotationAssertion(rdfs:label :OWLClass_00000018 "gland"@en)
+SubClassOf(:OWLClass_00000018 :OWLClass_00000000)
+
+# Class: :OWLClass_00000019 (axis gland)
+
+AnnotationAssertion(rdfs:label :OWLClass_00000019 "axis gland"@en)
+SubClassOf(:OWLClass_00000019 :OWLClass_00000018)
+
+# Class: :OWLClass_00000020 (radial canal)
+
+AnnotationAssertion(rdfs:label :OWLClass_00000020 "radial canal"@en)
+SubClassOf(:OWLClass_00000020 :OWLClass_00000001)
+
+# Class: :OWLClass_00000021 (developmental stage)
+
+AnnotationAssertion(rdfs:label :OWLClass_00000021 "developmental stage"@en)
+SubClassOf(:OWLClass_00000021 <http://purl.obolibrary.org/obo/ECAO_00000000>)
+
+# Class: :OWLClass_00000022 (Unfertilized egg)
+
+AnnotationAssertion(rdfs:label :OWLClass_00000022 "Unfertilized egg"@en)
+SubClassOf(:OWLClass_00000022 :OWLClass_00000021)
+
+# Class: :OWLClass_00000023 (Fertilized egg)
+
+AnnotationAssertion(rdfs:label :OWLClass_00000023 "Fertilized egg"@en)
+SubClassOf(:OWLClass_00000023 :OWLClass_00000021)
+
+# Class: :OWLClass_00000024 (Two-cell stage)
+
+AnnotationAssertion(rdfs:label :OWLClass_00000024 "Two-cell stage"@en)
+SubClassOf(:OWLClass_00000024 :OWLClass_00000021)
+
+# Class: :OWLClass_00000025 (Four-cell stage)
+
+AnnotationAssertion(rdfs:label :OWLClass_00000025 "Four-cell stage"@en)
+SubClassOf(:OWLClass_00000025 :OWLClass_00000021)
+
+# Class: :OWLClass_00000026 (Eight-cell stage)
+
+AnnotationAssertion(rdfs:label :OWLClass_00000026 "Eight-cell stage"@en)
+SubClassOf(:OWLClass_00000026 :OWLClass_00000021)
+
+# Class: :OWLClass_00000027 (Sixteen cells)
+
+AnnotationAssertion(rdfs:label :OWLClass_00000027 "Sixteen cells"@en)
+SubClassOf(:OWLClass_00000027 :OWLClass_00000021)
+
+# Class: :OWLClass_00000028 (Thirty-two-cell stage)
+
+AnnotationAssertion(rdfs:label :OWLClass_00000028 "Thirty-two-cell stage"@en)
+SubClassOf(:OWLClass_00000028 :OWLClass_00000021)
+
+# Class: :OWLClass_00000029 (Morula stage)
+
+AnnotationAssertion(rdfs:label :OWLClass_00000029 "Morula stage"@en)
+SubClassOf(:OWLClass_00000029 :OWLClass_00000021)
+
+# Class: :OWLClass_00000030 (Blastula stage)
+
+AnnotationAssertion(rdfs:label :OWLClass_00000030 "Blastula stage"@en)
+SubClassOf(:OWLClass_00000030 :OWLClass_00000021)
+
+# Class: :OWLClass_00000031 (Gastrula stage)
+
+AnnotationAssertion(rdfs:label :OWLClass_00000031 "Gastrula stage"@en)
+SubClassOf(:OWLClass_00000031 :OWLClass_00000021)
+
+# Class: :OWLClass_00000032 (Pluteus larval stage)
+
+AnnotationAssertion(rdfs:label :OWLClass_00000032 "Pluteus larval stage"@en)
+SubClassOf(:OWLClass_00000032 :OWLClass_00000021)
+
+
+)
