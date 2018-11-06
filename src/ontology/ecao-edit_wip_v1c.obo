@@ -1,0 +1,258 @@
+format-version: 1.2
+remark: echinobase anatomy ontology
+import: http://purl.obolibrary.org/obo/ecao/imports/bfo_import.owl
+import: http://purl.obolibrary.org/obo/ecao/imports/ro_import.owl
+import: http://purl.obolibrary.org/obo/ecao/imports/uberon_import.owl
+ontology: ecao
+
+[Term]
+id: ECAO:00000000
+name: ecao
+
+[Term]
+id: ECAO:00000100
+name: Echinodermata
+is_a: ECAO:00000000 ! ecao
+
+[Term]
+id: ECAO:00000500
+name: developmental stage
+is_a: ECAO:00000000 ! ecao
+
+[Term]
+id: ECAO:00001000
+name: anatomical entity
+is_a: ECAO:00000000 ! ecao
+
+[Term]
+id: ECAO:00000001
+name: tube
+is_a: ECAO:00001000 ! anatomical entity
+
+[Term]
+id: ECAO:00000002
+name: mouth
+is_a: ECAO:00000001 ! tube
+
+[Term]
+id: ECAO:00000003
+name: anus
+is_a: ECAO:00000001 ! tube
+
+[Term]
+id: ECAO:00000004
+name: intestine
+is_a: ECAO:00000006 ! organ
+
+[Term]
+id: ECAO:00000006
+name: organ
+is_a: ECAO:00001000 ! anatomical entity
+
+[Term]
+id: ECAO:00000007
+name: tissue
+is_a: ECAO:00001000 ! anatomical entity
+
+[Term]
+id: ECAO:00000008
+name: gonads
+is_a: ECAO:00000006 ! organ
+
+[Term]
+id: ECAO:00000009
+name: structure
+is_a: ECAO:00001000 ! anatomical entity
+
+[Term]
+id: ECAO:00000010
+name: aboral haemal ring
+is_a: ECAO:00000009 ! structure
+
+[Term]
+id: ECAO:00000011
+name: aristotles lantern
+is_a: ECAO:00000009 ! structure
+
+[Term]
+id: ECAO:00000012
+name: pharynx
+is_a: ECAO:00000001 ! tube
+
+[Term]
+id: ECAO:00000013
+name: madreporite
+is_a: ECAO:00000009 ! structure
+
+[Term]
+id: ECAO:00000014
+name: interambulacral area
+is_a: ECAO:00000009 ! structure
+
+[Term]
+id: ECAO:00000015
+name: ampullae
+is_a: ECAO:00000009 ! structure
+
+[Term]
+id: ECAO:00000016
+name: tube feet
+is_a: ECAO:00001000 ! anatomical entity
+
+[Term]
+id: ECAO:00000017
+name: spine
+is_a: ECAO:00000009 ! structure
+
+[Term]
+id: ECAO:00000018
+name: gland
+is_a: ECAO:00001000 ! anatomical entity
+
+[Term]
+id: ECAO:00000019
+name: axis gland
+is_a: ECAO:00000018 ! gland
+
+[Term]
+id: ECAO:00000020
+name: radial canal
+is_a: ECAO:00000001 ! tube
+
+[Term]
+id: ECAO:00000022
+name: Unfertilized egg
+is_a: ECAO:00000500 ! developmental stage
+
+[Term]
+id: ECAO:00000023
+name: Fertilized egg
+is_a: ECAO:00000500 ! developmental stage
+
+[Term]
+id: ECAO:00000024
+name: Two-cell stage
+is_a: ECAO:00000500 ! developmental stage
+
+[Term]
+id: ECAO:00000025
+name: Four-cell stage
+is_a: ECAO:00000500 ! developmental stage
+
+[Term]
+id: ECAO:00000026
+name: Eight-cell stage
+is_a: ECAO:00000500 ! developmental stage
+
+[Term]
+id: ECAO:00000027
+name: Sixteen cells
+is_a: ECAO:00000500 ! developmental stage
+
+[Term]
+id: ECAO:00000028
+name: Thirty-two-cell stage
+is_a: ECAO:00000500 ! developmental stage
+
+[Term]
+id: ECAO:00000029
+name: Morula stage
+is_a: ECAO:00000500 ! developmental stage
+
+[Term]
+id: ECAO:00000030
+name: Blastula stage
+is_a: ECAO:00000500 ! developmental stage
+
+[Term]
+id: ECAO:00000031
+name: Gastrula stage
+is_a: ECAO:00000500 ! developmental stage
+
+[Term]
+id: ECAO:00000032
+name: Pluteus larval stage
+is_a: ECAO:00000500 ! developmental stage
+
+[Term]
+id: ECAO:00000034
+name: Echinozoa
+is_a: ECAO:00000100 ! Echinodermata
+
+[Term]
+id: ECAO:00000035
+name: Holothuroidea
+synonym: "Sea cucumbers" EXACT []
+is_a: ECAO:00000034 ! Echinozoa
+
+[Term]
+id: ECAO:00000036
+name: Echinoidea
+synonym: "Sea urchin" EXACT []
+is_a: ECAO:00000034 ! Echinozoa
+
+[Term]
+id: ECAO:00000037
+name: Asterozoa
+is_a: ECAO:00000100 ! Echinodermata
+
+[Term]
+id: ECAO:00000038
+name: Ophiuroidea
+synonym: "Brittle stars" EXACT []
+is_a: ECAO:00000037 ! Asterozoa
+
+[Term]
+id: ECAO:00000039
+name: Asteroidea
+synonym: "Starfish" EXACT []
+is_a: ECAO:00000037 ! Asterozoa
+
+[Term]
+id: ECAO:00000040
+name: Ophiothrix spiculata
+def: "Ophiothrix is a large genus of brittle stars (Ophiuroidea) found in oceans worldwide from tropics to Arctic and Antarctic regions." []
+is_a: ECAO:00000038 ! Ophiuroidea
+
+[Term]
+id: ECAO:00000041
+name: Parastichopus parvimensis
+def: "The warty sea cucumber is a Pacific species of sea cucumber that can be found from the Baja California Peninsula, Mexico, to Monterey Bay, California, USA, although only scattered individuals were reported to occur north of Point Conception, California. It is found mainly in low energy environments from the intertidal zone down to 30 m, but can occur as deep as 60 m." []
+is_a: ECAO:00000035 ! Holothuroidea
+
+[Term]
+id: ECAO:00000042
+name: Allocentrotus fragilis
+def: "Allocentrotus fragilis is a species of sea urchin of the family Strongylocentrotidae." []
+is_a: ECAO:00000036 ! Echinoidea
+
+[Term]
+id: ECAO:00000043
+name: Eucidaris tribuloides
+def: "Eucidaris tribuloides, the slate pencil urchin, is a species of cidaroid sea urchins that inhabits littoral regions of the Atlantic Ocean. As a member of the basal echinoid order Cidaroida, its morphological, developmental and molecular genetic characteristics make it a phylogenetically interesting species." []
+is_a: ECAO:00000036 ! Echinoidea
+
+[Term]
+id: ECAO:00000044
+name: Patiria miniata
+def: "The bat star, also known as a sea bat, webbed star, and broad-disk star, is a species of sea star in the family Asterinidae. It typically has five arms, with the center disk of the animal being much wider than the stubby arms are in length. Although the bat star usually has five arms, it sometimes has as many as nine. Bat stars occur in many of colors, including green, purple, red, orange, yellow and brown, either mottled or solid. The bat star gets its name from the webbing between its arms, which is said to resemble a bat's wings" []
+is_a: ECAO:00000039 ! Asteroidea
+
+[Term]
+id: ECAO:00000045
+name: Strongylocentrotus purpuratus
+def: "The purple sea urchin, Strongylocentrotus purpuratus, lives along the eastern edge of the Pacific Ocean extending from Ensenada, Mexico to British Columbia, Canada. This sea urchin species is deep purple in color, eggs are orange when secreted in water, and lives in lower inter-tidal and nearshore sub-tidal communities. January, February, and March function as the typical active reproductive months for the species. Sexual maturity is reached around two years." []
+is_a: ECAO:00000036 ! Echinoidea
+
+[Term]
+id: ECAO:00000046
+name: Lytechinus variegatus
+def: "Lytechinus variegatus, commonly called the green sea urchin or the variegated sea urchin, is a species of sea urchin that can be found in the warm waters of the western Atlantic Ocean and Caribbean Sea." []
+is_a: ECAO:00000036 ! Echinoidea
+
+[Term]
+id: ECAO:00000047
+name: Strongylocentrotus franciscanus
+def: "The red sea urchin is a sea urchin found in the Pacific Ocean from Alaska to Baja California. It lives in shallow waters from the low-tide line to greater than 100 m deep, and is typically found on rocky shores sheltered from extreme wave action." []
+is_a: ECAO:00000036 ! Echinoidea
+
