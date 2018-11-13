@@ -1,0 +1,48 @@
+http://purl.obolibrary.org/obo/ECAO_00000000 # ecao
+http://purl.obolibrary.org/obo/ECAO_00001000 # anatomical entity
+http://purl.obolibrary.org/obo/ECAO_00000018 # gland
+http://purl.obolibrary.org/obo/ECAO_00000019 # axis gland
+http://purl.obolibrary.org/obo/ECAO_00000016 # tube feet
+http://purl.obolibrary.org/obo/ECAO_00000009 # structure
+http://purl.obolibrary.org/obo/ECAO_00000017 # spine
+http://purl.obolibrary.org/obo/ECAO_00000015 # ampullae
+http://purl.obolibrary.org/obo/ECAO_00000014 # interambulacral area
+http://purl.obolibrary.org/obo/ECAO_00000013 # madreporite
+http://purl.obolibrary.org/obo/ECAO_00000011 # aristotles lantern
+http://purl.obolibrary.org/obo/ECAO_00000010 # aboral haemal ring
+http://purl.obolibrary.org/obo/ECAO_00000007 # tissue
+http://purl.obolibrary.org/obo/ECAO_00000006 # organ
+http://purl.obolibrary.org/obo/ECAO_00000008 # gonads
+http://purl.obolibrary.org/obo/ECAO_00000004 # intestine
+http://purl.obolibrary.org/obo/ECAO_00000001 # tube
+http://purl.obolibrary.org/obo/ECAO_00000020 # radial canal
+http://purl.obolibrary.org/obo/ECAO_00000012 # pharynx
+http://purl.obolibrary.org/obo/ECAO_00000003 # anus
+http://purl.obolibrary.org/obo/ECAO_00000002 # mouth
+http://purl.obolibrary.org/obo/ECAO_00000500 # developmental stage
+http://purl.obolibrary.org/obo/ECAO_00000029 # Morula stage
+http://purl.obolibrary.org/obo/ECAO_00000025 # Four-cell stage
+http://purl.obolibrary.org/obo/ECAO_00000028 # Thirty-two-cell stage
+http://purl.obolibrary.org/obo/ECAO_00000027 # Sixteen cells
+http://purl.obolibrary.org/obo/ECAO_00000024 # Two-cell stage
+http://purl.obolibrary.org/obo/ECAO_00000023 # Fertilized egg
+http://purl.obolibrary.org/obo/ECAO_00000026 # Eight-cell stage
+http://purl.obolibrary.org/obo/ECAO_00000032 # Pluteus larval stage
+http://purl.obolibrary.org/obo/ECAO_00000022 # Unfertilized egg
+http://purl.obolibrary.org/obo/ECAO_00000030 # Blastula stage
+http://purl.obolibrary.org/obo/ECAO_00000031 # Gastrula stage
+http://purl.obolibrary.org/obo/ECAO_00000100 # Echinodermata
+http://purl.obolibrary.org/obo/ECAO_00000037 # Asterozoa
+http://purl.obolibrary.org/obo/ECAO_00000039 # Asteroidea
+http://purl.obolibrary.org/obo/ECAO_00000044 # Patiria miniata
+http://purl.obolibrary.org/obo/ECAO_00000038 # Ophiuroidea
+http://purl.obolibrary.org/obo/ECAO_00000040 # Ophiothrix spiculata
+http://purl.obolibrary.org/obo/ECAO_00000034 # Echinozoa
+http://purl.obolibrary.org/obo/ECAO_00000036 # Echinoidea
+http://purl.obolibrary.org/obo/ECAO_00000047 # Strongylocentrotus franciscanus
+http://purl.obolibrary.org/obo/ECAO_00000046 # Lytechinus variegatus
+http://purl.obolibrary.org/obo/ECAO_00000045 # Strongylocentrotus purpuratus
+http://purl.obolibrary.org/obo/ECAO_00000043 # Eucidaris tribuloides
+http://purl.obolibrary.org/obo/ECAO_00000042 # Allocentrotus fragilis
+http://purl.obolibrary.org/obo/ECAO_00000035 # Holothuroidea
+http://purl.obolibrary.org/obo/ECAO_00000041 # Parastichopus parvimensis

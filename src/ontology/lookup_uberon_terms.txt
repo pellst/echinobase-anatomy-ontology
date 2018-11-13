@@ -1,0 +1,4 @@
+http://purl.obolibrary.org/obo/UBERON_0000165 # mouth
+http://purl.obolibrary.org/obo/UBERON_0001245 # anus
+http://purl.obolibrary.org/obo/UBERON_0000991 # gonad
+http://purl.obolibrary.org/obo/UBERON_0000160 # intestine
