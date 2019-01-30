@@ -1,27 +1,550 @@
-Prefix(:=<http://purl.obolibrary.org/obo/ecao.owl#>)
-Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
-Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
-Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
-Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
-Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ecao.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ecao.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:core="http://purl.obolibrary.org/obo/core#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ecao.owl">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ecao/imports/bfo_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ecao/imports/ro_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ecao/imports/uberon_import.owl"/>
+        <rdfs:comment>echinobase anatomy ontology</rdfs:comment>
+    </owl:Ontology>
+    
 
 
-Ontology(<http://purl.obolibrary.org/obo/ecao.owl>
-Import(<http://purl.obolibrary.org/obo/ecao/imports/bfo_import.owl>)
-Import(<http://purl.obolibrary.org/obo/ecao/imports/ro_import.owl>)
-Import(<http://purl.obolibrary.org/obo/ecao/imports/uberon_import.owl>)
-Annotation(rdfs:comment "echinobase anatomy ontology")
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
 
-Declaration(Class(<http://purl.obolibrary.org/obo/ECAO_00000000>))
-
-
-############################
-#   Classes
-############################
-
-# Class: <http://purl.obolibrary.org/obo/ECAO_00000000> (ecao)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECAO_00000000> "ecao"@en)
+    
 
 
-)
+    <!-- http://purl.obolibrary.org/obo/ECAO_00003000 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ECAO_00003000">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#taxon"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000000">
+        <rdfs:label xml:lang="en">ecao</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00001000"/>
+        <obo:ECAO_00003000>https://www.ncbi.nlm.nih.gov/taxonomy/7625</obo:ECAO_00003000>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000025</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">tube</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000001"/>
+        <obo:ECAO_00003000>https://www.ncbi.nlm.nih.gov/taxonomy/46514</obo:ECAO_00003000>
+        <obo:ECAO_00003000>https://www.ncbi.nlm.nih.gov/taxonomy/7625</obo:ECAO_00003000>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000165</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">mouth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000001"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0001245</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">anus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000006"/>
+        <rdfs:label xml:lang="en">intestine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00001000"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000062</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">organ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00001000"/>
+        <rdfs:label xml:lang="en">tissue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000006"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000991</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">gonads</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00001000"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0010000</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">multicellular anatomical structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000010">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R94VfYxxWOBFF3xZEQhtZii"/>
+        <rdfs:label xml:lang="en">aboral haemal ring</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000009"/>
+        <rdfs:label xml:lang="en">aristotles lantern</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000001"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0006562</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">pharynx</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000013">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R94VfYxxWOBFF3xZEQhtZii"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0009476</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">madreporite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000009"/>
+        <rdfs:label xml:lang="en">interambulacral area</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000009"/>
+        <rdfs:label xml:lang="en">ampullae</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00001000"/>
+        <rdfs:label xml:lang="en">tube feet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000009"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0008260</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">spine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000006"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0002530</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">gland</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000018"/>
+        <rdfs:label xml:lang="en">axis gland</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000001"/>
+        <rdfs:label xml:lang="en">radial canal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000500"/>
+        <rdfs:label xml:lang="en">Unfertilized egg</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000500"/>
+        <rdfs:label xml:lang="en">Fertilized egg</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000500"/>
+        <rdfs:label xml:lang="en">Two-cell stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000500"/>
+        <rdfs:label xml:lang="en">Four-cell stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000500"/>
+        <rdfs:label xml:lang="en">Eight-cell stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000500"/>
+        <rdfs:label xml:lang="en">Sixteen cells</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000500"/>
+        <rdfs:label xml:lang="en">Thirty-two-cell stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000500"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000085</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Morula stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000500"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000307</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Blastula stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000500"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0004734</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Gastrula stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000500"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0008265</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Pluteus larval stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000100"/>
+        <obo:ECAO_00003000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ncbi.nlm.nih.gov/taxonomy/7624</obo:ECAO_00003000>
+        <rdfs:label xml:lang="en">Echinozoa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000034"/>
+        <obo:ECAO_00003000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ncbi.nlm.nih.gov/taxonomy/7705</obo:ECAO_00003000>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sea cucumbers</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Holothuroidea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000034"/>
+        <obo:ECAO_00003000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ncbi.nlm.nih.gov/taxonomy/7625</obo:ECAO_00003000>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sea urchin</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Echinoidea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000100"/>
+        <obo:ECAO_00003000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ncbi.nlm.nih.gov/taxonomy/7587</obo:ECAO_00003000>
+        <rdfs:label xml:lang="en">Asterozoa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000037"/>
+        <obo:ECAO_00003000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ncbi.nlm.nih.gov/taxonomy/7618</obo:ECAO_00003000>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brittle stars</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Ophiuroidea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000037"/>
+        <obo:ECAO_00003000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ncbi.nlm.nih.gov/taxonomy/7588</obo:ECAO_00003000>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Starfish</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Asteroidea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000038"/>
+        <obo:ECAO_00003000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ncbi.nlm.nih.gov/taxonomy/1266684</obo:ECAO_00003000>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ophiothrix is a large genus of brittle stars (Ophiuroidea) found in oceans worldwide from tropics to Arctic and Antarctic regions.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Ophiothrix spiculata</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000035"/>
+        <obo:ECAO_00003000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ncbi.nlm.nih.gov/taxonomy/1902835</obo:ECAO_00003000>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The warty sea cucumber is a Pacific species of sea cucumber that can be found from the Baja California Peninsula, Mexico, to Monterey Bay, California, USA, although only scattered individuals were reported to occur north of Point Conception, California. It is found mainly in low energy environments from the intertidal zone down to 30 m, but can occur as deep as 60 m.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Parastichopus parvimensis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000036"/>
+        <obo:ECAO_00003000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ncbi.nlm.nih.gov/taxonomy/86255</obo:ECAO_00003000>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allocentrotus fragilis is a species of sea urchin of the family Strongylocentrotidae.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Allocentrotus fragilis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000036"/>
+        <obo:ECAO_00003000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ncbi.nlm.nih.gov/taxonomy/7632</obo:ECAO_00003000>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eucidaris tribuloides, the slate pencil urchin, is a species of cidaroid sea urchins that inhabits littoral regions of the Atlantic Ocean. As a member of the basal echinoid order Cidaroida, its morphological, developmental and molecular genetic characteristics make it a phylogenetically interesting species.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Eucidaris tribuloides</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000039"/>
+        <obo:ECAO_00003000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ncbi.nlm.nih.gov/taxonomy/46514</obo:ECAO_00003000>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The bat star, also known as a sea bat, webbed star, and broad-disk star, is a species of sea star in the family Asterinidae. It typically has five arms, with the center disk of the animal being much wider than the stubby arms are in length. Although the bat star usually has five arms, it sometimes has as many as nine. Bat stars occur in many of colors, including green, purple, red, orange, yellow and brown, either mottled or solid. The bat star gets its name from the webbing between its arms, which is said to resemble a bat&apos;s wings</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Patiria miniata</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000036"/>
+        <obo:ECAO_00003000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ncbi.nlm.nih.gov/taxonomy/7668</obo:ECAO_00003000>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The purple sea urchin, Strongylocentrotus purpuratus, lives along the eastern edge of the Pacific Ocean extending from Ensenada, Mexico to British Columbia, Canada. This sea urchin species is deep purple in color, eggs are orange when secreted in water, and lives in lower inter-tidal and nearshore sub-tidal communities. January, February, and March function as the typical active reproductive months for the species. Sexual maturity is reached around two years.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Strongylocentrotus purpuratus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000036"/>
+        <obo:ECAO_00003000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ncbi.nlm.nih.gov/taxonomy/7654</obo:ECAO_00003000>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lytechinus variegatus, commonly called the green sea urchin or the variegated sea urchin, is a species of sea urchin that can be found in the warm waters of the western Atlantic Ocean and Caribbean Sea.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Lytechinus variegatus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000036"/>
+        <obo:ECAO_00003000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ncbi.nlm.nih.gov/taxonomy/1328066</obo:ECAO_00003000>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The red sea urchin is a sea urchin found in the Pacific Ocean from Alaska to Baja California. It lives in shallow waters from the low-tide line to greater than 100 m deep, and is typically found on rocky shores sheltered from extreme wave action.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Strongylocentrotus franciscanus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000000"/>
+        <obo:ECAO_00003000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ncbi.nlm.nih.gov/taxonomy/7586</obo:ECAO_00003000>
+        <rdfs:label xml:lang="en">Echinodermata</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000500 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000500">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000000"/>
+        <rdfs:label xml:lang="en">developmental stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00001000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00001000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000000"/>
+        <rdfs:label xml:lang="en">anatomical entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0010047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000018"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0010047</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R94VfYxxWOBFF3xZEQhtZii -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R94VfYxxWOBFF3xZEQhtZii">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000009"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0008259</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">aboral subdivision of organism</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
