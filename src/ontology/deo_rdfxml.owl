@@ -1,0 +1,1493 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ecao.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ecao.owl"
+     xmlns:core="http://purl.obolibrary.org/obo/core#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ecao.owl">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ecao/imports/ro_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ecao/imports/bfo_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ecao/imports/uberon_import.owl"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">echinobase anatomy ontology</rdfs:comment>
+        <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_format_version</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shorthand</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000050</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part_of</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part_of</oboInOwl:shorthand>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002202 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002202">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002202</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">develops_from</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">develops_from</oboInOwl:shorthand>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">develops from</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ecao#end_stage -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ecao#end_stage">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical structure/expression stops being viable, obvious or of utility during this developmental stage.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">end_stage</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ends during</rdfs:label>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ecao#end_stage"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical structure/expression stops being viable, obvious or of utility during this developmental stage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:curators</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ecao#preceded_by -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ecao#preceded_by">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preceded_by</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preceded by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ecao#start_stage -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ecao#start_stage">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical structure/expression begins being viable, obvious or of utility during this developmental stage.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start_stage</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">starts during</rdfs:label>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ecao#start_stage"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical structure/expression begins being viable, obvious or of utility during this developmental stage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:curators</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000001">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000001</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;life cycle period&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000053"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological process during which certain cells of a female or male individual (parent) are transformed into specialized reproductive cells (gametes) that will initiate development of a progeny individual (offspring) upon fertilization.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000002</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 0:00:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;gametogenesis&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000003">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Period during which female gametes (or oocytes, or eggs) develop and mature from primordial female germ cells to generate cells competent to further development upon fertilization by a mature spermatozoid.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovogenesis period</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000003</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 0:00:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;oogenesis period&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000004">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A female gamete that is small in size, i.e. about 10??m in diameter, and that is at the previtellogenic stage.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000004</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 0:00:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;previtellogenic primary oocyte stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000005">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000004"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A developing female gamete that started growing in size by accumulation of yolk proteins. At this stage, it is characterized by the presence of a large nucleus, the germinal vesicle, which contains a prominent nucleolus and occupies most of the cytoplasm.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000005</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 0:00:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;not fully grown oocyte stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000006">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A developing female gamete that has reached its full size. It has grown up to ten times its original size, i.e. 80 to 100??m. It also displays a large germinal vesicle that is centered, but it is still not competent for fertilization.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000006</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 0:00:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;fully grown oocyte with centered germinal vesicle stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000007">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A developing female gamete that has reached its full size and in which the germinal vesicle has moved asymmetrically to the cell periphery. The germinal vesicle is now close to the animal pole.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary oocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000007</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 0:00:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;fully grown oocyte with off-centered germinal vesicle stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000008">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A developing female gamete in which the germinal vesicle has broken down. The germinal vesicle is no longer visible. However, the female gamete is still not mature. It is undergoing meiotic maturation, extruding successively a first and a second polar body.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000008</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 0:00:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;fully grown oocyte with no nucleus stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000009">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mature female gamete that has achieved its meiotic maturation and in which the female pronucleus is visible. The mature oocyte is arrested in G1 phase and its average size is 80 to 100 µm. It is surrounded by a transparent jelly coat that is about 30 µm thick. It is competent to fertilization and it is located in the female gonad where it may be stored for weeks to months before its release in sea water by spawning.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spawned egg</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unfertilized egg</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000009</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 0:00:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;mature oocyte stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000010">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Period during which male gametes (or spermatozoa, or spermatozoid) develop and mature from primordial male germ cells to generate cells competent to further development upon fertilization of a mature oocyte.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000010</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 0:00:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;spermatogenesis period&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000011">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A developing, immature male gamete undergoing mitosis and meiosis to ultimately produce mature spermatozoa.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spermatid</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000011</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 0:00:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;developing spermatozoa stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000012">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mature male gamete that is composed of a head, encompassing a compact nucleus, a neck, a middle piece, and a tail (or flagellum) that propels it towards the oocyte upon spawning.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sperm</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spermatozoa</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000012</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 0:00:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;mature spermatozoid stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological process during which the embryo forms. This process starts with the fertilization of a mature oocyte by a mature spermatozoid. It is characterized by a succession of rapid mitotic divisions with no significant growth, but with axis establishment and cellular differentiation, thereby leading to the development of a multicellular embryo.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000013</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 0:00:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;embryogenesis&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000014">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000013"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Period during which the fusion of a male gamete and a female gamete takes place, thereby giving rise to a diploid cell that will undergo cell division.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fertilization</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000014</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 0:00:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;zygote period&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ecao#UBERON_0000106"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000014"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fertilized egg, right after fertilization. The embryo is characterized morphologically by the fact that it is a single diploid cell surrounded by a fertilization envelope. This stage corresponds to an embryo of age 0 hour post-fertilization.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fertilized egg</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zygote stage</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000015</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 0:00:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;1-cell stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ecao#UBERON_0000107"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000013"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000014"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Period during which the fertilized egg undergoes a succession of rapid cell divisions with no significant growth.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000016</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;cleavage period&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ecao#UBERON_0007232"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An embryo that is composed of two cells and is surrounded by a fertilization envelope. The first cleavage plane took place meridionally (i.e. along the animal-vegetal axis), thereby generating two blastomeres of equal size, each containing both animal and vegetal cytoplasm. </obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2c</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000017</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 1:40:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;2-cell stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ecao#UBERON_0007233"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An embryo that is composed of four cells and is surrounded by a fertilization envelope. The second cleavage plane, alike the first one, was meridional, but it was perpendicular to the first one, thereby producing four blastomeres of equal size, each containing both animal and vegetal cytoplasm. </obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4c</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000018</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 2:30:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;4-cell stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ecao#UBERON_0007236"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000018"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An embryo that is composed of eight cells and is surrounded by a fertilization envelope. The third cleavage took place perpendicular to the first two cleavage planes and was equatorial. It thus generated an animal and a vegetal hemisphere each composed of a quartet of four cells of equal volume.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8c</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000019</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 3:20:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;8-cell stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000020">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An embryo that is composed of 16 cells and is surrounded by a fertilization envelope. The fourth cleavage took place simultaneously in the animal and the vegetal hemisphere, although it occurred differently. In the animal hemisphere, the four cells divided meridionally producing eight blastomeres of equal volume and arrayed in rosette. These cells are called the mesomeres. In the vegetal hemisphere, by contrast, the four cells underwent an unequal, equatorial cleavage that produced four large cells, the macromeres, and four small cells, the micromeres. At the 16-cell stage, the embryo is hence composed of three groups of cells with distinct sizes. It represents, in most sea urchin species, the first embryonic stage at which the first morphological indicator of the animal-vegetal axis becomes visible, with the smallest cells marking the vegetal pole. </obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16c</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000020</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 4:10:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;16-cell stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000021">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000020"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An embryo that is composed of 28 cells and is surrounded by a fertilization envelope. The fifth cleavage already signed the end of cell division synchrony, in most sea urchin species, with the mesomeres and macromeres dividing prior to the micromeres with a significant time difference. In the animal hemisphere, the mesomeres underwent an equal and equatorial cleavage, thereby giving rise to two animal cell tiers, each composed of eight blastomeres of equal size: the an1 tier located at the animal pole and the an2 tier located below an1. In parallel, the macromeres divided meridionally, thereby forming a ring of eight cells of equal volume located below the an2 tier. By contrast, at that stage, the micromeres have not divided yet and are still at a number of four cells.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28c</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000021</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 4:45:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;28-cell stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000022">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000021"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An embryo that is composed of 32 cells and is surrounded by a fertilization envelope. The micromeres have finally undergone a fifth cleavage (and this prior to a subsequent division of the other cells). This cleavage was unequal and equatorial, thereby producing four large micromeres and four small micromeres, the smallest cells still marking the vegetal pole.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32c</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000022</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 5:00:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;32-cell stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000023">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000022"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An embryo that is composed of 56 cells and is surrounded by a fertilization envelope. In the animal hemisphere (or animal half), cells of the an1 and an2 tiers underwent an additional meridional division, thereby increasing in number laterally. By contrast, underneath, the macromeres divided equatorially and equally, thus generating two vegetal cell tiers, each composed of 8 cells of equal volume, namely the veg1 tier (located below an2) and the veg2 tier (located below veg1 and above the large micromeres). At that stage, the large and small micromeres have not undergone a sixth division yet. At the 56-cell stage, from the animal to the vegetal pole, the embryo is thus composed of: 16 an1-cells, 16 an2-cells, 8 veg1-cells, 8 veg2-cells, 4 large micromeres and 4 small micromeres.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">56c</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000023</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 5:30:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;56-cell stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000024">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An embryo that is composed of 60 cells and is surrounded by a fertilization envelope. The large micromeres have eventually achieved a sixth cleavage, which was meridional, thereby generating a ring of 8 cells. At that stage, from the animal to the vegetal pole, the embryo is composed of: 16 an1-cells, 16 an2-cells, 8 veg1-cells, 8 veg2-cells, 8 large micromeres and 4 small micromeres. It is at that stage that through cell lineage analyses a couple of cell fate maps for distinct sea urchin species have been elaborated. It is also at that stage that, in some sea urchin species, the secondary embryonic axis (i.e. the ventro-dorsal (or oral-aboral axis)) starts being visible through molecular surveys. </obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60c</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000024</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 5:50:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;60-cell stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ecao#UBERON_0000307"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000013"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Period during which the embryo gets transformed into a hollow sphere that is one cell layer thick and encompasses a central fluid-filled cavity called the blastocoel. During this period, every cell of the embryo is in contact on the inside with the blastocoel and on the outside with the hyaline layer.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000025</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;blastula period&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000026">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000025"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000024"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The embryo is composed of about 120 cells and is surrounded by a fertilization envelope. All cells are about the same size, thereby alleviating all morphological indicator of the animal-vegetal axis or of selective cell territories. All cells have further started acquiring an apico-basal polarity and transforming the embryo into a hollow sphere that is one cell layer thick and displays in its center a fluid-filled cavity called the blastocoel. In addition, the micromeres are still displaying a rate of cell division that is slower than that observed in the rest of the embryo. As a consequence, at that stage, molecular labeling surveys classically reveal the presence of 8 large micromeres and 4 small micromeres.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">120-cell stage</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vEB</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000026</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 6:50:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;very early blastula stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000027">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000025"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The embryo is composed of about 200 cells and is surrounded by a fertilization envelope. It is about 90 µm in diameter. The cells have continued to divide, including the large micromeres. Cell divisions have been taking place without affecting the overall size or shape of the embryo. The cells have thus increased in number and become smaller while the embryo has remained spherical and one-cell layer thick. As a consequence, at the center of the embryo, the blastocoel has also become a little wider. The synchrony of cell divisions between animal and vegetal cell tiers, as well as within cell tiers, has further completely ended by now. Moreover, at that stage, molecular labeling surveys classically reveal the presence of 16 large micromere descendant cells and 4 small micromeres.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EB</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000027</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 7:50:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;early blastula stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000028">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000025"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000027"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The embryo is composed of about 300 cells and is surrounded by a fertilization envelope. Additional cell divisions took place leading to an embryo with overall a larger number of small cells. Compared to previous blastula stages, the cells have slightly flattened on their inner, basal surface, further contributing to the enlargement of the blastocoel. In addition, the cells have by now started growing cilia on their outer surface. Despite these changes, the embryo is however still perfectly spherical and of about 90 µm in diameter. It still does not display any particular morphological landmark allowing orienting it along the primary or secondary embryonic axes. In addition, at that stage, molecular labeling surveys classically reveal in the vegetal hemisphere the presence of 16 to 32 large micromere descendant cells and of 4 to 8 small micromere descendant cells. </obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mid-B</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">midB</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000028</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 8:50:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;mid blastula stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000029">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000025"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000028"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The embryo is composed of about 400 cells and is surrounded by a fertilization envelope. The cells have continued dividing and thinning out. They have further united to form a true, uniform epithelium all around the embryo. The cells have also continued growing and elongating cilia on their outer surface. The embryo has hence now started rotating inside the fertilization envelope. At that stage, the micromeres have further finished dividing. The embryo thus possesses by now a final number of 32 large micromere descendant cells and 8 small micromere descendant cells.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B4</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LB</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Late-B</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pre-HB</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prehatched blastula</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000029</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 9:50:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;late blastula stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000030">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000025"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000029"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The embryo is composed of about 500 to 800 cells depending on the sea urchin species. It is rotating within the fertilization envelope, which has started to be broken down due to the secretion by the ectodermal cells of the hatching enzyme, a metalloprotease that digests the fertilization envelope and frees the embryo. At the animal pole, a tuft of long and immotile cilia has further started growing. This tuft features the site of the future apical pole domain (or apical neuroectodermal domain).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B5</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HB</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000030</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 11:00:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;hatched blastula stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000031">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000025"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000030"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The embryo has hatched from the fertilization envelope and swims freely. It is still a hollow sphere that is one cell layer thick, but the cells constituting the vegetal plate (i.e. located at the vegetal pole) have started thickening along the apico-basal axis, thereby creating a morphological landmark that enables orienting the embryo along the animal-vegetal axis. In addition, at the animal pole, the apical tuft composed of long and immotile cilia is still present and has continued expending.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SB</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000031</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 12:00:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;swimming blastula stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000032">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000025"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The embryo has started elongated along the animal-vegetal axis. Its vegetal region has further continued to thicken and it is marked by a characteristic &apos;V&apos; shape formed by the blastocoel at the level of the cells constituting the vegetal plate, thereby pointing to the vegetal pole. At the animal pole, the apical pole domain (or apical neuroectodermal domain) still bears a tuft of long and immotile cilia. </obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">late-SB</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000032</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 13:00:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;late swimming blastula stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ecao#UBERON_0000109"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000013"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000025"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Period during which complex and coordinated cellular movements take place and ultimately generate a three-layered embryo with inner tissues. A portion of cells will ingress, invaginate and/or migrate within the embryo and form the two inner layers (i.e. the endoderm and the mesoderm). The cells that remained outside will instead spread over the whole surface of the embryo and form the outer layer (i.e. the ectoderm).</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000033</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;gastrula period&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000034">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000033"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The embryo is mainly characterized morphologically by a flat vegetal plate at the vegetal pole, the presence in the blastocoel of a couple of ingressed skeletogenic mesenchyme cells (or SM cells, primary mesenchyme cells, or PMCs) and a thick epithelium at the animal pole bearing a tuft of long and immotile cilia. The vegetal plate has finished flattening. In its center, the descendants of the large micromeres, now constituting the skeletogenic mesoderm, are progressively undergoing a classical epithelialmesenchymal transition (EMT). They are loosing their apico-basal polarity and adhesive properties, rounding up, dissociating from the epithelial monolayer, and finally ingressing into the blastocoel through the extension and projection of thin filopodia. In parallel, at the animal pole, the apical pole domain (or animal neuroectoderm region), which continues to bear long and immotile cilia, has started thickening.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eMB</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000034</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 14:00:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;early mesenchyme blastula stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000035">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000033"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The embryo is mainly characterized morphologically by the presence in the blastocoel of 32 skeletogenic mesenchyme cells (or SM cells, primary mesenchyme cells or PMCs). All large micromere descendant cells, which were present in the vegetal plate, have by now undergone an epithelial-mesenchymal transition (EMT). They have thus all ingressed into the blastocoel, leaving behind a reformed vegetal plate encompassing in its center the 8 small micromere descendant cells surrounded by the non-skeletogenic mesoderm cells. Within the blastocoel, the skeletogenic mesenchyme cells are further in movement, exploring and migrating along the blastocoel wall, through active extension and retraction of filopodia, looking for selective patterning cues provided by the ectoderm and endoderm tissues. In the reformed vegetal plate, precursors of the pigment and blastocoelar cells have further emerged. They are discernable at the molecular level on the oral (or ventral) and aboral (or dorsal) side, respectively. In parallel, at the animal pole, the animal neuroectoderm region has stopped thickening although it still bears long and immotile cilia. In addition, a supplementary neurogenic territory has started to form that is visible only through molecular surveys. This secondary neurogenic territory is called the ciliary band and is located at the boundary between the oral (or ventral) and aboral (or dorsal) ectoderm.  </obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MB</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000035</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 15:00:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;mesenchyme blastula stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000036">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000033"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000035"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The embryo is mainly characterized morphologically by a slight embedding of the vegetal plate within the blastocoel and the repartition of the skeletogenic mesenchyme cells all around this invaginated structure. Within the vegetal plate, the cells have reinforced their adhesive properties and undergone important cell shape changes thereby leading to the bending inward of the vegetal plate. This bending inward has by means generated the blastopore, i.e. the first opening of the embryo that will later give rise to the larval anus. Furthermore, it initiated the invagination of the archenteron (i.e. the primitive digestive tract). In sea urchin, this initial process is hence launched by the non-skeletogenic mesoderm cells. In parallel, within the blastocoel, the skeletogenic mesenchyme cells have by now adopted a characteristic pattern, being positioned as a ring all around the basis of the nascent archenteron. At the animal pole, the animal neuroectoderm territory is still marked by an enlarged epithelium bearing long and immotile cilia.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blasto-G</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000036</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 18:00:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;blastopore gastrula stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000037">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000033"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000036"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The embryo is mainly characterized morphologically by the presence in the blastocoel of a small archenteron (i.e. primitive digestive tract) that is about a third of its finally size. Following the initial invagination of the vegetal plate, the archenteron has slightly been extended, within the blastocoel, by the subsequent invagination of additional non-skeletogenic mesoderm cells and of some endoderm cells. In parallel, the skeletogenic mesenchyme cells (or SM cells, primary mesenchyme cells or PMC) have by now started migrating along the blastocoel wall, towards the animal pole, thereby creating two lateral chains (one left and one right), while around the developing archenteron, they have gathered into two ventrolateral clusters separated by an oral (or ventral) and an aboral (or dorsal) chain defined by the remaining skeletogenic mesenchyme cells. Within the oral and aboral skeletogenic mesenchyme chains, the cells have further started to fuse to form syncytial filopodial cables within which skeletal calcification will subsequently take place. At the animal pole, the animal neuroectoderm territory is still marked by an enlarged epithelium bearing long and immotile cilia.  </obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EG</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eG</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000037</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 20:00:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;early gastrula stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000038">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000033"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000037"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The embryo is mainly characterized morphologically by the presence of an archenteron (i.e. primitive digestive tract) that has reached one-half its way into the blastocoel. A second phase of archenteron elongation has taken place by invagination of additional cells into the blastocoel, by cell division or by convergent-extension movements depending on the sea urchin species. Non-skeletogenic mesoderm cells that are present at the tip of the archenteron have further started ingressing into the blastocoel, generating the non-skeletogenic mesenchyme cells (or NSM cells, secondary mesenchyme cells or SMC). The oral ectoderm has also started to flatten and to become thicker, providing the first morphological indicator of the oral-aboral (or ventro-dorsal) axis of the embryo. As a consequence the oral chain formed by a portion of the skeletogenic mesenchyme cells has also flattened. Finally, skeletal calcification has further begun within the skeletogenic mesenchyme ventrolateral clusters, marked by the presence of the first calcified structures, which appear as small dots at that stage. At the animal pole, the animal neuroectoderm territory is still marked by an enlarged epithelium bearing long and immotile cilia.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mid-G</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000038</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 22:00:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;mid gastrula stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000039">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000033"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000038"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The embryo is mainly characterized morphologically by the presence in the blastocoel of a fully extended archenteron (i.e. primitive digestive tract) that has now reached the roof of the blastocoel. The third and last extension phase of the archenteron has been ensured by pulling forces exerted by non-skeletogenic mesoderm cells that are still present at the tip of the archenteron. These cells have produced filopodia that extended towards the animal pole, attached the wall, and then shortened, thereby pulling up the archenteron. In some sea urchin species, this pulling force is already orienting the tip of the archenteron towards the oral ectoderm, where the future mouth of the larvae will form. In parallel, in the blastocoel, additional non-skeletogenic mesoderm cells continued ingressing from the tip of the archenteron and the skeletal calcified structures present in the skeletogenic mesenchyme ventrolateral clusters have further grown, forming now the primary triradiate skeletal rudiments (or spicules). At the animal pole, the animal neuroectoderm territory is still marked by an enlarged epithelium bearing long and immotile cilia.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LG</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">late-G</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000039</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 24:00:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;late gastrula stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000040">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000033"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The embryo is mainly characterized morphologically by a typical triangular shape, the beginning of the tripatition of the digestive tract and the presence of pigmented cells. The oral (or ventral) ectoderm has by now even more flattened, making an almost perfect right angle with the blastoporal side of the embryo. By contrast, on the opposite side, the aboral (or dorsal) ectoderm has round up and slightly elongated, thereby forming the primitive apex of the future larvae. These changes have conferred the embryo a typical and easy recognizable triangular shape. In the oral ectoderm, a small depression has further appeared, called the stomodeum, which will later fuse with the tip of the archenteron to form the mouth. In the blastocoel, the digestive tract has also by now bended toward the stomodeum and started to become tripartite. The cardiac sphincter has started forming, separating the future esophagus from the future stomach. The triradiate spicules have also continued elongating, thereby forming by now, towards the animal pole, the right and left dorsoventral connecting rods, towards the apex, the body rods, and along the vegetal, oral ectoderm the left and right ventral transverse rods. Moreover, some non-skeletogenic mesenchyme cells (or NSM cells, secondary mesenchyme cells or SMC) have started becoming pigmented and inserted into the aboral ectoderm. These cells represent part of the future immune system of the larvae along with other blastocoelar cells that are present in the blastocoel around the gut. In the vicinity of the future esophagus, other non-skeletogenic mesoderm descendant cells along with some endoderm cells have further arranged to form a single unpaired coelomic pouch. At the animal pole, the apical pole domain has also started to flatten making the embryo look like a square when viewed from the oral side, and it still arbors a tuft a long and immotile cilia. Finally, within the apical pole domain, but not yet in the ciliary band, molecular labeling surveys also start by this stage to reveal the presence of differentiating neuronal cells. </obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pr</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000040</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 32:00:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;prism stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000013"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological process during which the specific outcome is the progression of a free-living larva before the development of the adult. Indirect development represents the mainstream developmental mode of metazoans. This process usually starts with the emergence of a larva that is planktonic and stops at the end of metamorphosis once the animal assumes adult characters. </obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000041</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;larval development&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ecao#UBERON_0008265"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The embryo is by now a fully formed pluteus larva. The mouth has opened and the digestive tract is becoming functional. On the ventral side, the mouth is surrounded anteriorly by an oral hood and posteriorly by two postoral arms. On the dorsal side, the apex has lengthened. The skeleton has indeed continued extending, expending the dorsoventral connecting rods, the body rods, and the ventral transverse rods as well as developing the anterolateral rods and the postoral rods. Within the larva, the tripartition of the digestive tract has further progressed. The cardiac sphincter is now fully formed in between the esophagus and the stomach, and the pyloric sphincter in between the stomach and the intestine and the anal sphincter at the level of the anus have also started forming. Around the esophagus, the coelomic pouch has further developed into two bilobed sacs (or pouches), one on each side of the digestive tract. Finally, within the apical pole domain, as well as within the ciliary band, differentiated neurons with their extended axons can also now be distinguished by immunostaining. In parallel, the apical tuft of long and immotile cilia remains discernable at the tip of the oral hood, while in parallel the ciliary band has further started growing a concentrated number of intermediate size motile cilia, which will be used by the larva to swim directionally.  </obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eplut</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">early pluteus stage</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000042</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 40:00:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;early pluteus larva stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ecao#UBERON_0008265"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000042"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The 4-arm pluteus larva is mainly characterized morphologically by the presence, on the ventral side, of four extended arms (two anterolateral arms at the level of the oral hood and two postoral arms) and on the dorsal side by a sleeked apex. The larva now possesses a completely tripartite and functional digestive tract composed of an esophagus, a stomach, and an intestine, respectively limited by a cardiac sphincter, a pyloric sphincter, and an anal sphincter. Around the esophagus, the right and left coelomic pouches have further started to grow in size and elongate. The first morphological indicator of a left-right asymmetry becomes apparent at that stage, the left coelomic pouch being slightly more elongated than the right one. Furthermore, a thin protrusion of non-skeletogenic mesenchyme cells can be seen extending from the left coelomic pouch to the anterior ectoderm. This is the primary pore canal, which opens to the exterior environment by the hydropore. The larva further now possesses, all around the esophagus, a network of contractile muscles allowing it to swallow and feed. Finally, the apical tuft previously observed at the animal pole has by now disappeared, leaving behind only the concentrated stretch of intermediate size cilia borne by the ciliary band. </obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plut</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plut4a</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pluteus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pluteus larva</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000043</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 48:00:00</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;4-arm pluteus larva stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ecao#UBERON_0008265"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000043"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The 6-arm pluteus larva is mainly characterized morphologically by the presence, on the ventral side, of six arms, and by the development, on the anterior midline of the esophagus, of the dorsal arch. The larva has indeed extended on the ventral side two additional posterodorsal arms and has developed on the anterior side an additional skeletal element called the dorsal arch. In addition, at the basis of the postoral and posterodorsal arms, four small patches of ciliary band have by now cut off and migrated toward the apex, forming four patches of ciliated structures called the epaulettes (one posterior and one anterior pair). The nervous system of the larva has also become more complex with cell bodies and axons being present all along the arms and for the latter as well throughout the apex. The left and right coelomic pouches have continued to elongate on each side of the digestive tract. As a note this stage is relatively fleeting. </obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plut6a</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000044</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC  +/- 9d</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;6-arm pluteus larva stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ecao#UBERON_0008265"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000044"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The 8-arm pluteus larva is mainly characterized morphologically by the presence on the ventral side of the larva of eight arms and by the development within the larva, on the left side of the stomach, of the adult rudiment. This stage is relatively long. It includes distinct changes occurring to the larva as well as within the larva, although the larva consistently exhibits 8 arms. In addition, it should be highlighted that the sequence of events taking place at the level of the larva compared to that occurring on the left side of the stomach to form the rudiment are heterochronic, meaning that differences are observed among individuals in the relative timing of these events. From the larval point of view, at that stage, on the anterior side, the dorsal arch has extended out of the oral hood, thereby forming two additional arms above the mouth, i.e. the preoral arms. In parallel, across the apex, the epaulettes have continued developing, thereby generating four large structures rich in cilia and perpendicular to the ventro-dorsal axis. At the tip of the apex, the suture of the body rods has also eventually ruptured, considerably enlarging the larval apex and reducing the angle between the postoral and posterodorsal arms. In parallel, inside the larva, the left coelomic pouch has also by now been partitioned into three parts: the axocoel (upper part, close to the esophagus), the hydrocoel (middle part) and the somatocoel (lower part, next to the stomach). Likewise, on the opposite side, the right coelomic pouch has also been partitioned into a right axohydrocoel and a right somatocoel, although the right axohydrocoel remains in a rudimentary state compared to its left counterparts. In addition, at the basis of the posterodorsal arm on the left side, a small portion of the ectoderm has thickened, invaginated, and came into contact with the left hydocoel. This structure is called the vestibule and together with the left hydrocoel and the left stomatocoel they have further subsequently fused to form the adult rudiment. The formation of the rudiment has overall taken some time, giving rise first to a pentaradial disc and then to a pentaradial complex structure harboring podia (i.e. tube feet) and spines. In parallel, on the right size of the larva, a variable number of pedicellariae (one to four) and endoskeletal elements (i.e. the five genital plates) have further formed, which will also later contribute to the composition of the adult body.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plut8a</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000045</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC  +/- 12d</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;8-arm pluteus larva stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ecao#UBERON_0008265"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The competent pluteus larva is mainly characterized morphologically by the presence, on the ventral size, of still 8 arms and by the presence on the left side of the stomach of the rudiment that is now the size of or even bigger than the stomach. The rudiment further harbors by now five long primary podia (i.e. tube feet), five quartets of definitive spines located between the primary podia and five pairs of immature spines at the basis of the primary podia, while on the opposite side, i.e. on the right side of the larva, five to seven immature spines have further developed, supported by the genital plates, along with one to four pedicaellariae. At the level of the larva, in parallel, the anterior and posterior pairs of epaulettes have also considerably increased in size by now and even fused dorsally to the hydropore and to the anus respectively, thereby leaving exempt of cilia two lateral fields in between them. At the center of the left lateral field, the vestibular roof has also by now ruptured and this opening has created the vestibular pore, through which some primary podia of the rudiment protrude outside the larva and scrutinize the substrate looking for the adequate cues to begin metamorphosis. At that stage, the larva is thus exhibiting a typical substrate-test behavior, going to the sea bottom and scrutinizing the substrate. This behavior is characteristic of a larva named competent to metamorphosis, which it will accomplish providing that it is adequately stimulated by environmental factors. </obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cpt8a</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cPlut</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000046</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC  between 18d to 25d depending on the food supplied</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;competent pluteus larva stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000047">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The metamorphic larva stage consists essentially of the evagination of the echinoid rudiment. It is characterized by the execution of conspicuous and relatively abrupt physical changes that take place quite quickly, in about one hour, and during which the planktonic larva is transformed into a benthic juvenile. At that stage, the larva is settled on the substrate and is firmly attached to it by the primary podia of the rudiment. The ectodermal epithelium of its arms has started to collapse, making the spicules supporting the larval arms piercing through the epidermis. The larval mouth and anus have further closed, while in parallel, within the larva, the rudiment spines have lifted up thereby distending the vestibular wall and wide opening the vestibular pore. Following these movements, the rudiment has farther down accomplished and finalized its complete eversion, encapsulating the digestive tract and reaching the right side of the larval body. During this process, the genital plates and the associated pedicellariae and immature spines present on the right side of the larva have further completed the production of the aboral part of the adult body. At the end of metamorphosis, hence at the end of the metamorphic larva stage, the individual has thus become benthic, it is settled in the substrate, and it looks like an adult pentaradial sea urchin although it is smaller in size, deprived of a functional digestive system and sexually immature. </obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meta</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metamorphosis</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000047</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC  between 18d to 25d depending on the food supplied</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;metamorphic larva stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological process during which changes occur in biological and psychological domains to generate a sexually mature animal.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000048</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;adult development&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ecao#UBERON_0034919"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000048"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Period during which a young individual, posing as a small adult, grows but remains unable to reproduce.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000049</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;juvenile period&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ecao#UBERON_0007021"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000047"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The postlarval juvenile is morphologically similar to both the late rudiment and an early sea urchin adult. Like the rudiment, it harbors five primary podia (or tube feet), five quartet of definitive spines, five pairs of immature spines located at the basis of the primary podia, 5 to 7 immature spines supported by the genital plates as well as 1 to 4 pedicellariae. Like the adult, it displays a pentarial symmetry and is settled on the substrate. The postlarva is about 300 µm in diameter. On its aboral side, it still exhibits some remaining larval rods and tissues, although these will soon disappear. In addition, the plates forming its endoskeleton are still rather light and porous making it looking relatively clear, although it bears lots of red-pigmented cells. However, the postlarva is still deprived of a mouth and an anus, hence of a functional digestive tract. The postlarva juvenile is thus endotrophic, meaning that its growth and development solely relies on energy derived from internal sources. Furthermore, the postlarva is sexually immature.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLJuv</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endotrophic juvenile</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">postlarva</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000050</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC right after metamorphosis(i.e. between 18d to 25d depending on the food supplied)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;postlarval juvenile stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ecao#UBERON_0007021"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000050"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The exotrophic juvenile really looks like a small adult. The plates of its endoskeleton have by now densified providing it with a dark shell. In addition, it has finally developed a functional digestive tract. The digestive tract inherited from the larva has indeed by now undergone a complete reorganization, progressively bending within the perivisceral cavity to form two successive loops. The buccal plates and the aristotle lantern have further finished developing, creating a new mouth that has opened on the oral side at the center of the aristotle&apos;s lantern, while a new anus has also opened in the periproct, i.e. at the center of the five genital plates. This juvenile can thus by now feed and start growing in size, by grazing on the substrate. This juvenile is thus exotrophic, meaning that its growth and development rely on energy derived from external sources. In addition, the primary podia have started to regress by that stage and will eventually disappear, while secondary podia have emerged and are functional, allowing the juvenile to move. Similarly, the immature spines have also started to be lost and be replaced by definitive spines. The genital plate CD has further differentiated into the madreporite and sphaeridia have formed. However, this individual is still sexually immature.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ExJuv</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000051</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC  +/- 8d after metamorphosis</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;exotrophic juvenile stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000066"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000048"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Period during which the animal reaches sexual maturity.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000052</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;adult period&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/URCH_0000053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ecao#UBERON_0000113"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000052"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ecao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/URCH_0000051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This stage corresponds to a fully formed pentaradial sea urchin that has reached sexual maturity. The gonads have developed within the perivisceral cavity and are connected to the outside by the genital pores pierced into the genital plates. The young adult has grown up to about several centimeters in diameter and is now producing gametes. Time after fertilization is unknown, between several months to one year depending on the sea urchin species and the rate and type of feeding.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gravid sea urchin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sexual mature sea urchin</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URCH:0000053</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC between 6 months to 1 year after fertilization</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;adult stage&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ecao#UBERON_0000106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ecao#UBERON_0000106"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ecao#UBERON_0000107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ecao#UBERON_0000107"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ecao#UBERON_0000109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ecao#UBERON_0000109"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ecao#UBERON_0000113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ecao#UBERON_0000113"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ecao#UBERON_0000307 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ecao#UBERON_0000307"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ecao#UBERON_0007021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ecao#UBERON_0007021"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ecao#UBERON_0007232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ecao#UBERON_0007232"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ecao#UBERON_0007233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ecao#UBERON_0007233"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ecao#UBERON_0007236 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ecao#UBERON_0007236"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ecao#UBERON_0008265 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ecao#UBERON_0008265"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ecao#UBERON_0034919 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ecao#UBERON_0034919"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

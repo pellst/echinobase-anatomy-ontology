@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ecao.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ecao.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:oboInOWL="http://www.geneontology.org/formats/oboInOWL#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:core="http://purl.obolibrary.org/obo/core#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ecao.owl">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/aeo_obo.obo"/>
+        <rdfs:comment>echinobase anatomy ontology</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00003000 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ECAO_00003000">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#taxon"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#taxon -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#taxon"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000000">
+        <rdfs:label xml:lang="en">ecao</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000100"/>
+        <obo:ECAO_00003000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ncbi.nlm.nih.gov/taxonomy/7624</obo:ECAO_00003000>
+        <rdfs:label xml:lang="en">Echinozoa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000034"/>
+        <obo:ECAO_00003000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ncbi.nlm.nih.gov/taxonomy/7705</obo:ECAO_00003000>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sea cucumbers</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Holothuroidea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000034"/>
+        <obo:ECAO_00003000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ncbi.nlm.nih.gov/taxonomy/7625</obo:ECAO_00003000>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sea urchin</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Echinoidea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000100"/>
+        <obo:ECAO_00003000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ncbi.nlm.nih.gov/taxonomy/7587</obo:ECAO_00003000>
+        <rdfs:label xml:lang="en">Asterozoa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000037"/>
+        <obo:ECAO_00003000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ncbi.nlm.nih.gov/taxonomy/7618</obo:ECAO_00003000>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brittle stars</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Ophiuroidea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000037"/>
+        <obo:ECAO_00003000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ncbi.nlm.nih.gov/taxonomy/7588</obo:ECAO_00003000>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Starfish</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Asteroidea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000038"/>
+        <obo:ECAO_00003000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ncbi.nlm.nih.gov/taxonomy/1266684</obo:ECAO_00003000>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ophiothrix is a large genus of brittle stars (Ophiuroidea) found in oceans worldwide from tropics to Arctic and Antarctic regions.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Ophiothrix spiculata</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000035"/>
+        <obo:ECAO_00003000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ncbi.nlm.nih.gov/taxonomy/1902835</obo:ECAO_00003000>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The warty sea cucumber is a Pacific species of sea cucumber that can be found from the Baja California Peninsula, Mexico, to Monterey Bay, California, USA, although only scattered individuals were reported to occur north of Point Conception, California. It is found mainly in low energy environments from the intertidal zone down to 30 m, but can occur as deep as 60 m.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Parastichopus parvimensis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000036"/>
+        <obo:ECAO_00003000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ncbi.nlm.nih.gov/taxonomy/86255</obo:ECAO_00003000>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allocentrotus fragilis is a species of sea urchin of the family Strongylocentrotidae.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Allocentrotus fragilis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000036"/>
+        <obo:ECAO_00003000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ncbi.nlm.nih.gov/taxonomy/7632</obo:ECAO_00003000>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eucidaris tribuloides, the slate pencil urchin, is a species of cidaroid sea urchins that inhabits littoral regions of the Atlantic Ocean. As a member of the basal echinoid order Cidaroida, its morphological, developmental and molecular genetic characteristics make it a phylogenetically interesting species.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Eucidaris tribuloides</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000039"/>
+        <obo:ECAO_00003000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ncbi.nlm.nih.gov/taxonomy/46514</obo:ECAO_00003000>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The bat star, also known as a sea bat, webbed star, and broad-disk star, is a species of sea star in the family Asterinidae. It typically has five arms, with the center disk of the animal being much wider than the stubby arms are in length. Although the bat star usually has five arms, it sometimes has as many as nine. Bat stars occur in many of colors, including green, purple, red, orange, yellow and brown, either mottled or solid. The bat star gets its name from the webbing between its arms, which is said to resemble a bat&apos;s wings</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Patiria miniata</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000036"/>
+        <obo:ECAO_00003000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ncbi.nlm.nih.gov/taxonomy/7668</obo:ECAO_00003000>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The purple sea urchin, Strongylocentrotus purpuratus, lives along the eastern edge of the Pacific Ocean extending from Ensenada, Mexico to British Columbia, Canada. This sea urchin species is deep purple in color, eggs are orange when secreted in water, and lives in lower inter-tidal and nearshore sub-tidal communities. January, February, and March function as the typical active reproductive months for the species. Sexual maturity is reached around two years.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Strongylocentrotus purpuratus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000036"/>
+        <obo:ECAO_00003000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ncbi.nlm.nih.gov/taxonomy/7654</obo:ECAO_00003000>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lytechinus variegatus, commonly called the green sea urchin or the variegated sea urchin, is a species of sea urchin that can be found in the warm waters of the western Atlantic Ocean and Caribbean Sea.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Lytechinus variegatus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000036"/>
+        <obo:ECAO_00003000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ncbi.nlm.nih.gov/taxonomy/1328066</obo:ECAO_00003000>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The red sea urchin is a sea urchin found in the Pacific Ocean from Alaska to Baja California. It lives in shallow waters from the low-tide line to greater than 100 m deep, and is typically found on rocky shores sheltered from extreme wave action.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Strongylocentrotus franciscanus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000000"/>
+        <obo:ECAO_00003000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ncbi.nlm.nih.gov/taxonomy/7586</obo:ECAO_00003000>
+        <rdfs:label xml:lang="en">Echinodermata</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00000500 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00000500">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000000"/>
+        <rdfs:label xml:lang="en">developmental stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECAO_00001000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECAO_00001000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000000"/>
+        <rdfs:label xml:lang="en">anatomical entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_0000001 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/URCH_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000500"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/URCH_1000001 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/URCH_1000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00001000"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ecao.owl#OWLClass_00000103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ecao.owl#OWLClass_00000103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECAO_00000036"/>
+        <obo:ECAO_00003000>https://www.ncbi.nlm.nih.gov/taxonomy/7656</obo:ECAO_00003000>
+        <obo:IAO_0000115>Paracentrotus lividus is a species of sea urchin in the family Parechinidae commonly known as the purple sea urchin. It is the type species of the genus and occurs in the Mediterranean Sea and eastern Atlantic Ocean.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Paracentrotus lividus</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
