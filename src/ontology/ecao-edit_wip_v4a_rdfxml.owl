@@ -522,7 +522,7 @@
         <oboInOWL:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fertilized egg</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zygote stage</oboInOWL:hasExactSynonym>
         <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/URCH_0000015"/>
-        <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/ecao.owl#UBERON_0000106"/>
+        <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000106"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubmed Formery et al., (in prep)Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Sardet, C. and Chang, P. (1985). A marker of animal-vegetal polarity in the egg of the sea urchin Paracentrotus lividus. Experimental Cell Research 160, 7382Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 0:00:00</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1-cell stage</rdfs:label>
@@ -548,7 +548,7 @@
         </rdfs:subClassOf>
         <obo:def rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Period during which the fertilized egg undergoes a succession of rapid cell divisions with no significant growth.</obo:def>
         <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/URCH_0000016"/>
-        <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/ecao.owl#UBERON_0000107"/>
+        <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000107"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cleavage period</rdfs:label>
     </owl:Class>
     
@@ -573,7 +573,7 @@
         <obo:def rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An embryo that is composed of two cells and is surrounded by a fertilization envelope. The first cleavage plane took place meridionally (i.e. along the animal-vegetal axis), thereby generating two blastomeres of equal size, each containing both animal and vegetal cytoplasm.</obo:def>
         <oboInOWL:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2c</oboInOWL:hasExactSynonym>
         <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/URCH_0000017"/>
-        <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/ecao.owl#UBERON_0007232"/>
+        <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007232"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubmed Formery et al., (in prep)Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 1:40:00</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-cell stage</rdfs:label>
@@ -600,7 +600,7 @@
         <obo:def rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An embryo that is composed of four cells and is surrounded by a fertilization envelope. The second cleavage plane, alike the first one, was meridional, but it was perpendicular to the first one, thereby producing four blastomeres of equal size, each containing both animal and vegetal cytoplasm.</obo:def>
         <oboInOWL:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4c</oboInOWL:hasExactSynonym>
         <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/URCH_0000018"/>
-        <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/ecao.owl#UBERON_0007233"/>
+        <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007233"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubmed Formery et al., (in prep)Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 2:30:00</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4-cell stage</rdfs:label>
@@ -627,7 +627,7 @@
         <obo:def rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An embryo that is composed of eight cells and is surrounded by a fertilization envelope. The third cleavage took place perpendicular to the first two cleavage planes and was equatorial. It thus generated an animal and a vegetal hemisphere each composed of a quartet of four cells of equal volume.</obo:def>
         <oboInOWL:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8c</oboInOWL:hasExactSynonym>
         <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/URCH_0000019"/>
-        <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/ecao.owl#UBERON_0007236"/>
+        <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007236"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubmed Formery et al., (in prep)Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 3:20:00</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8-cell stage</rdfs:label>
@@ -783,7 +783,7 @@
         </rdfs:subClassOf>
         <obo:def rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Period during which the embryo gets transformed into a hollow sphere that is one cell layer thick and encompasses a central fluid-filled cavity called the blastocoel. During this period, every cell of the embryo is in contact on the inside with the blastocoel and on the outside with the hyaline layer.</obo:def>
         <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/URCH_0000025"/>
-        <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/ecao.owl#UBERON_0000307"/>
+        <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000307"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blastula period</rdfs:label>
     </owl:Class>
     
@@ -999,7 +999,7 @@
         </rdfs:subClassOf>
         <obo:def rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Period during which complex and coordinated cellular movements take place and ultimately generate a three-layered embryo with inner tissues. A portion of cells will ingress, invaginate and/or migrate within the embryo and form the two inner layers (i.e. the endoderm and the mesoderm). The cells that remained outside will instead spread over the whole surface of the embryo and form the outer layer (i.e. the ectoderm).</obo:def>
         <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/URCH_0000033"/>
-        <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/ecao.owl#UBERON_0000109"/>
+        <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000109"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gastrula period</rdfs:label>
     </owl:Class>
     
@@ -1230,7 +1230,7 @@
         <oboInOWL:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eplut</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">early pluteus stage</oboInOWL:hasExactSynonym>
         <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/URCH_0000042"/>
-        <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/ecao.owl#UBERON_0008265"/>
+        <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008265"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubmed Formery et al., (in prep)Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 40:00:00</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">early pluteus larva stage</rdfs:label>
@@ -1261,7 +1261,7 @@
         <oboInOWL:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pluteus</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pluteus larva</oboInOWL:hasExactSynonym>
         <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/URCH_0000043"/>
-        <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/ecao.owl#UBERON_0008265"/>
+        <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008265"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubmed Brandhorst, B. P. and Klein, W. H. (2002). Molecular patterning along the sea urchin animal-vegetal axis. Int Rev Cytol 213, 183232.Formery et al., (in prep)Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Smith, M. M., Smith, L. C., Cameron, R. A., &amp; Urry, L. A. (2008). The larval stages of the sea urchin, Strongylocentrotus purpuratus. Journal of Morphology, 269(6), 713733Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC 48:00:00</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4-arm pluteus larva stage</rdfs:label>
@@ -1288,7 +1288,7 @@
         <obo:def rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;The 6-arm pluteus larva is mainly characterized morphologically by the presence, on the ventral side, of six arms, and by the development, on the anterior midline of the esophagus, of the dorsal arch. The larva has indeed extended on the ventral side two additional posterodorsal arms and has developed on the anterior side an additional skeletal element called the dorsal arch. In addition, at the basis of the postoral and posterodorsal arms, four small patches of ciliary band have by now cut off and migrated toward the apex, forming four patches of ciliated structures called the epaulettes (one posterior and one anterior pair). The nervous system of the larva has also become more complex with cell bodies and axons being present all along the arms and for the latter as well throughout the apex. The left and right coelomic pouches have continued to elongate on each side of the digestive tract. As a note this stage is relatively fleeting.</obo:def>
         <oboInOWL:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plut6a</oboInOWL:hasExactSynonym>
         <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/URCH_0000044"/>
-        <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/ecao.owl#UBERON_0008265"/>
+        <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008265"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubmed Formery et al., (in prep)Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Smith, M. M., Smith, L. C., Cameron, R. A., &amp; Urry, L. A. (2008). The larval stages of the sea urchin, Strongylocentrotus purpuratus. Journal of Morphology, 269(6), 713733Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC  +/- 9d</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6-arm pluteus larva stage</rdfs:label>
@@ -1315,7 +1315,7 @@
         <obo:def rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The 8-arm pluteus larva is mainly characterized morphologically by the presence on the ventral side of the larva of eight arms and by the development within the larva, on the left side of the stomach, of the adult rudiment. This stage is relatively long. It includes distinct changes occurring to the larva as well as within the larva, although the larva consistently exhibits 8 arms. In addition, it should be highlighted that the sequence of events taking place at the level of the larva compared to that occurring on the left side of the stomach to form the rudiment are heterochronic, meaning that differences are observed among individuals in the relative timing of these events. From the larval point of view, at that stage, on the anterior side, the dorsal arch has extended out of the oral hood, thereby forming two additional arms above the mouth, i.e. the preoral arms. In parallel, across the apex, the epaulettes have continued developing, thereby generating four large structures rich in cilia and perpendicular to the ventro-dorsal axis. At the tip of the apex, the suture of the body rods has also eventually ruptured, considerably enlarging the larval apex and reducing the angle between the postoral and posterodorsal arms. In parallel, inside the larva, the left coelomic pouch has also by now been partitioned into three parts: the axocoel (upper part, close to the esophagus), the hydrocoel (middle part) and the somatocoel (lower part, next to the stomach). Likewise, on the opposite side, the right coelomic pouch has also been partitioned into a right axohydrocoel and a right somatocoel, although the right axohydrocoel remains in a rudimentary state compared to its left counterparts. In addition, at the basis of the posterodorsal arm on the left side, a small portion of the ectoderm has thickened, invaginated, and came into contact with the left hydocoel. This structure is called the vestibule and together with the left hydrocoel and the left stomatocoel they have further subsequently fused to form the adult rudiment. The formation of the rudiment has overall taken some time, giving rise first to a pentaradial disc and then to a pentaradial complex structure harboring podia (i.e. tube feet) and spines. In parallel, on the right size of the larva, a variable number of pedicellariae (one to four) and endoskeletal elements (i.e. the five genital plates) have further formed, which will also later contribute to the composition of the adult body.</obo:def>
         <oboInOWL:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plut8a</oboInOWL:hasExactSynonym>
         <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/URCH_0000045"/>
-        <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/ecao.owl#UBERON_0008265"/>
+        <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008265"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubmed Formery et al., (in prep)Heyland, A., &amp; Hodin, J. (2014). A detailed staging scheme for late larval development in Strongylocentrotus purpuratus focused on readily-visible juvenile structures within the rudiment. BMC developmental biology, 14(1), 22.Hyman, L. H. (1955). The invertebrates. Vol. 4,. New York; London(etc): McGraw-Hill.Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Smith, M. M., Smith, L. C., Cameron, R. A., &amp; Urry, L. A. (2008). The larval stages of the sea urchin, Strongylocentrotus purpuratus. Journal of Morphology, 269(6), 713733Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC  +/- 12d</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8-arm pluteus larva stage</rdfs:label>
@@ -1343,7 +1343,7 @@
         <oboInOWL:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cpt8a</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cPlut</oboInOWL:hasExactSynonym>
         <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/URCH_0000046"/>
-        <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/ecao.owl#UBERON_0008265"/>
+        <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008265"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubmed Formery et al., (in prep)Gosselin, P. and Jangoux, M. (1998). From competent larva to exotrophic juvenile: a morphofunctional study of the perimetamorphic period of Paracentrotus lividus (Echinodermata, Echinoida). Zoomorphology 118, 3143.Heyland, A., &amp; Hodin, J. (2014). A detailed staging scheme for late larval development in Strongylocentrotus purpuratus focused on readily-visible juvenile structures within the rudiment. BMC developmental biology, 14(1), 22.Hyman, L. H. (1955). The invertebrates. Vol. 4,. New York; London(etc): McGraw-Hill.Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Smith, M. M., Smith, L. C., Cameron, R. A., &amp; Urry, L. A. (2008). The larval stages of the sea urchin, Strongylocentrotus purpuratus. Journal of Morphology, 269(6), 713733Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC  between 18d to 25d depending on the food supplied</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">competent pluteus larva stage</rdfs:label>
@@ -1414,7 +1414,7 @@
         </rdfs:subClassOf>
         <obo:def rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Period during which a young individual, posing as a small adult, grows but remains unable to reproduce.</obo:def>
         <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/URCH_0000049"/>
-        <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/ecao.owl#UBERON_0034919"/>
+        <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/UBERON_0034919"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">juvenile period</rdfs:label>
     </owl:Class>
     
@@ -1441,7 +1441,7 @@
         <oboInOWL:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endotrophic juvenile</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">postlarva</oboInOWL:hasExactSynonym>
         <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/URCH_0000050"/>
-        <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/ecao.owl#UBERON_0007021"/>
+        <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007021"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubmed Formery et al., (in prep)Gosselin, P. and Jangoux, M. (1998). From competent larva to exotrophic juvenile: a morphofunctional study of the perimetamorphic period of Paracentrotus lividus (Echinodermata, Echinoida). Zoomorphology 118, 3143.Hyman, L. H. (1955). The invertebrates. Vol. 4,. New York; London(etc): McGraw-Hill.Rahman, M. A., Yusoff, F. M., Arshad, A., Shamsudin, M. N. and Amin, S. M. N. (2012). Embryonic, Larval, and Early Juvenile Development of the Tropical Sea Urchin, Salmacis sphaeroides (Echinodermata: Echinoidea). Scientific World Journal.Va??tilingon, D., Morgan, R., Grosjean, P., Gosselin, P. and Jangoux, M. (2001). Effects of delayed metamorphosis and food rations on the perimetamorphic events in the echinoid Paracentrotus lividus (Lamarck, 1816) (Echinodermata). J. Exp. Mar. Biol. Ecol. 262, 4160.Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC right after metamorphosis(i.e. between 18d to 25d depending on the food supplied)</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">postlarval juvenile stage</rdfs:label>
@@ -1477,7 +1477,7 @@
         <obo:def rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The exotrophic juvenile really looks like a small adult. The plates of its endoskeleton have by now densified providing it with a dark shell. In addition, it has finally developed a functional digestive tract. The digestive tract inherited from the larva has indeed by now undergone a complete reorganization, progressively bending within the perivisceral cavity to form two successive loops. The buccal plates and the aristotle lantern have further finished developing, creating a new mouth that has opened on the oral side at the center of the aristotle&apos;s lantern, while a new anus has also opened in the periproct, i.e. at the center of the five genital plates. This juvenile can thus by now feed and start growing in size, by grazing on the substrate. This juvenile is thus exotrophic, meaning that its growth and development rely on energy derived from external sources. In addition, the primary podia have started to regress by that stage and will eventually disappear, while secondary podia have emerged and are functional, allowing the juvenile to move. Similarly, the immature spines have also started to be lost and be replaced by definitive spines. The genital plate CD has further differentiated into the madreporite and sphaeridia have formed. However, this individual is still sexually immature.</obo:def>
         <oboInOWL:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ExJuv</oboInOWL:hasExactSynonym>
         <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/URCH_0000051"/>
-        <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/ecao.owl#UBERON_0007021"/>
+        <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007021"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubmed Formery et al., (in prep)Gosselin, P. and Jangoux, M. (1998). From competent larva to exotrophic juvenile: a morphofunctional study of the perimetamorphic period of Paracentrotus lividus (Echinodermata, Echinoida). Zoomorphology 118, 3143.Hyman, L. H. (1955). The invertebrates. Vol. 4,. New York; London(etc): McGraw-Hill.</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC  +/- 8d after metamorphosis</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exotrophic juvenile stage</rdfs:label>
@@ -1529,7 +1529,7 @@
         <oboInOWL:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gravid sea urchin</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sexual mature sea urchin</oboInOWL:hasExactSynonym>
         <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/URCH_0000053"/>
-        <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/ecao.owl#UBERON_0000113"/>
+        <oboInOWL:xref rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000113"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubmed Hyman, L. H. (1955). The invertebrates. Vol. 4,. New York; London(etc): McGraw-Hill.</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporal 18degC between 6 months to 1 year after fertilization</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adult stage</rdfs:label>
