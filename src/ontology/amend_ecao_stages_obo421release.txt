@@ -1,0 +1,573 @@
+16d15
+< namespace: ecao_developmental_stage
+26d24
+< namespace: ecao_developmental_stage
+36d33
+< namespace: ecao_developmental_stage
+46d42
+< namespace: ecao_developmental_stage
+57d52
+< namespace: ecao_developmental_stage
+68d62
+< namespace: ecao_developmental_stage
+80d73
+< namespace: ecao_developmental_stage
+91d83
+< namespace: ecao_developmental_stage
+104d95
+< namespace: ecao_developmental_stage
+113d103
+< namespace: ecao_developmental_stage
+124d113
+< namespace: ecao_developmental_stage
+137d125
+< namespace: ecao_developmental_stage
+147d134
+< namespace: ecao_developmental_stage
+158d144
+< namespace: ecao_developmental_stage
+172d157
+< namespace: ecao_developmental_stage
+182d166
+< namespace: ecao_developmental_stage
+195d178
+< namespace: ecao_developmental_stage
+208d190
+< namespace: ecao_developmental_stage
+221d202
+< namespace: ecao_developmental_stage
+233d213
+< namespace: ecao_developmental_stage
+245d224
+< namespace: ecao_developmental_stage
+257d235
+< namespace: ecao_developmental_stage
+269d246
+< namespace: ecao_developmental_stage
+281d257
+< namespace: ecao_developmental_stage
+291d266
+< namespace: ecao_developmental_stage
+305d279
+< namespace: ecao_developmental_stage
+318d291
+< namespace: ecao_developmental_stage
+332d304
+< namespace: ecao_developmental_stage
+348d319
+< namespace: ecao_developmental_stage
+361d331
+< namespace: ecao_developmental_stage
+373d342
+< namespace: ecao_developmental_stage
+385d353
+< namespace: ecao_developmental_stage
+395d362
+< namespace: ecao_developmental_stage
+407d373
+< namespace: ecao_developmental_stage
+419d384
+< namespace: ecao_developmental_stage
+431d395
+< namespace: ecao_developmental_stage
+444d407
+< namespace: ecao_developmental_stage
+457d419
+< namespace: ecao_developmental_stage
+470d431
+< namespace: ecao_developmental_stage
+483d443
+< namespace: ecao_developmental_stage
+493d452
+< namespace: ecao_developmental_stage
+507d465
+< namespace: ecao_developmental_stage
+524d481
+< namespace: ecao_developmental_stage
+537d493
+< namespace: ecao_developmental_stage
+550d505
+< namespace: ecao_developmental_stage
+564d518
+< namespace: ecao_developmental_stage
+577d530
+< namespace: ecao_developmental_stage
+586d538
+< namespace: ecao_developmental_stage
+596d547
+< namespace: ecao_developmental_stage
+611d561
+< namespace: ecao_developmental_stage
+624d573
+< namespace: ecao_developmental_stage
+634d582
+< namespace: ecao_developmental_stage
+648d595
+< namespace: ecao_developmental_stage
+655d601
+< namespace: ecao_developmental_stage
+662d607
+< namespace: ecao_developmental_stage
+669d613
+< namespace: ecao_developmental_stage
+676d619
+< namespace: ecao_developmental_stage
+683d625
+< namespace: ecao_developmental_stage
+690d631
+< namespace: ecao_developmental_stage
+697d637
+< namespace: ecao_developmental_stage
+704d643
+< namespace: ecao_developmental_stage
+711d649
+< namespace: ecao_developmental_stage
+718d655
+< namespace: ecao_developmental_stage
+725d661
+< namespace: ecao_developmental_stage
+732d667
+< namespace: ecao_developmental_stage
+739d673
+< namespace: ecao_developmental_stage
+746d679
+< namespace: ecao_developmental_stage
+753d685
+< namespace: ecao_developmental_stage
+760d691
+< namespace: ecao_developmental_stage
+767d697
+< namespace: ecao_developmental_stage
+774d703
+< namespace: ecao_developmental_stage
+781d709
+< namespace: ecao_developmental_stage
+788d715
+< namespace: ecao_developmental_stage
+795d721
+< namespace: ecao_developmental_stage
+802d727
+< namespace: ecao_developmental_stage
+809d733
+< namespace: ecao_developmental_stage
+816d739
+< namespace: ecao_developmental_stage
+823d745
+< namespace: ecao_developmental_stage
+830d751
+< namespace: ecao_developmental_stage
+837d757
+< namespace: ecao_developmental_stage
+844d763
+< namespace: ecao_developmental_stage
+851d769
+< namespace: ecao_developmental_stage
+858d775
+< namespace: ecao_developmental_stage
+865d781
+< namespace: ecao_developmental_stage
+872d787
+< namespace: ecao_developmental_stage
+879d793
+< namespace: ecao_developmental_stage
+886d799
+< namespace: ecao_developmental_stage
+893d805
+< namespace: ecao_developmental_stage
+900d811
+< namespace: ecao_developmental_stage
+907d817
+< namespace: ecao_developmental_stage
+914d823
+< namespace: ecao_developmental_stage
+921d829
+< namespace: ecao_developmental_stage
+928d835
+< namespace: ecao_developmental_stage
+935d841
+< namespace: ecao_developmental_stage
+942d847
+< namespace: ecao_developmental_stage
+949d853
+< namespace: ecao_developmental_stage
+956d859
+< namespace: ecao_developmental_stage
+963d865
+< namespace: ecao_developmental_stage
+970d871
+< namespace: ecao_developmental_stage
+1028c929
+< id: ECAO:0000600
+---
+> id: ECAO:1000356
+1030,1031c931
+< namespace: ecao_developmental_stage
+< is_a: ECAO:0000605 ! multicellular organism
+---
+> is_a: ECAO:1000361 ! multicellular organism
+1033,1034c933,934
+< comment: start_stage ECAO:0000015 ! 1-cell stage
+< comment: end_stage ECAO:0000040 ! prism stage
+---
+> relationship: start_stage ECAO:0000015 ! 1-cell stage
+> relationship: end_stage ECAO:0000040 ! prism stage
+1041c941
+< id: ECAO:0000601
+---
+> id: ECAO:1000357
+1043,1044c943
+< namespace: ecao_developmental_stage
+< is_a: ECAO:0000605 ! multicellular organism
+---
+> is_a: ECAO:1000361 ! multicellular organism
+1046,1048c945,949
+< relationship: develops_from ECAO:0000600 ! embryo
+< comment: start_stage ECAO:0000042 ! early pluteus larva stage
+< comment: end_stage ECAO:0000046 ! competent pluteus larva stage
+---
+> relationship: develops_from ECAO:1000356 ! embryo
+> relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+> 
+> 
+> relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+1052c953
+< id: ECAO:0000602
+---
+> id: ECAO:1000358
+1054,1055c955
+< namespace: ecao_developmental_stage
+< is_a: ECAO:0000605 ! multicellular organism
+---
+> is_a: ECAO:1000361 ! multicellular organism
+1057,1059c957,959
+< relationship: develops_from ECAO:0000601 ! larva
+< comment: start_stage ECAO:0000050 ! postlarval juvenile stage
+< comment: end_stage ECAO:0000051 ! exotrophic juvenile stage
+---
+> relationship: develops_from ECAO:1000357 ! larva
+> relationship: start_stage ECAO:0000050 ! postlarval juvenile stage
+> relationship: end_stage ECAO:0000051 ! exotrophic juvenile stage
+1063c963
+< id: ECAO:0000603
+---
+> id: ECAO:1000359
+1065,1066c965
+< namespace: ecao_developmental_stage
+< is_a: ECAO:0000605 ! multicellular organism
+---
+> is_a: ECAO:1000361 ! multicellular organism
+1068,1070c967,969
+< relationship: develops_from ECAO:0000602 ! juvenile
+< comment: start_stage ECAO:0000053 ! adult stage
+< comment: end_stage ECAO:0000053 ! adult stage
+---
+> relationship: develops_from ECAO:1000358 ! juvenile
+> relationship: start_stage ECAO:0000053 ! adult stage
+> relationship: end_stage ECAO:0000053 ! adult stage
+1074c973
+< id: ECAO:0000604
+---
+> id: ECAO:1000360
+1076,1077c975
+< namespace: ecao_developmental_stage
+< is_a: ECAO:0000605 ! multicellular organism
+---
+> is_a: ECAO:1000361 ! multicellular organism
+1079,1080c977,978
+< comment: start_stage ECAO:0000015 ! 1-cell stage
+< comment: end_stage ECAO:0000046 ! competent pluteus larva stage
+---
+> relationship: start_stage ECAO:0000015 ! 1-cell stage
+> relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+1084c982
+< id: ECAO:0000605
+---
+> id: ECAO:1000361
+1086d983
+< namespace: ecao_developmental_stage
+1088,1089c985,986
+< comment: start_stage ECAO:0000017 ! 2-cell stage
+< comment: end_stage ECAO:0000053 ! adult stage
+---
+> relationship: start_stage ECAO:0000017 ! 2-cell stage
+> relationship: end_stage ECAO:0000053 ! adult stage
+1111c1008
+< relationship: part_of ECAO:0000600 ! embryo
+---
+> relationship: part_of ECAO:1000356 ! embryo
+1123c1020
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+1137c1034
+< relationship: part_of ECAO:0000603 ! adult
+---
+> relationship: part_of ECAO:1000359 ! adult
+1166c1063
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+1175c1072
+< relationship: part_of ECAO:0000603 ! adult
+---
+> relationship: part_of ECAO:1000359 ! adult
+1184c1081
+< relationship: part_of ECAO:0000603 ! adult
+---
+> relationship: part_of ECAO:1000359 ! adult
+1205c1102
+< relationship: part_of ECAO:0000600 ! embryo
+---
+> relationship: part_of ECAO:1000356 ! embryo
+1217c1114
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+1250c1147
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+1281c1178
+< relationship: part_of ECAO:0000600 ! embryo
+---
+> relationship: part_of ECAO:1000356 ! embryo
+1290c1187
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+1309c1206
+< relationship: part_of ECAO:0000603 ! adult
+---
+> relationship: part_of ECAO:1000359 ! adult
+1330c1227
+< relationship: part_of ECAO:0000603 ! adult
+---
+> relationship: part_of ECAO:1000359 ! adult
+1343c1240
+< relationship: part_of ECAO:0000600 ! embryo
+---
+> relationship: part_of ECAO:1000356 ! embryo
+1358c1255
+< relationship: part_of ECAO:0000600 ! embryo
+---
+> relationship: part_of ECAO:1000356 ! embryo
+1510c1407
+< relationship: part_of ECAO:0000605 ! multicellular organism
+---
+> relationship: part_of ECAO:1000361 ! multicellular organism
+1542c1439
+< relationship: part_of ECAO:0000600 ! embryo
+---
+> relationship: part_of ECAO:1000356 ! embryo
+1551c1448
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+1562c1459
+< relationship: part_of ECAO:0000603 ! adult
+---
+> relationship: part_of ECAO:1000359 ! adult
+1571c1468
+< relationship: part_of ECAO:0000605 ! multicellular organism
+---
+> relationship: part_of ECAO:1000361 ! multicellular organism
+1580c1477
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+1600c1497
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+1692c1589
+< relationship: part_of ECAO:0000600 ! embryo
+---
+> relationship: part_of ECAO:1000356 ! embryo
+1968c1865
+< relationship: part_of ECAO:0000604 ! pre-metamorphic individual
+---
+> relationship: part_of ECAO:1000360 ! pre-metamorphic individual
+2004d1900
+< namespace: ecao_developmental_stage
+2007,2008c1903,1904
+< comment: start_stage ECAO:0000009 ! mature oocyte stage
+< comment: end_stage ECAO:0000009 ! mature oocyte stage
+---
+> relationship: start_stage ECAO:0000009 ! mature oocyte stage
+> relationship: end_stage ECAO:0000009 ! mature oocyte stage
+2038c1934
+< relationship: part_of ECAO:0000600 ! embryo
+---
+> relationship: part_of ECAO:1000356 ! embryo
+2045c1941
+< relationship: part_of ECAO:0000600 ! embryo
+---
+> relationship: part_of ECAO:1000356 ! embryo
+2334c2230
+< relationship: part_of ECAO:0000600 ! embryo
+---
+> relationship: part_of ECAO:1000356 ! embryo
+2437c2333
+< relationship: part_of ECAO:0000600 ! embryo
+---
+> relationship: part_of ECAO:1000356 ! embryo
+2810c2706
+< relationship: part_of ECAO:0000600 ! embryo
+---
+> relationship: part_of ECAO:1000356 ! embryo
+2819c2715
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+2895c2791
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+2908c2804
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+2917c2813
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+2926c2822
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+2937c2833
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+2948c2844
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+2958c2854
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+2968c2864
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+2978c2874
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+2988c2884
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+2999c2895
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+3514c3410
+< relationship: part_of ECAO:0000604 ! pre-metamorphic individual
+---
+> relationship: part_of ECAO:1000360 ! pre-metamorphic individual
+3673c3569
+< relationship: part_of ECAO:0000604 ! pre-metamorphic individual
+---
+> relationship: part_of ECAO:1000360 ! pre-metamorphic individual
+3727c3623
+< relationship: part_of ECAO:0000600 ! embryo
+---
+> relationship: part_of ECAO:1000356 ! embryo
+3746c3642
+< relationship: part_of ECAO:0000603 ! adult
+---
+> relationship: part_of ECAO:1000359 ! adult
+3997c3893
+< relationship: part_of ECAO:0000600 ! embryo
+---
+> relationship: part_of ECAO:1000356 ! embryo
+4007c3903
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+4016c3912
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+4070c3966
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+4084c3980
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+4094c3990
+< relationship: part_of ECAO:0000603 ! adult
+---
+> relationship: part_of ECAO:1000359 ! adult
+4105c4001
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+4113c4009
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+4121c4017
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+4129c4025
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+4139c4035
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+4149c4045
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+4160c4056
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+4209c4105
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+4219c4115
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+4271c4167
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+4281c4177
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+4291c4187
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+4304c4200
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+4317c4213
+< relationship: part_of ECAO:0000601 ! larva
+---
+> relationship: part_of ECAO:1000357 ! larva
+4653c4549
+< relationship: part_of ECAO:0000603 ! adult
+---
+> relationship: part_of ECAO:1000359 ! adult
+4671c4567
+< relationship: part_of ECAO:0000603 ! adult
+---
+> relationship: part_of ECAO:1000359 ! adult
+4680c4576
+< relationship: part_of ECAO:0000603 ! adult
+---
+> relationship: part_of ECAO:1000359 ! adult
