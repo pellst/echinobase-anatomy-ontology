@@ -1,0 +1,4704 @@
+format-version: 1.2
+remark: echinobase anatomy ontology
+import: http://purl.obolibrary.org/obo/ecao/imports/bfo_import.owl
+import: http://purl.obolibrary.org/obo/ecao/imports/ro_import.owl
+import: http://purl.obolibrary.org/obo/ecao/imports/uberon_import.owl
+ontology: ecao
+
+[Term]
+id: ECAO:0000001
+name: life cycle period
+is_a: ECAO:0000001
+
+[Term]
+id: ECAO:0000002
+name: gametogenesis
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: preceded_by ECAO:0000053 ! adult stage
+xref: UBERON:0000105
+comment: temporal 18degC 0:00:00
+def: "Biological process during which certain cells of a female or male individual (parent) are transformed into specialized reproductive cells (gametes) that will initiate development of a progeny individual (offspring) upon fertilization."
+
+[Term]
+id: ECAO:0000003
+name: oogenesis period
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000002 ! gametogenesis
+synonym: "ovogenesis period" EXACT []
+comment: temporal 18degC 0:00:00
+def: "Period during which female gametes (or oocytes, or eggs) develop and mature from primordial female germ cells to generate cells competent to further development upon fertilization by a mature spermatozoid."
+
+[Term]
+id: ECAO:0000004
+name: previtellogenic primary oocyte stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000003 ! oogenesis period
+comment: temporal 18degC 0:00:00
+def: "A female gamete that is small in size, i.e. about 10??m in diameter, and that is at the previtellogenic stage."
+comment: pubmed Spirlet, C., Grosjean, P. and Jangoux, M. (1998). Reproductive cycle of the echinoid Paracentrotus lividus: analysis by means of the maturity index. Invertebrate Reproduction & Development 34, 6981.Wessel, G. M., Voronina, E. and Brooks, J. M. (2004). Obtaining and Handling Echinoderm Oocytes. In Methods in Cell Biology, pp. 87114. Academic Press
+
+[Term]
+id: ECAO:0000005
+name: not fully grown oocyte stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000003 ! oogenesis period
+relationship: preceded_by ECAO:0000004 ! previtellogenic primary oocyte stage
+comment: temporal 18degC 0:00:00
+def: "A developing female gamete that started growing in size by accumulation of yolk proteins. At this stage, it is characterized by the presence of a large nucleus, the germinal vesicle, which contains a prominent nucleolus and occupies most of the cytoplasm."
+comment: pubmed Spirlet, C., Grosjean, P. and Jangoux, M. (1998). Reproductive cycle of the echinoid Paracentrotus lividus: analysis by means of the maturity index. Invertebrate Reproduction & Development 34, 6981.Wessel, G. M., Voronina, E. and Brooks, J. M. (2004). Obtaining and Handling Echinoderm Oocytes. In Methods in Cell Biology, pp. 87114. Academic Press
+
+[Term]
+id: ECAO:0000006
+name: fully grown oocyte with centered germinal vesicle stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000003 ! oogenesis period
+relationship: preceded_by ECAO:0000005 ! not fully grown oocyte stage
+comment: temporal 18degC 0:00:00
+def: "A developing female gamete that has reached its full size. It has grown up to ten times its original size, i.e. 80 to 100??m. It also displays a large germinal vesicle that is centered, but it is still not competent for fertilization."
+comment: pubmed Spirlet, C., Grosjean, P. and Jangoux, M. (1998). Reproductive cycle of the echinoid Paracentrotus lividus: analysis by means of the maturity index. Invertebrate Reproduction & Development 34, 6981.Wessel, G. M., Voronina, E. and Brooks, J. M. (2004). Obtaining and Handling Echinoderm Oocytes. In Methods in Cell Biology, pp. 87114. Academic Press
+
+[Term]
+id: ECAO:0000007
+name: fully grown oocyte with off-centered germinal vesicle stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000003 ! oogenesis period
+relationship: preceded_by ECAO:0000006 ! fully grown oocyte with centered germinal vesicle stage
+synonym: "primary oocyte" EXACT []
+comment: temporal 18degC 0:00:00
+def: "A developing female gamete that has reached its full size and in which the germinal vesicle has moved asymmetrically to the cell periphery. The germinal vesicle is now close to the animal pole."
+comment: pubmed Spirlet, C., Grosjean, P. and Jangoux, M. (1998). Reproductive cycle of the echinoid Paracentrotus lividus: analysis by means of the maturity index. Invertebrate Reproduction & Development 34, 6981.Wessel, G. M., Voronina, E. and Brooks, J. M. (2004). Obtaining and Handling Echinoderm Oocytes. In Methods in Cell Biology, pp. 87114. Academic Press
+
+[Term]
+id: ECAO:0000008
+name: fully grown oocyte with no nucleus stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000003 ! oogenesis period
+relationship: preceded_by ECAO:0000007 ! fully grown oocyte with off-centered germinal vesicle stage
+comment: temporal 18degC 0:00:00
+def: "A developing female gamete in which the germinal vesicle has broken down. The germinal vesicle is no longer visible. However, the female gamete is still not mature. It is undergoing meiotic maturation, extruding successively a first and a second polar body."
+comment: pubmed Spirlet, C., Grosjean, P. and Jangoux, M. (1998). Reproductive cycle of the echinoid Paracentrotus lividus: analysis by means of the maturity index. Invertebrate Reproduction & Development 34, 6981Wessel, G. M., Conner, S. D. and Berg, L. (2002). Cortical granule translocation is microfilament mediated and linked to meiotic maturation in the sea urchin oocyte. Development 129, 43154325.Wessel, G. M., Voronina, E. and Brooks, J. M. (2004). Obtaining and Handling Echinoderm Oocytes. In Methods in Cell Biology, pp. 87114. Academic Press
+
+[Term]
+id: ECAO:0000009
+name: mature oocyte stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000003 ! oogenesis period
+relationship: preceded_by ECAO:0000008 ! fully grown oocyte with no nucleus stage
+synonym: "unfertilized egg" EXACT []
+synonym: "spawned egg" EXACT []
+comment: temporal 18degC 0:00:00
+def: "A mature female gamete that has achieved its meiotic maturation and in which the female pronucleus is visible. The mature oocyte is arrested in G1 phase and its average size is 80 to 100 µm. It is surrounded by a transparent jelly coat that is about 30 µm thick. It is competent to fertilization and it is located in the female gonad where it may be stored for weeks to months before its release in sea water by spawning."
+comment: pubmed Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Sardet, C. and Chang, P. (1985). A marker of animal-vegetal polarity in the egg of the sea urchin Paracentrotus lividus. Experimental Cell Research 160, 7382Spirlet, C., Grosjean, P. and Jangoux, M. (1998). Reproductive cycle of the echinoid Paracentrotus lividus: analysis by means of the maturity index. Invertebrate Reproduction & Development 34, 6981Wessel, G. M., Voronina, E. and Brooks, J. M. (2004). Obtaining and Handling Echinoderm Oocytes. In Methods in Cell Biology, pp. 87114. Academic Press
+
+[Term]
+id: ECAO:0000010
+name: spermatogenesis period
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000002 ! gametogenesis
+comment: temporal 18degC 0:00:00
+def: "Period during which male gametes (or spermatozoa, or spermatozoid) develop and mature from primordial male germ cells to generate cells competent to further development upon fertilization of a mature oocyte."
+
+[Term]
+id: ECAO:0000011
+name: developing spermatozoa stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000010 ! spermatogenesis period
+synonym: "spermatid" EXACT []
+comment: temporal 18degC 0:00:00
+def: "A developing, immature male gamete undergoing mitosis and meiosis to ultimately produce mature spermatozoa."
+comment: pubmed Spirlet, C., Grosjean, P. and Jangoux, M. (1998). Reproductive cycle of the echinoid Paracentrotus lividus: analysis by means of the maturity index. Invertebrate Reproduction & Development 34, 6981.
+
+[Term]
+id: ECAO:0000012
+name: mature spermatozoid stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000010 ! spermatogenesis period
+relationship: preceded_by ECAO:0000011 ! developing spermatozoa stage
+synonym: "sperm" EXACT []
+synonym: "spermatozoa" EXACT []
+comment: temporal 18degC 0:00:00
+def: "A mature male gamete that is composed of a head, encompassing a compact nucleus, a neck, a middle piece, and a tail (or flagellum) that propels it towards the oocyte upon spawning."
+comment: pubmed Spirlet, C., Grosjean, P. and Jangoux, M. (1998). Reproductive cycle of the echinoid Paracentrotus lividus: analysis by means of the maturity index. Invertebrate Reproduction & Development 34, 6981.
+
+[Term]
+id: ECAO:0000013
+name: embryogenesis
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: preceded_by ECAO:0000002 ! gametogenesis
+xref: UBERON:0000105
+comment: temporal 18degC 0:00:00
+def: "Biological process during which the embryo forms. This process starts with the fertilization of a mature oocyte by a mature spermatozoid. It is characterized by a succession of rapid mitotic divisions with no significant growth, but with axis establishment and cellular differentiation, thereby leading to the development of a multicellular embryo."
+
+[Term]
+id: ECAO:0000014
+name: zygote period
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000013 ! embryogenesis
+relationship: preceded_by ECAO:0000002 ! gametogenesis
+synonym: "fertilization" EXACT []
+comment: temporal 18degC 0:00:00
+def: "Period during which the fusion of a male gamete and a female gamete takes place, thereby giving rise to a diploid cell that will undergo cell division."
+
+[Term]
+id: ECAO:0000015
+name: 1-cell stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000014 ! zygote period
+relationship: preceded_by ECAO:0000002 ! gametogenesis
+synonym: "zygote stage" EXACT []
+synonym: "fertilized egg" EXACT []
+comment: temporal 18degC 0:00:00
+def: "A fertilized egg, right after fertilization. The embryo is characterized morphologically by the fact that it is a single diploid cell surrounded by a fertilization envelope. This stage corresponds to an embryo of age 0 hour post-fertilization."
+xref: UBERON_0000106
+comment: pubmed Formery et al., (in prep)Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Sardet, C. and Chang, P. (1985). A marker of animal-vegetal polarity in the egg of the sea urchin Paracentrotus lividus. Experimental Cell Research 160, 7382Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.
+
+[Term]
+id: ECAO:0000016
+name: cleavage period
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000013 ! embryogenesis
+relationship: preceded_by ECAO:0000014 ! zygote period
+def: "Period during which the fertilized egg undergoes a succession of rapid cell divisions with no significant growth."
+xref: UBERON_0000107
+
+[Term]
+id: ECAO:0000017
+name: 2-cell stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000016 ! cleavage period
+relationship: preceded_by ECAO:0000015 ! 1-cell stage
+synonym: "2c" EXACT []
+comment: temporal 18degC 1:40:00
+def: "An embryo that is composed of two cells and is surrounded by a fertilization envelope. The first cleavage plane took place meridionally (i.e. along the animal-vegetal axis), thereby generating two blastomeres of equal size, each containing both animal and vegetal cytoplasm. "
+xref: UBERON_0007232
+comment: pubmed Formery et al., (in prep)Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.
+
+[Term]
+id: ECAO:0000018
+name: 4-cell stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000016 ! cleavage period
+relationship: preceded_by ECAO:0000017 ! 2-cell stage
+synonym: "4c" EXACT []
+comment: temporal 18degC 2:30:00
+def: "An embryo that is composed of four cells and is surrounded by a fertilization envelope. The second cleavage plane, alike the first one, was meridional, but it was perpendicular to the first one, thereby producing four blastomeres of equal size, each containing both animal and vegetal cytoplasm. "
+xref: UBERON_0007233
+comment: pubmed Formery et al., (in prep)Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.
+
+[Term]
+id: ECAO:0000019
+name: 8-cell stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000016 ! cleavage period
+relationship: preceded_by ECAO:0000018 ! 4-cell stage
+synonym: "8c" EXACT []
+comment: temporal 18degC 3:20:00
+def: "An embryo that is composed of eight cells and is surrounded by a fertilization envelope. The third cleavage took place perpendicular to the first two cleavage planes and was equatorial. It thus generated an animal and a vegetal hemisphere each composed of a quartet of four cells of equal volume."
+xref: UBERON_0007236
+comment: pubmed Formery et al., (in prep)Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.
+
+[Term]
+id: ECAO:0000020
+name: 16-cell stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000016 ! cleavage period
+relationship: preceded_by ECAO:0000019 ! 8-cell stage
+synonym: "16c" EXACT []
+comment: temporal 18degC 4:10:00
+def: "An embryo that is composed of 16 cells and is surrounded by a fertilization envelope. The fourth cleavage took place simultaneously in the animal and the vegetal hemisphere, although it occurred differently. In the animal hemisphere, the four cells divided meridionally producing eight blastomeres of equal volume and arrayed in rosette. These cells are called the mesomeres. In the vegetal hemisphere, by contrast, the four cells underwent an unequal, equatorial cleavage that produced four large cells, the macromeres, and four small cells, the micromeres. At the 16-cell stage, the embryo is hence composed of three groups of cells with distinct sizes. It represents, in most sea urchin species, the first embryonic stage at which the first morphological indicator of the animal-vegetal axis becomes visible, with the smallest cells marking the vegetal pole. "
+comment: pubmed Formery et al., (in prep)Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.
+
+[Term]
+id: ECAO:0000021
+name: 28-cell stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000016 ! cleavage period
+relationship: preceded_by ECAO:0000020 ! 16-cell stage
+synonym: "28c" EXACT []
+comment: temporal 18degC 4:45:00
+def: "An embryo that is composed of 28 cells and is surrounded by a fertilization envelope. The fifth cleavage already signed the end of cell division synchrony, in most sea urchin species, with the mesomeres and macromeres dividing prior to the micromeres with a significant time difference. In the animal hemisphere, the mesomeres underwent an equal and equatorial cleavage, thereby giving rise to two animal cell tiers, each composed of eight blastomeres of equal size: the an1 tier located at the animal pole and the an2 tier located below an1. In parallel, the macromeres divided meridionally, thereby forming a ring of eight cells of equal volume located below the an2 tier. By contrast, at that stage, the micromeres have not divided yet and are still at a number of four cells."
+comment: pubmed Formery et al., (in prep)Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.
+
+[Term]
+id: ECAO:0000022
+name: 32-cell stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000016 ! cleavage period
+relationship: preceded_by ECAO:0000021 ! 28-cell stage
+synonym: "32c" EXACT []
+comment: temporal 18degC 5:00:00
+def: "An embryo that is composed of 32 cells and is surrounded by a fertilization envelope. The micromeres have finally undergone a fifth cleavage (and this prior to a subsequent division of the other cells). This cleavage was unequal and equatorial, thereby producing four large micromeres and four small micromeres, the smallest cells still marking the vegetal pole."
+comment: pubmed Formery et al., (in prep)Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.
+
+[Term]
+id: ECAO:0000023
+name: 56-cell stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000016 ! cleavage period
+relationship: preceded_by ECAO:0000022 ! 32-cell stage
+synonym: "56c" EXACT []
+comment: temporal 18degC 5:30:00
+def: "An embryo that is composed of 56 cells and is surrounded by a fertilization envelope. In the animal hemisphere (or animal half), cells of the an1 and an2 tiers underwent an additional meridional division, thereby increasing in number laterally. By contrast, underneath, the macromeres divided equatorially and equally, thus generating two vegetal cell tiers, each composed of 8 cells of equal volume, namely the veg1 tier (located below an2) and the veg2 tier (located below veg1 and above the large micromeres). At that stage, the large and small micromeres have not undergone a sixth division yet. At the 56-cell stage, from the animal to the vegetal pole, the embryo is thus composed of: 16 an1-cells, 16 an2-cells, 8 veg1-cells, 8 veg2-cells, 4 large micromeres and 4 small micromeres."
+comment: pubmed Formery et al., (in prep)Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.
+
+[Term]
+id: ECAO:0000024
+name: 60-cell stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000016 ! cleavage period
+relationship: preceded_by ECAO:0000023 ! 56-cell stage
+synonym: "60c" EXACT []
+comment: temporal 18degC 5:50:00
+def: "An embryo that is composed of 60 cells and is surrounded by a fertilization envelope. The large micromeres have eventually achieved a sixth cleavage, which was meridional, thereby generating a ring of 8 cells. At that stage, from the animal to the vegetal pole, the embryo is composed of: 16 an1-cells, 16 an2-cells, 8 veg1-cells, 8 veg2-cells, 8 large micromeres and 4 small micromeres. It is at that stage that through cell lineage analyses a couple of cell fate maps for distinct sea urchin species have been elaborated. It is also at that stage that, in some sea urchin species, the secondary embryonic axis (i.e. the ventro-dorsal (or oral-aboral axis)) starts being visible through molecular surveys. "
+comment: pubmed Formery et al., (in prep)Logan, C. Y. and McClay, D. R. (1999). Lineages That Give Rise to Endoderm and Mesoderm in the Sea Urchin Embryo. In Cell Lineage and Fate Determination (ed. Moody, S. A.), pp. 4157. San Diego: Academic Press.Duboc, V., Rottinger, E., Besnardeau, L. and Lepage, T. (2004). Nodal and BMP2/4 signaling organizes the oral-aboral axis of the sea urchin embryo. Dev Cell 6, 397410.Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.
+
+[Term]
+id: ECAO:0000025
+name: blastula period
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000013 ! embryogenesis
+relationship: preceded_by ECAO:0000016 ! cleavage period
+def: "Period during which the embryo gets transformed into a hollow sphere that is one cell layer thick and encompasses a central fluid-filled cavity called the blastocoel. During this period, every cell of the embryo is in contact on the inside with the blastocoel and on the outside with the hyaline layer."
+xref: UBERON_0000307
+
+[Term]
+id: ECAO:0000026
+name: very early blastula stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000025 ! blastula period
+relationship: preceded_by ECAO:0000024 ! 60-cell stage
+synonym: "vEB" EXACT []
+synonym: "B1" EXACT []
+synonym: "120-cell stage" EXACT []
+comment: temporal 18degC 6:50:00
+def: "The embryo is composed of about 120 cells and is surrounded by a fertilization envelope. All cells are about the same size, thereby alleviating all morphological indicator of the animal-vegetal axis or of selective cell territories. All cells have further started acquiring an apico-basal polarity and transforming the embryo into a hollow sphere that is one cell layer thick and displays in its center a fluid-filled cavity called the blastocoel. In addition, the micromeres are still displaying a rate of cell division that is slower than that observed in the rest of the embryo. As a consequence, at that stage, molecular labeling surveys classically reveal the presence of 8 large micromeres and 4 small micromeres."
+comment: pubmed Formery et al., (in prep)Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.
+
+[Term]
+id: ECAO:0000027
+name: early blastula stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000025 ! blastula period
+relationship: preceded_by ECAO:0000026 ! very early blastula stage
+synonym: "EB" EXACT []
+synonym: "B2" EXACT []
+comment: temporal 18degC 7:50:00
+def: "The embryo is composed of about 200 cells and is surrounded by a fertilization envelope. It is about 90 µm in diameter. The cells have continued to divide, including the large micromeres. Cell divisions have been taking place without affecting the overall size or shape of the embryo. The cells have thus increased in number and become smaller while the embryo has remained spherical and one-cell layer thick. As a consequence, at the center of the embryo, the blastocoel has also become a little wider. The synchrony of cell divisions between animal and vegetal cell tiers, as well as within cell tiers, has further completely ended by now. Moreover, at that stage, molecular labeling surveys classically reveal the presence of 16 large micromere descendant cells and 4 small micromeres."
+comment: pubmed Croce, J., Lhomond, G., Lozano, J. C. and Gache, C. (2001). ske-T, a T-box gene expressed in the skeletogenic mesenchyme lineage of the sea urchin embryo. Mech. Dev. 107, 159162.Formery et al., (in prep)Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.
+
+[Term]
+id: ECAO:0000028
+name: mid blastula stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000025 ! blastula period
+relationship: preceded_by ECAO:0000027 ! early blastula stage
+synonym: "mid-B" EXACT []
+synonym: "midB" EXACT []
+synonym: "B3" EXACT []
+comment: temporal 18degC 8:50:00
+def: "The embryo is composed of about 300 cells and is surrounded by a fertilization envelope. Additional cell divisions took place leading to an embryo with overall a larger number of small cells. Compared to previous blastula stages, the cells have slightly flattened on their inner, basal surface, further contributing to the enlargement of the blastocoel. In addition, the cells have by now started growing cilia on their outer surface. Despite these changes, the embryo is however still perfectly spherical and of about 90 µm in diameter. It still does not display any particular morphological landmark allowing orienting it along the primary or secondary embryonic axes. In addition, at that stage, molecular labeling surveys classically reveal in the vegetal hemisphere the presence of 16 to 32 large micromere descendant cells and of 4 to 8 small micromere descendant cells. "
+comment: pubmed Formery et al., (in prep)Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.
+
+[Term]
+id: ECAO:0000029
+name: late blastula stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000025 ! blastula period
+relationship: preceded_by ECAO:0000028 ! mid blastula stage
+synonym: "Late-B" EXACT []
+synonym: "LB" EXACT []
+synonym: "prehatched blastula" EXACT []
+synonym: "pre-HB" EXACT []
+synonym: "B4" EXACT []
+comment: temporal 18degC 9:50:00
+def: "The embryo is composed of about 400 cells and is surrounded by a fertilization envelope. The cells have continued dividing and thinning out. They have further united to form a true, uniform epithelium all around the embryo. The cells have also continued growing and elongating cilia on their outer surface. The embryo has hence now started rotating inside the fertilization envelope. At that stage, the micromeres have further finished dividing. The embryo thus possesses by now a final number of 32 large micromere descendant cells and 8 small micromere descendant cells."
+comment: pubmed Formery et al., (in prep)Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.
+
+[Term]
+id: ECAO:0000030
+name: hatched blastula stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000025 ! blastula period
+relationship: preceded_by ECAO:0000029 ! late blastula stage
+synonym: "HB" EXACT []
+synonym: "B5" EXACT []
+comment: temporal 18degC 11:00:00
+def: "The embryo is composed of about 500 to 800 cells depending on the sea urchin species. It is rotating within the fertilization envelope, which has started to be broken down due to the secretion by the ectodermal cells of the hatching enzyme, a metalloprotease that digests the fertilization envelope and frees the embryo. At the animal pole, a tuft of long and immotile cilia has further started growing. This tuft features the site of the future apical pole domain (or apical neuroectodermal domain)."
+comment: pubmed Formery et al., (in prep)Masuda M. (1979). Species specific pattern of ciliogenesis in developing sea urchin embryos. Dev. Growth Differ. 21, 545-552.Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.
+
+[Term]
+id: ECAO:0000031
+name: swimming blastula stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000025 ! blastula period
+relationship: preceded_by ECAO:0000030 ! hatched blastula stage
+synonym: "SB" EXACT []
+comment: temporal 18degC 12:00:00
+def: "The embryo has hatched from the fertilization envelope and swims freely. It is still a hollow sphere that is one cell layer thick, but the cells constituting the vegetal plate (i.e. located at the vegetal pole) have started thickening along the apico-basal axis, thereby creating a morphological landmark that enables orienting the embryo along the animal-vegetal axis. In addition, at the animal pole, the apical tuft composed of long and immotile cilia is still present and has continued expending."
+comment: pubmed Formery et al., (in prep)Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.
+
+[Term]
+id: ECAO:0000032
+name: late swimming blastula stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000025 ! blastula period
+relationship: preceded_by ECAO:0000031 ! swimming blastula stage
+synonym: "late-SB" EXACT []
+comment: temporal 18degC 13:00:00
+def: "The embryo has started elongated along the animal-vegetal axis. Its vegetal region has further continued to thicken and it is marked by a characteristic 'V' shape formed by the blastocoel at the level of the cells constituting the vegetal plate, thereby pointing to the vegetal pole. At the animal pole, the apical pole domain (or apical neuroectodermal domain) still bears a tuft of long and immotile cilia. "
+comment: pubmed Formery et al., (in prep)Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.
+
+[Term]
+id: ECAO:0000033
+name: gastrula period
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000013 ! embryogenesis
+relationship: preceded_by ECAO:0000025 ! blastula period
+def: "Period during which complex and coordinated cellular movements take place and ultimately generate a three-layered embryo with inner tissues. A portion of cells will ingress, invaginate and/or migrate within the embryo and form the two inner layers (i.e. the endoderm and the mesoderm). The cells that remained outside will instead spread over the whole surface of the embryo and form the outer layer (i.e. the ectoderm)."
+xref: UBERON_0000109
+
+[Term]
+id: ECAO:0000034
+name: early mesenchyme blastula stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000033 ! gastrula period
+relationship: preceded_by ECAO:0000032 ! late swimming blastula stage
+synonym: "eMB" EXACT []
+comment: temporal 18degC 14:00:00
+def: "The embryo is mainly characterized morphologically by a flat vegetal plate at the vegetal pole, the presence in the blastocoel of a couple of ingressed skeletogenic mesenchyme cells (or SM cells, primary mesenchyme cells, or PMCs) and a thick epithelium at the animal pole bearing a tuft of long and immotile cilia. The vegetal plate has finished flattening. In its center, the descendants of the large micromeres, now constituting the skeletogenic mesoderm, are progressively undergoing a classical epithelialmesenchymal transition (EMT). They are loosing their apico-basal polarity and adhesive properties, rounding up, dissociating from the epithelial monolayer, and finally ingressing into the blastocoel through the extension and projection of thin filopodia. In parallel, at the animal pole, the apical pole domain (or animal neuroectoderm region), which continues to bear long and immotile cilia, has started thickening."
+comment: pubmed Formery et al., (in prep)Kominami, T. and Takata, H. (2004). Gastrulation in the sea urchin embryo: a model system for analyzing the morphogenesis of a monolayered epithelium. Dev Growth Differ 46, 30926.Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.
+
+[Term]
+id: ECAO:0000035
+name: mesenchyme blastula stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000033 ! gastrula period
+relationship: preceded_by ECAO:0000034 ! early mesenchyme blastula stage
+synonym: "MB" EXACT []
+comment: temporal 18degC 15:00:00
+def: "The embryo is mainly characterized morphologically by the presence in the blastocoel of 32 skeletogenic mesenchyme cells (or SM cells, primary mesenchyme cells or PMCs). All large micromere descendant cells, which were present in the vegetal plate, have by now undergone an epithelial-mesenchymal transition (EMT). They have thus all ingressed into the blastocoel, leaving behind a reformed vegetal plate encompassing in its center the 8 small micromere descendant cells surrounded by the non-skeletogenic mesoderm cells. Within the blastocoel, the skeletogenic mesenchyme cells are further in movement, exploring and migrating along the blastocoel wall, through active extension and retraction of filopodia, looking for selective patterning cues provided by the ectoderm and endoderm tissues. In the reformed vegetal plate, precursors of the pigment and blastocoelar cells have further emerged. They are discernable at the molecular level on the oral (or ventral) and aboral (or dorsal) side, respectively. In parallel, at the animal pole, the animal neuroectoderm region has stopped thickening although it still bears long and immotile cilia. In addition, a supplementary neurogenic territory has started to form that is visible only through molecular surveys. This secondary neurogenic territory is called the ciliary band and is located at the boundary between the oral (or ventral) and aboral (or dorsal) ectoderm.  "
+comment: pubmed Formery et al., (in prep)Kominami, T. and Takata, H. (2004). Gastrulation in the sea urchin embryo: a model system for analyzing the morphogenesis of a monolayered epithelium. Dev Growth Differ 46, 30926.Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.
+
+[Term]
+id: ECAO:0000036
+name: blastopore gastrula stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000033 ! gastrula period
+relationship: preceded_by ECAO:0000035 ! mesenchyme blastula stage
+synonym: "blasto-G" EXACT []
+comment: temporal 18degC 18:00:00
+def: "The embryo is mainly characterized morphologically by a slight embedding of the vegetal plate within the blastocoel and the repartition of the skeletogenic mesenchyme cells all around this invaginated structure. Within the vegetal plate, the cells have reinforced their adhesive properties and undergone important cell shape changes thereby leading to the bending inward of the vegetal plate. This bending inward has by means generated the blastopore, i.e. the first opening of the embryo that will later give rise to the larval anus. Furthermore, it initiated the invagination of the archenteron (i.e. the primitive digestive tract). In sea urchin, this initial process is hence launched by the non-skeletogenic mesoderm cells. In parallel, within the blastocoel, the skeletogenic mesenchyme cells have by now adopted a characteristic pattern, being positioned as a ring all around the basis of the nascent archenteron. At the animal pole, the animal neuroectoderm territory is still marked by an enlarged epithelium bearing long and immotile cilia."
+comment: pubmed Formery et al., (in prep)Kominami, T. and Takata, H. (2004). Gastrulation in the sea urchin embryo: a model system for analyzing the morphogenesis of a monolayered epithelium. Dev Growth Differ 46, 30926.Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.Wessel, G. M. and Wikramanayake, A. (1999). How to grow a gut: ontogeny of the endoderm in the sea urchin embryo. BioEssays 21, 459471.
+
+[Term]
+id: ECAO:0000037
+name: early gastrula stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000033 ! gastrula period
+relationship: preceded_by ECAO:0000036 ! blastopore gastrula stage
+synonym: "eG" EXACT []
+synonym: "EG" EXACT []
+comment: temporal 18degC 20:00:00
+def: "The embryo is mainly characterized morphologically by the presence in the blastocoel of a small archenteron (i.e. primitive digestive tract) that is about a third of its finally size. Following the initial invagination of the vegetal plate, the archenteron has slightly been extended, within the blastocoel, by the subsequent invagination of additional non-skeletogenic mesoderm cells and of some endoderm cells. In parallel, the skeletogenic mesenchyme cells (or SM cells, primary mesenchyme cells or PMC) have by now started migrating along the blastocoel wall, towards the animal pole, thereby creating two lateral chains (one left and one right), while around the developing archenteron, they have gathered into two ventrolateral clusters separated by an oral (or ventral) and an aboral (or dorsal) chain defined by the remaining skeletogenic mesenchyme cells. Within the oral and aboral skeletogenic mesenchyme chains, the cells have further started to fuse to form syncytial filopodial cables within which skeletal calcification will subsequently take place. At the animal pole, the animal neuroectoderm territory is still marked by an enlarged epithelium bearing long and immotile cilia.  "
+comment: pubmed Formery et al., (in prep)Kominami, T. and Takata, H. (2004). Gastrulation in the sea urchin embryo: a model system for analyzing the morphogenesis of a monolayered epithelium. Dev Growth Differ 46, 30926.Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.
+
+[Term]
+id: ECAO:0000038
+name: mid gastrula stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000033 ! gastrula period
+relationship: preceded_by ECAO:0000037 ! early gastrula stage
+synonym: "G" EXACT []
+synonym: "mid-G" EXACT []
+comment: temporal 18degC 22:00:00
+def: "The embryo is mainly characterized morphologically by the presence of an archenteron (i.e. primitive digestive tract) that has reached one-half its way into the blastocoel. A second phase of archenteron elongation has taken place by invagination of additional cells into the blastocoel, by cell division or by convergent-extension movements depending on the sea urchin species. Non-skeletogenic mesoderm cells that are present at the tip of the archenteron have further started ingressing into the blastocoel, generating the non-skeletogenic mesenchyme cells (or NSM cells, secondary mesenchyme cells or SMC). The oral ectoderm has also started to flatten and to become thicker, providing the first morphological indicator of the oral-aboral (or ventro-dorsal) axis of the embryo. As a consequence the oral chain formed by a portion of the skeletogenic mesenchyme cells has also flattened. Finally, skeletal calcification has further begun within the skeletogenic mesenchyme ventrolateral clusters, marked by the presence of the first calcified structures, which appear as small dots at that stage. At the animal pole, the animal neuroectoderm territory is still marked by an enlarged epithelium bearing long and immotile cilia."
+comment: pubmed Formery et al., (in prep)Kominami, T. and Takata, H. (2004). Gastrulation in the sea urchin embryo: a model system for analyzing the morphogenesis of a monolayered epithelium. Dev Growth Differ 46, 30926.Martik, M. L. and McClay, D. R. (2017). New insights from a high-resolution look at gastrulation in the sea urchin, Lytechinus variegatus. Mechanisms of Development 148, 310.Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.
+
+[Term]
+id: ECAO:0000039
+name: late gastrula stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000033 ! gastrula period
+relationship: preceded_by ECAO:0000038 ! mid gastrula stage
+synonym: "LG" EXACT []
+synonym: "late-G" EXACT []
+comment: temporal 18degC 24:00:00
+def: "The embryo is mainly characterized morphologically by the presence in the blastocoel of a fully extended archenteron (i.e. primitive digestive tract) that has now reached the roof of the blastocoel. The third and last extension phase of the archenteron has been ensured by pulling forces exerted by non-skeletogenic mesoderm cells that are still present at the tip of the archenteron. These cells have produced filopodia that extended towards the animal pole, attached the wall, and then shortened, thereby pulling up the archenteron. In some sea urchin species, this pulling force is already orienting the tip of the archenteron towards the oral ectoderm, where the future mouth of the larvae will form. In parallel, in the blastocoel, additional non-skeletogenic mesoderm cells continued ingressing from the tip of the archenteron and the skeletal calcified structures present in the skeletogenic mesenchyme ventrolateral clusters have further grown, forming now the primary triradiate skeletal rudiments (or spicules). At the animal pole, the animal neuroectoderm territory is still marked by an enlarged epithelium bearing long and immotile cilia."
+comment: pubmed Formery et al., (in prep)Kominami, T. and Takata, H. (2004). Gastrulation in the sea urchin embryo: a model system for analyzing the morphogenesis of a monolayered epithelium. Dev Growth Differ 46, 30926.Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.
+
+[Term]
+id: ECAO:0000040
+name: prism stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000033 ! gastrula period
+relationship: preceded_by ECAO:0000039 ! late gastrula stage
+synonym: "Pr" EXACT []
+synonym: "D" EXACT []
+comment: temporal 18degC 32:00:00
+def: "The embryo is mainly characterized morphologically by a typical triangular shape, the beginning of the tripatition of the digestive tract and the presence of pigmented cells. The oral (or ventral) ectoderm has by now even more flattened, making an almost perfect right angle with the blastoporal side of the embryo. By contrast, on the opposite side, the aboral (or dorsal) ectoderm has round up and slightly elongated, thereby forming the primitive apex of the future larvae. These changes have conferred the embryo a typical and easy recognizable triangular shape. In the oral ectoderm, a small depression has further appeared, called the stomodeum, which will later fuse with the tip of the archenteron to form the mouth. In the blastocoel, the digestive tract has also by now bended toward the stomodeum and started to become tripartite. The cardiac sphincter has started forming, separating the future esophagus from the future stomach. The triradiate spicules have also continued elongating, thereby forming by now, towards the animal pole, the right and left dorsoventral connecting rods, towards the apex, the body rods, and along the vegetal, oral ectoderm the left and right ventral transverse rods. Moreover, some non-skeletogenic mesenchyme cells (or NSM cells, secondary mesenchyme cells or SMC) have started becoming pigmented and inserted into the aboral ectoderm. These cells represent part of the future immune system of the larvae along with other blastocoelar cells that are present in the blastocoel around the gut. In the vicinity of the future esophagus, other non-skeletogenic mesoderm descendant cells along with some endoderm cells have further arranged to form a single unpaired coelomic pouch. At the animal pole, the apical pole domain has also started to flatten making the embryo look like a square when viewed from the oral side, and it still arbors a tuft a long and immotile cilia. Finally, within the apical pole domain, but not yet in the ciliary band, molecular labeling surveys also start by this stage to reveal the presence of differentiating neuronal cells. "
+comment: pubmed Formery et al., (in prep)Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.
+
+[Term]
+id: ECAO:0000041
+name: larval development
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: preceded_by ECAO:0000013 ! embryogenesis
+xref: UBERON:0000105
+def: "Biological process during which the specific outcome is the progression of a free-living larva before the development of the adult. Indirect development represents the mainstream developmental mode of metazoans. This process usually starts with the emergence of a larva that is planktonic and stops at the end of metamorphosis once the animal assumes adult characters. "
+xref: UBERON:0000069
+
+[Term]
+id: ECAO:0000042
+name: early pluteus larva stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000041 ! larval development
+relationship: preceded_by ECAO:0000040 ! prism stage
+synonym: "Eplut" EXACT []
+synonym: "early pluteus stage" EXACT []
+comment: temporal 18degC 40:00:00
+def: "The embryo is by now a fully formed pluteus larva. The mouth has opened and the digestive tract is becoming functional. On the ventral side, the mouth is surrounded anteriorly by an oral hood and posteriorly by two postoral arms. On the dorsal side, the apex has lengthened. The skeleton has indeed continued extending, expending the dorsoventral connecting rods, the body rods, and the ventral transverse rods as well as developing the anterolateral rods and the postoral rods. Within the larva, the tripartition of the digestive tract has further progressed. The cardiac sphincter is now fully formed in between the esophagus and the stomach, and the pyloric sphincter in between the stomach and the intestine and the anal sphincter at the level of the anus have also started forming. Around the esophagus, the coelomic pouch has further developed into two bilobed sacs (or pouches), one on each side of the digestive tract. Finally, within the apical pole domain, as well as within the ciliary band, differentiated neurons with their extended axons can also now be distinguished by immunostaining. In parallel, the apical tuft of long and immotile cilia remains discernable at the tip of the oral hood, while in parallel the ciliary band has further started growing a concentrated number of intermediate size motile cilia, which will be used by the larva to swim directionally.  "
+xref: UBERON_0008265
+comment: pubmed Formery et al., (in prep)Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.
+
+[Term]
+id: ECAO:0000043
+name: 4-arm pluteus larva stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000041 ! larval development
+relationship: preceded_by ECAO:0000042 ! early pluteus larva stage
+synonym: "Pluteus" EXACT []
+synonym: "pluteus larva" EXACT []
+synonym: "Plut" EXACT []
+synonym: "Plut4a" EXACT []
+synonym: "P" EXACT []
+comment: temporal 18degC 48:00:00
+def: "The 4-arm pluteus larva is mainly characterized morphologically by the presence, on the ventral side, of four extended arms (two anterolateral arms at the level of the oral hood and two postoral arms) and on the dorsal side by a sleeked apex. The larva now possesses a completely tripartite and functional digestive tract composed of an esophagus, a stomach, and an intestine, respectively limited by a cardiac sphincter, a pyloric sphincter, and an anal sphincter. Around the esophagus, the right and left coelomic pouches have further started to grow in size and elongate. The first morphological indicator of a left-right asymmetry becomes apparent at that stage, the left coelomic pouch being slightly more elongated than the right one. Furthermore, a thin protrusion of non-skeletogenic mesenchyme cells can be seen extending from the left coelomic pouch to the anterior ectoderm. This is the primary pore canal, which opens to the exterior environment by the hydropore. The larva further now possesses, all around the esophagus, a network of contractile muscles allowing it to swallow and feed. Finally, the apical tuft previously observed at the animal pole has by now disappeared, leaving behind only the concentrated stretch of intermediate size cilia borne by the ciliary band. "
+xref: UBERON_0008265
+comment: pubmed Brandhorst, B. P. and Klein, W. H. (2002). Molecular patterning along the sea urchin animal-vegetal axis. Int Rev Cytol 213, 183232.Formery et al., (in prep)Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Smith, M. M., Smith, L. C., Cameron, R. A., & Urry, L. A. (2008). The larval stages of the sea urchin, Strongylocentrotus purpuratus. Journal of Morphology, 269(6), 713733Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.
+
+[Term]
+id: ECAO:0000044
+name: 6-arm pluteus larva stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000041 ! larval development
+relationship: preceded_by ECAO:0000043 ! 4-arm pluteus larva stage
+synonym: "Plut6a" EXACT []
+comment: temporal 18degC  +/- 9d
+def: "The 6-arm pluteus larva is mainly characterized morphologically by the presence, on the ventral side, of six arms, and by the development, on the anterior midline of the esophagus, of the dorsal arch. The larva has indeed extended on the ventral side two additional posterodorsal arms and has developed on the anterior side an additional skeletal element called the dorsal arch. In addition, at the basis of the postoral and posterodorsal arms, four small patches of ciliary band have by now cut off and migrated toward the apex, forming four patches of ciliated structures called the epaulettes (one posterior and one anterior pair). The nervous system of the larva has also become more complex with cell bodies and axons being present all along the arms and for the latter as well throughout the apex. The left and right coelomic pouches have continued to elongate on each side of the digestive tract. As a note this stage is relatively fleeting. "
+xref: UBERON_0008265
+comment: pubmed Formery et al., (in prep)Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Smith, M. M., Smith, L. C., Cameron, R. A., & Urry, L. A. (2008). The larval stages of the sea urchin, Strongylocentrotus purpuratus. Journal of Morphology, 269(6), 713733Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.
+
+[Term]
+id: ECAO:0000045
+name: 8-arm pluteus larva stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000041 ! larval development
+relationship: preceded_by ECAO:0000044 ! 6-arm pluteus larva stage
+synonym: "Plut8a" EXACT []
+comment: temporal 18degC  +/- 12d
+def: "The 8-arm pluteus larva is mainly characterized morphologically by the presence on the ventral side of the larva of eight arms and by the development within the larva, on the left side of the stomach, of the adult rudiment. This stage is relatively long. It includes distinct changes occurring to the larva as well as within the larva, although the larva consistently exhibits 8 arms. In addition, it should be highlighted that the sequence of events taking place at the level of the larva compared to that occurring on the left side of the stomach to form the rudiment are heterochronic, meaning that differences are observed among individuals in the relative timing of these events. From the larval point of view, at that stage, on the anterior side, the dorsal arch has extended out of the oral hood, thereby forming two additional arms above the mouth, i.e. the preoral arms. In parallel, across the apex, the epaulettes have continued developing, thereby generating four large structures rich in cilia and perpendicular to the ventro-dorsal axis. At the tip of the apex, the suture of the body rods has also eventually ruptured, considerably enlarging the larval apex and reducing the angle between the postoral and posterodorsal arms. In parallel, inside the larva, the left coelomic pouch has also by now been partitioned into three parts: the axocoel (upper part, close to the esophagus), the hydrocoel (middle part) and the somatocoel (lower part, next to the stomach). Likewise, on the opposite side, the right coelomic pouch has also been partitioned into a right axohydrocoel and a right somatocoel, although the right axohydrocoel remains in a rudimentary state compared to its left counterparts. In addition, at the basis of the posterodorsal arm on the left side, a small portion of the ectoderm has thickened, invaginated, and came into contact with the left hydocoel. This structure is called the vestibule and together with the left hydrocoel and the left stomatocoel they have further subsequently fused to form the adult rudiment. The formation of the rudiment has overall taken some time, giving rise first to a pentaradial disc and then to a pentaradial complex structure harboring podia (i.e. tube feet) and spines. In parallel, on the right size of the larva, a variable number of pedicellariae (one to four) and endoskeletal elements (i.e. the five genital plates) have further formed, which will also later contribute to the composition of the adult body."
+xref: UBERON_0008265
+comment: pubmed Formery et al., (in prep)Heyland, A., & Hodin, J. (2014). A detailed staging scheme for late larval development in Strongylocentrotus purpuratus focused on readily-visible juvenile structures within the rudiment. BMC developmental biology, 14(1), 22.Hyman, L. H. (1955). The invertebrates. Vol. 4,. New York; London(etc): McGraw-Hill.Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Smith, M. M., Smith, L. C., Cameron, R. A., & Urry, L. A. (2008). The larval stages of the sea urchin, Strongylocentrotus purpuratus. Journal of Morphology, 269(6), 713733Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.
+
+[Term]
+id: ECAO:0000046
+name: competent pluteus larva stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000041 ! larval development
+relationship: preceded_by ECAO:0000045 ! 8-arm pluteus larva stage
+synonym: "cPlut" EXACT []
+synonym: "Cpt8a" EXACT []
+comment: temporal 18degC  between 18d to 25d depending on the food supplied
+def: "The competent pluteus larva is mainly characterized morphologically by the presence, on the ventral size, of still 8 arms and by the presence on the left side of the stomach of the rudiment that is now the size of or even bigger than the stomach. The rudiment further harbors by now five long primary podia (i.e. tube feet), five quartets of definitive spines located between the primary podia and five pairs of immature spines at the basis of the primary podia, while on the opposite side, i.e. on the right side of the larva, five to seven immature spines have further developed, supported by the genital plates, along with one to four pedicaellariae. At the level of the larva, in parallel, the anterior and posterior pairs of epaulettes have also considerably increased in size by now and even fused dorsally to the hydropore and to the anus respectively, thereby leaving exempt of cilia two lateral fields in between them. At the center of the left lateral field, the vestibular roof has also by now ruptured and this opening has created the vestibular pore, through which some primary podia of the rudiment protrude outside the larva and scrutinize the substrate looking for the adequate cues to begin metamorphosis. At that stage, the larva is thus exhibiting a typical substrate-test behavior, going to the sea bottom and scrutinizing the substrate. This behavior is characteristic of a larva named competent to metamorphosis, which it will accomplish providing that it is adequately stimulated by environmental factors. "
+xref: UBERON_0008265
+comment: pubmed Formery et al., (in prep)Gosselin, P. and Jangoux, M. (1998). From competent larva to exotrophic juvenile: a morphofunctional study of the perimetamorphic period of Paracentrotus lividus (Echinodermata, Echinoida). Zoomorphology 118, 3143.Heyland, A., & Hodin, J. (2014). A detailed staging scheme for late larval development in Strongylocentrotus purpuratus focused on readily-visible juvenile structures within the rudiment. BMC developmental biology, 14(1), 22.Hyman, L. H. (1955). The invertebrates. Vol. 4,. New York; London(etc): McGraw-Hill.Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Smith, M. M., Smith, L. C., Cameron, R. A., & Urry, L. A. (2008). The larval stages of the sea urchin, Strongylocentrotus purpuratus. Journal of Morphology, 269(6), 713733Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.
+
+[Term]
+id: ECAO:0000047
+name: metamorphic larva stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000041 ! larval development
+relationship: preceded_by ECAO:0000046 ! competent pluteus larva stage
+synonym: "metamorphosis" EXACT []
+synonym: "meta" EXACT []
+comment: temporal 18degC  between 18d to 25d depending on the food supplied
+def: "The metamorphic larva stage consists essentially of the evagination of the echinoid rudiment. It is characterized by the execution of conspicuous and relatively abrupt physical changes that take place quite quickly, in about one hour, and during which the planktonic larva is transformed into a benthic juvenile. At that stage, the larva is settled on the substrate and is firmly attached to it by the primary podia of the rudiment. The ectodermal epithelium of its arms has started to collapse, making the spicules supporting the larval arms piercing through the epidermis. The larval mouth and anus have further closed, while in parallel, within the larva, the rudiment spines have lifted up thereby distending the vestibular wall and wide opening the vestibular pore. Following these movements, the rudiment has farther down accomplished and finalized its complete eversion, encapsulating the digestive tract and reaching the right side of the larval body. During this process, the genital plates and the associated pedicellariae and immature spines present on the right side of the larva have further completed the production of the aboral part of the adult body. At the end of metamorphosis, hence at the end of the metamorphic larva stage, the individual has thus become benthic, it is settled in the substrate, and it looks like an adult pentaradial sea urchin although it is smaller in size, deprived of a functional digestive system and sexually immature. "
+comment: pubmed Formery et al., (in prep)Gosselin, P. and Jangoux, M. (1998). From competent larva to exotrophic juvenile: a morphofunctional study of the perimetamorphic period of Paracentrotus lividus (Echinodermata, Echinoida). Zoomorphology 118, 3143.Hyman, L. H. (1955). The invertebrates. Vol. 4,. New York; London(etc): McGraw-Hill.Okazaki, K. (1975). Normal Development to Metamorphosis. In The Sea Urchin Embryo: Biochemistry and Morphogenesis (ed. Czihak, G.), pp. 177232. Berlin, Heidelberg: Springer Berlin Heidelberg.Rahman, M. A., Yusoff, F. M., Arshad, A., Shamsudin, M. N. and Amin, S. M. N. (2012). Embryonic, Larval, and Early Juvenile Development of the Tropical Sea Urchin, Salmacis sphaeroides (Echinodermata: Echinoidea). Scientific World Journal.Smith, M. M., Smith, L. C., Cameron, R. A., & Urry, L. A. (2008). The larval stages of the sea urchin, Strongylocentrotus purpuratus. Journal of Morphology, 269(6), 713733Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.
+
+[Term]
+id: ECAO:0000048
+name: adult development
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: preceded_by ECAO:0000041 ! larval development
+xref: UBERON:0000105
+def: "Biological process during which changes occur in biological and psychological domains to generate a sexually mature animal."
+
+[Term]
+id: ECAO:0000049
+name: juvenile period
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000048 ! adult development
+relationship: preceded_by ECAO:0000041 ! larval development
+def: "Period during which a young individual, posing as a small adult, grows but remains unable to reproduce."
+xref: UBERON_0034919
+
+[Term]
+id: ECAO:0000050
+name: postlarval juvenile stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000049 ! juvenile period
+relationship: preceded_by ECAO:0000047 ! metamorphic larva stage
+synonym: "PLJuv" EXACT []
+synonym: "postlarva" EXACT []
+synonym: "endotrophic juvenile" EXACT []
+comment: temporal 18degC right after metamorphosis(i.e. between 18d to 25d depending on the food supplied)
+def: "The postlarval juvenile is morphologically similar to both the late rudiment and an early sea urchin adult. Like the rudiment, it harbors five primary podia (or tube feet), five quartet of definitive spines, five pairs of immature spines located at the basis of the primary podia, 5 to 7 immature spines supported by the genital plates as well as 1 to 4 pedicellariae. Like the adult, it displays a pentarial symmetry and is settled on the substrate. The postlarva is about 300 µm in diameter. On its aboral side, it still exhibits some remaining larval rods and tissues, although these will soon disappear. In addition, the plates forming its endoskeleton are still rather light and porous making it looking relatively clear, although it bears lots of red-pigmented cells. However, the postlarva is still deprived of a mouth and an anus, hence of a functional digestive tract. The postlarva juvenile is thus endotrophic, meaning that its growth and development solely relies on energy derived from internal sources. Furthermore, the postlarva is sexually immature."
+xref: UBERON_0007021
+comment: pubmed Formery et al., (in prep)Gosselin, P. and Jangoux, M. (1998). From competent larva to exotrophic juvenile: a morphofunctional study of the perimetamorphic period of Paracentrotus lividus (Echinodermata, Echinoida). Zoomorphology 118, 3143.Hyman, L. H. (1955). The invertebrates. Vol. 4,. New York; London(etc): McGraw-Hill.Rahman, M. A., Yusoff, F. M., Arshad, A., Shamsudin, M. N. and Amin, S. M. N. (2012). Embryonic, Larval, and Early Juvenile Development of the Tropical Sea Urchin, Salmacis sphaeroides (Echinodermata: Echinoidea). Scientific World Journal.Va??tilingon, D., Morgan, R., Grosjean, P., Gosselin, P. and Jangoux, M. (2001). Effects of delayed metamorphosis and food rations on the perimetamorphic events in the echinoid Paracentrotus lividus (Lamarck, 1816) (Echinodermata). J. Exp. Mar. Biol. Ecol. 262, 4160.Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS One 5, e9654.
+
+[Term]
+id: ECAO:0000051
+name: exotrophic juvenile stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000049 ! juvenile period
+relationship: preceded_by ECAO:0000050 ! postlarval juvenile stage
+synonym: "ExJuv" EXACT []
+comment: temporal 18degC  +/- 8d after metamorphosis 
+def: "The exotrophic juvenile really looks like a small adult. The plates of its endoskeleton have by now densified providing it with a dark shell. In addition, it has finally developed a functional digestive tract. The digestive tract inherited from the larva has indeed by now undergone a complete reorganization, progressively bending within the perivisceral cavity to form two successive loops. The buccal plates and the aristotle lantern have further finished developing, creating a new mouth that has opened on the oral side at the center of the aristotle's lantern, while a new anus has also opened in the periproct, i.e. at the center of the five genital plates. This juvenile can thus by now feed and start growing in size, by grazing on the substrate. This juvenile is thus exotrophic, meaning that its growth and development rely on energy derived from external sources. In addition, the primary podia have started to regress by that stage and will eventually disappear, while secondary podia have emerged and are functional, allowing the juvenile to move. Similarly, the immature spines have also started to be lost and be replaced by definitive spines. The genital plate CD has further differentiated into the madreporite and sphaeridia have formed. However, this individual is still sexually immature."
+xref: UBERON_0007021
+comment: pubmed Formery et al., (in prep)Gosselin, P. and Jangoux, M. (1998). From competent larva to exotrophic juvenile: a morphofunctional study of the perimetamorphic period of Paracentrotus lividus (Echinodermata, Echinoida). Zoomorphology 118, 3143.Hyman, L. H. (1955). The invertebrates. Vol. 4,. New York; London(etc): McGraw-Hill.
+
+[Term]
+id: ECAO:0000052
+name: adult period
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000048 ! adult development
+relationship: preceded_by ECAO:0000049 ! juvenile period
+def: "Period during which the animal reaches sexual maturity."
+xref: UBERON:0000066
+
+[Term]
+id: ECAO:0000053
+name: adult stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+relationship: part_of ECAO:0000052 ! adult period
+relationship: preceded_by ECAO:0000051 ! exotrophic juvenile stage
+synonym: "sexual mature sea urchin" EXACT []
+synonym: "gravid sea urchin" EXACT []
+comment: temporal 18degC between 6 months to 1 year after fertilization
+def: "This stage corresponds to a fully formed pentaradial sea urchin that has reached sexual maturity. The gonads have developed within the perivisceral cavity and are connected to the outside by the genital pores pierced into the genital plates. The young adult has grown up to about several centimeters in diameter and is now producing gametes. Time after fertilization is unknown, between several months to one year depending on the sea urchin species and the rate and type of feeding."
+xref: UBERON_0000113
+comment: pubmed Hyman, L. H. (1955). The invertebrates. Vol. 4,. New York; London(etc): McGraw-Hill.
+
+[Term]
+id: ECAO:0000549
+name: animal hemisphere
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "animal hemisphere"
+
+[Term]
+id: ECAO:0000550
+name: animal tier 2
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "animal tier 2"
+
+[Term]
+id: ECAO:0000551
+name: blastomere of 4-cell embryo
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "blastomere of 4-cell embryo"
+
+[Term]
+id: ECAO:0000552
+name: micromere
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "micromere"
+
+[Term]
+id: ECAO:0000553
+name: multicellular anatomical structure
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "multicellular anatomical structure"
+
+[Term]
+id: ECAO:0000555
+name: prospective endoderm
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "prospective endoderm"
+
+[Term]
+id: ECAO:0000556
+name: prospective endomesoderm
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "prospective endomesoderm"
+
+[Term]
+id: ECAO:0000557
+name: prospective mesoderm
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "prospective mesoderm"
+
+[Term]
+id: ECAO:0000558
+name: skeleton
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "skeleton"
+
+[Term]
+id: ECAO:0000559
+name: sperm cell
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "sperm cell"
+
+[Term]
+id: ECAO:0000560
+name: vegetal hemisphere
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "vegetal hemisphere"
+
+[Term]
+id: ECAO:0000561
+name: vegetal tier 1 upper
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "vegetal tier 1 upper"
+
+[Term]
+id: ECAO:0000562
+name: vegetal tier 2 upper
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "vegetal tier 2 upper"
+
+[Term]
+id: ECAO:0000563
+name: 1-cell embryo
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "1-cell embryo"
+
+[Term]
+id: ECAO:0000564
+name: acellular anatomical structure
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "acellular anatomical structure"
+
+[Term]
+id: ECAO:0000565
+name: anatomical cluster
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "anatomical cluster"
+
+[Term]
+id: ECAO:0000566
+name: anatomical entity
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "anatomical entity"
+
+[Term]
+id: ECAO:0000567
+name: anatomical region
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "anatomical region"
+
+[Term]
+id: ECAO:0000568
+name: anatomical space
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "anatomical space"
+
+[Term]
+id: ECAO:0000569
+name: anatomical structure
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "anatomical structure"
+
+[Term]
+id: ECAO:0000570
+name: animal hemisphere
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "animal hemisphere"
+
+[Term]
+id: ECAO:0000571
+name: animal tier 1
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "animal tier 1"
+
+[Term]
+id: ECAO:0000572
+name: blastomere of 2-cell embryo
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "blastomere of 2-cell embryo"
+
+[Term]
+id: ECAO:0000573
+name: cell
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "cell"
+
+[Term]
+id: ECAO:0000574
+name: cell part
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "cell part"
+
+[Term]
+id: ECAO:0000575
+name: cell type
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "cell type"
+
+[Term]
+id: ECAO:0000576
+name: early embryonic cell
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "early embryonic cell"
+
+[Term]
+id: ECAO:0000577
+name: embryonic structure
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "embryonic structure"
+
+[Term]
+id: ECAO:0000578
+name: embryonic tissue
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "embryonic tissue"
+
+[Term]
+id: ECAO:0000579
+name: extraembryonic structure
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "extraembryonic structure"
+
+[Term]
+id: ECAO:0000580
+name: ganglion
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "ganglion"
+
+[Term]
+id: ECAO:0000581
+name: macromeres
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "macromeres"
+
+[Term]
+id: ECAO:0000582
+name: mature oocyte
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "mature oocyte"
+
+[Term]
+id: ECAO:0000583
+name: mesenchyme
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "mesenchyme"
+
+[Term]
+id: ECAO:0000584
+name: mesomeres
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "mesomeres"
+
+[Term]
+id: ECAO:0000586
+name: PMC syncytium
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "PMC syncytium"
+
+[Term]
+id: ECAO:0000588
+name: spicule
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "spicule"
+
+[Term]
+id: ECAO:0000589
+name: subequatorial PMC ring
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "subequatorial PMC ring"
+
+[Term]
+id: ECAO:0000590
+name: vegetal hemisphere
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "vegetal hemisphere"
+
+[Term]
+id: ECAO:0000591
+name: vegetal tier 1 lower
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "vegetal tier 1 lower"
+
+[Term]
+id: ECAO:0000592
+name: vegetal tier 2
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "vegetal tier 2"
+
+[Term]
+id: ECAO:0000593
+name: vegetal tier 2 lower
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "vegetal tier 2 lower"
+
+[Term]
+id: ECAO:0000594
+name: ventrolateral PMC cluster
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "ventrolateral PMC cluster"
+
+[Term]
+id: ECAO:1000738
+name: embryonic nervous system in development
+is_a: ECAO:1000350
+def: "embryonic nervous system in development"
+
+[Term]
+id: ECAO:1000739
+name: rudiment spicule
+is_a: ECAO:1000350
+def: "rudiment spicule"
+
+[Term]
+id: ECAO:1000740
+name: sphincteric muscle
+is_a: ECAO:1000350
+def: "sphincteric muscle"
+
+[Term]
+id: ECAO:1000741
+name: presumptive circumesophageal muscle
+is_a: ECAO:1000350
+def: "presumptive circumesophageal muscle"
+
+[Term]
+id: ECAO:1000350
+name: echinoderm anatomy
+def: "Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species."
+comment: pending EAOv2 amendment
+xref: UBERON:0001062
+
+[Term]
+id: ECAO:1000351
+name: anatomical structure
+is_a: ECAO:1000350 ! echinoderm anatomy
+def: "Material anatomical entity that has inherent 3D shape and is generated by coordinated expression of the organism's own genome"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+xref: UBERON:0000061
+
+[Term]
+id: ECAO:1000352
+name: anatomical system
+is_a: ECAO:1000350 ! echinoderm anatomy
+def: "A system that has as its parts distinct anatomical structures interconnected by anatomical structures at a lower level of granularity. Multicellular, connected anatomical structure that has multiple organs as parts and whose parts work together to achieve some shared function"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+synonym: "organ system" EXACT []
+synonym: "connected anatomical system" EXACT []
+synonym: "body system" EXACT []
+xref: UBERON:0000467
+
+[Term]
+id: ECAO:1000353
+name: whole organism
+is_a: ECAO:1000350 ! echinoderm anatomy
+def: "Anatomical structure that is an individual member of a species and consists of one cell or more"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+xref: OBI:0100026
+
+[Term]
+id: ECAO:1000354
+name: anatomical region
+is_a: ECAO:1000350 ! echinoderm anatomy
+def: "A region of the whole organism without well-defined compartmental boundaries"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+synonym: "organism subdivision" EXACT []
+xref: UBERON:0000475
+
+[Term]
+id: ECAO:1000355
+name: anatomical space
+is_a: ECAO:1000350 ! echinoderm anatomy
+xref: UBERON:0000464
+
+[Term]
+id: ECAO:1000356
+name: embryo
+is_a: ECAO:1000361 ! multicellular organism
+relationship: part_of ECAO:1000353 ! whole organism
+relationship: start_stage ECAO:0000015 ! 1-cell stage
+relationship: end_stage ECAO:0000040 ! prism stage
+def: "Anatomical entity that comprises the animal in the early stages of growth and differentiation that are characterized by cleavage, the laying down of fundamental tissues, and the formation of primitive organs and organ systems"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+xref: UBERON:0000922
+
+[Term]
+id: ECAO:1000357
+name: larva
+is_a: ECAO:1000361 ! multicellular organism
+relationship: part_of ECAO:1000353 ! whole organism
+relationship: develops_from ECAO:1000356 ! embryo
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+
+
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+xref: UBERON:0002548
+
+[Term]
+id: ECAO:1000358
+name: juvenile
+is_a: ECAO:1000361 ! multicellular organism
+relationship: part_of ECAO:1000353 ! whole organism
+relationship: develops_from ECAO:1000357 ! larva
+relationship: start_stage ECAO:0000050 ! postlarval juvenile stage
+relationship: end_stage ECAO:0000051 ! exotrophic juvenile stage
+xref: UBERON:0034919
+
+[Term]
+id: ECAO:1000359
+name: adult
+is_a: ECAO:1000361 ! multicellular organism
+relationship: part_of ECAO:1000353 ! whole organism
+relationship: develops_from ECAO:1000358 ! juvenile
+relationship: start_stage ECAO:0000053 ! adult stage
+relationship: end_stage ECAO:0000053 ! adult stage
+xref: UBERON:0007023
+
+[Term]
+id: ECAO:1000360
+name: pre-metamorphic individual
+is_a: ECAO:1000361 ! multicellular organism
+relationship: part_of ECAO:1000353 ! whole organism
+relationship: start_stage ECAO:0000015 ! 1-cell stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000361
+name: multicellular organism
+is_a: ECAO:1000353 ! whole organism
+relationship: start_stage ECAO:0000017 ! 2-cell stage
+relationship: end_stage ECAO:0000053 ! adult stage
+def: "Anatomical structure that is an individual member of a species and consists of more than one cell"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+xref: UBERON:0000468
+
+[Term]
+id: ECAO:1000362
+name: digestive system
+is_a: ECAO:1000352 ! anatomical system
+relationship: part_of ECAO:1000353 ! whole organism
+relationship: start_stage ECAO:0000036 ! blastopore gastrula stage
+relationship: end_stage ECAO:0000053 ! adult stage
+def: "Anatomical system that has as its parts the organs devoted to the ingestion, digestion, and assimilation of food and the discharge of residual wastes."
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+xref: UBERON:0001007
+
+[Term]
+id: ECAO:1000363
+name: embryonic digestive system
+is_a: ECAO:1000362 ! digestive system
+relationship: part_of ECAO:1000356 ! embryo
+relationship: start_stage ECAO:0000036 ! blastopore gastrula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+def: "The gastrointestinal tract that is being formed during embryonic development starting with the formation of the primitive gut tube (or archenteron)"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+
+
+[Term]
+id: ECAO:1000364
+name: larval digestive system
+is_a: ECAO:1000362 ! digestive system
+relationship: part_of ECAO:1000357 ! larva
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+
+
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+def: "Organ system responsible for the food uptake and processing in the larva"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+
+
+[Term]
+id: ECAO:1000365
+name: adult digestive system
+is_a: ECAO:1000362 ! digestive system
+relationship: part_of ECAO:1000359 ! adult
+relationship: start_stage ECAO:0000051 ! exotrophic juvenile stage
+relationship: end_stage ECAO:0000053 ! adult stage
+def: "Anatomical system that processes ingested substances in the adult"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+
+
+[Term]
+id: ECAO:1000366
+name: immune system
+is_a: ECAO:1000352 ! anatomical system
+relationship: part_of ECAO:1000353 ! whole organism
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+
+
+relationship: end_stage ECAO:0000053 ! adult stage
+xref: UBERON:0002405
+
+[Term]
+id: ECAO:1000367
+name: embryo immune system
+is_a: ECAO:1000366 ! immune system
+
+
+[Term]
+id: ECAO:1000368
+name: larval immune system
+is_a: ECAO:1000366 ! immune system
+relationship: part_of ECAO:1000357 ! larva
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+xref: XAO:0003153
+
+[Term]
+id: ECAO:1000369
+name: adult immune system
+is_a: ECAO:1000366 ! immune system
+relationship: part_of ECAO:1000359 ! adult
+relationship: start_stage ECAO:0000050 ! postlarval juvenile stage
+relationship: end_stage ECAO:0000053 ! adult stage
+xref: XAO:0003154
+
+[Term]
+id: ECAO:1000370
+name: reproductive system
+is_a: ECAO:1000366 ! immune system
+relationship: part_of ECAO:1000359 ! adult
+relationship: start_stage ECAO:0000053 ! adult stage
+relationship: end_stage ECAO:0000053 ! adult stage
+def: "Anatomical system that has as its parts the organs concerned with reproduction, i.e. the male and female gonads."
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+xref: UBERON:0000990
+
+[Term]
+id: ECAO:1000371
+name: nervous system
+is_a: ECAO:1000352 ! anatomical system
+relationship: part_of ECAO:1000353 ! whole organism
+relationship: start_stage ECAO:0000035 ! mesenchyme blastula stage
+relationship: end_stage ECAO:0000053 ! adult stage
+xref: UBERON:0001016
+
+[Term]
+id: ECAO:1000372
+name: embryonic nervous system
+is_a: ECAO:1000371 ! nervous system
+relationship: part_of ECAO:1000356 ! embryo
+relationship: start_stage ECAO:0000035 ! mesenchyme blastula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+def: "The sum of all the structures in the embryo that will develop into the larval nervous system"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+
+
+[Term]
+id: ECAO:1000373
+name: larval nervous system
+is_a: ECAO:1000371 ! nervous system
+relationship: part_of ECAO:1000357 ! larva
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+
+
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+def: "The sum of all the neural structures present in the larva"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+
+
+[Term]
+id: ECAO:1000374
+name: adult nervous system
+is_a: ECAO:1000371 ! nervous system
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000053 ! adult stage
+xref: UBERON:6003559
+
+[Term]
+id: ECAO:1000375
+name: muscular system
+is_a: ECAO:1000352 ! anatomical system
+relationship: part_of ECAO:1000353 ! whole organism
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+
+
+relationship: end_stage ECAO:0000053 ! adult stage
+xref: UBERON:0000383
+
+[Term]
+id: ECAO:1000376
+name: larval muscular system
+is_a: ECAO:1000375 ! muscular system
+relationship: part_of ECAO:1000357 ! larva
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+
+
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000377
+name: adult muscular system
+is_a: ECAO:1000375 ! muscular system
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000053 ! adult stage
+xref: UBERON:6003218
+
+[Term]
+id: ECAO:1000378
+name: endoskeleton
+is_a: ECAO:1000352 ! anatomical system
+relationship: part_of ECAO:1000353 ! whole organism
+relationship: start_stage ECAO:0000038 ! mid gastrula stage
+relationship: end_stage ECAO:0000053 ! adult stage
+def: "Internal support structure of an animal composed of mineralized tissue. It gives shape, support and protection to the body."
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+xref: UBERON:0001434
+
+[Term]
+id: ECAO:1000379
+name: embryonic endoskeleton
+is_a: ECAO:1000378 ! endoskeleton
+relationship: part_of ECAO:1000356 ! embryo
+relationship: start_stage ECAO:0000038 ! mid gastrula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+
+
+[Term]
+id: ECAO:1000380
+name: larval endoskeleton
+is_a: ECAO:1000378 ! endoskeleton
+relationship: part_of ECAO:1000357 ! larva
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+
+
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000381
+name: rudiment endoskeleton
+is_a: ECAO:1000378 ! endoskeleton
+relationship: part_of ECAO:1000408 ! rudiment
+synonym: "skeletal rudiment" EXACT []
+
+
+[Term]
+id: ECAO:1000382
+name: adult endoskeleton
+is_a: ECAO:1000378 ! endoskeleton
+relationship: part_of ECAO:1000359 ! adult
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000053 ! adult stage
+
+
+[Term]
+id: ECAO:1000383
+name: water vascular system
+is_a: ECAO:1000352 ! anatomical system
+relationship: part_of ECAO:1000353 ! whole organism
+relationship: start_stage ECAO:0000043 ! 4-arm pluteus larva stage
+relationship: end_stage ECAO:0000053 ! adult stage
+def: "The water vascular system is a hydraulic system used by sea urchins for locomotion, food and waste transportation, and respiration. The system is composed of canals connecting numerous tube feet. "
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+xref: UBERON:0008251
+
+[Term]
+id: ECAO:1000384
+name: hemal system
+is_a: ECAO:1000352 ! anatomical system
+relationship: part_of ECAO:1000359 ! adult
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000053 ! adult stage
+def: "The hemal system contains the blood. It is composed of a complex network of vessels mainly located around the gut."
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+synonym: "haemal system" EXACT []
+
+
+[Term]
+id: ECAO:1000385
+name: animal hemisphere
+is_a: ECAO:1000404 ! embryonic structure
+relationship: part_of ECAO:1000356 ! embryo
+relationship: start_stage ECAO:0000009 ! mature oocyte stage
+relationship: end_stage ECAO:0000040 ! prism stage
+def: "Anatomical region that corresponds to the upper half of the embryo, which later is composed of the mesomeres, and ultimately encompasses the presumptive ectoderm"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+synonym: "animal half" EXACT []
+synonym: "upper half" EXACT []
+synonym: "upper hemisphere" EXACT []
+xref: UBERON:0012284
+
+[Term]
+id: ECAO:1000386
+name: vegetal hemisphere
+is_a: ECAO:1000404 ! embryonic structure
+relationship: part_of ECAO:1000356 ! embryo
+relationship: start_stage ECAO:0000009 ! mature oocyte stage
+relationship: end_stage ECAO:0000040 ! prism stage
+def: "Anatomical region that corresponds to the lower half of the embryo, which later is composed of the macromeres and the micromeres, and ultimately encompasses the endoderm and mesoderm"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+synonym: "vegetal half" EXACT []
+synonym: "lower half" EXACT []
+synonym: "lower hemisphere" EXACT []
+xref: UBERON:0012285
+
+[Term]
+id: ECAO:1000387
+name: cell cortex
+is_a: ECAO:1000426 ! intracellular part
+is_a: GO:0005938
+
+[Term]
+id: ECAO:1000388
+name: cleavage furrow
+is_a: ECAO:1000400 ! cell part
+is_a: GO:0032154
+
+[Term]
+id: ECAO:1000389
+name: animal cortex
+is_a: ECAO:1000351 ! anatomical structure
+relationship: part_of ECAO:1000385 ! animal hemisphere
+relationship: start_stage ECAO:0000006 ! fully grown oocyte with centered germinal vesicle stage
+relationship: end_stage ECAO:0000015 ! 1-cell stage
+def: "Cell component comprising the outermost layer of the animal region of the oocyte. It consists of a phospholipid bilayer and associated proteins"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+comment: pubmed Croce, J., Range, R., Wu, S.-Y., Miranda, E., Lhomond, G., Peng, J. C., Lepage, T. and McClay, D. R. (2011). Wnt6 activates endoderm in the sea urchin gene regulatory network. Dev. Camb. Engl. 138, 32973306.
+
+
+[Term]
+id: ECAO:1000390
+name: vegetal cortex
+is_a: ECAO:1000351 ! anatomical structure
+relationship: part_of ECAO:1000386 ! vegetal hemisphere
+relationship: start_stage ECAO:0000006 ! fully grown oocyte with centered germinal vesicle stage
+relationship: end_stage ECAO:0000015 ! 1-cell stage
+def: "Cell component comprising the outermost layer of the vegetal region of the oocyte. It consists of a phospholipid bilayer and associated proteins"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+
+
+[Term]
+id: ECAO:1000391
+name: animal pole
+is_a: ECAO:1000354 ! anatomical region
+relationship: part_of ECAO:1000385 ! animal hemisphere
+relationship: start_stage ECAO:0000006 ! fully grown oocyte with centered germinal vesicle stage
+relationship: end_stage ECAO:0000040 ! prism stage
+def: "The apical region of the animal hemisphere"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+
+
+[Term]
+id: ECAO:1000392
+name: vegetal pole
+is_a: ECAO:1000354 ! anatomical region
+relationship: part_of ECAO:1000386 ! vegetal hemisphere
+relationship: start_stage ECAO:0000006 ! fully grown oocyte with centered germinal vesicle stage
+relationship: end_stage ECAO:0000040 ! prism stage
+def: "The apical most region of the vegetal hemisphere. Once cleavages have started the vegetal pole is characterized by the presence of the micromeres initially and then that of the small micromeres"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+
+
+[Term]
+id: ECAO:1000393
+name: animal pole domain 
+is_a: ECAO:1000354 ! anatomical region
+relationship: part_of ECAO:1000385 ! animal hemisphere
+relationship: start_stage ECAO:0000026 ! very early blastula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+synonym: "apical pole domain" EXACT []
+synonym: "apical plate" EXACT []
+synonym: "animal plate" EXACT []
+synonym: "neurogenic ectoderm" EXACT []
+synonym: "anterior neuroectoderm" EXACT []
+
+
+[Term]
+id: ECAO:1000394
+name: blastopore
+is_a: ECAO:1000354 ! anatomical region
+relationship: part_of ECAO:1000363 ! embryonic digestive system
+relationship: start_stage ECAO:0000036 ! blastopore gastrula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+xref: UBERON:0000100
+
+[Term]
+id: ECAO:1000395
+name: blastopore lip
+is_a: ECAO:1000404 ! embryonic structure
+relationship: part_of ECAO:1000394 ! blastopore
+relationship: start_stage ECAO:0000036 ! blastopore gastrula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+xref: UBERON:3010455
+
+[Term]
+id: ECAO:1000396
+name: bottle cell
+is_a: ECAO:1000397 ! embryonic cell
+property_value:Cell type (is-a) CL:0007020
+
+[Term]
+id: ECAO:1000397
+name: embryonic cell
+is_a: ECAO:1000399 ! cell
+property_value:Cell type (is-a) CL:0002321
+
+[Term]
+id: ECAO:1000398
+name: vegetal plate
+is_a: ECAO:1000354 ! anatomical region
+relationship: part_of ECAO:1000386 ! vegetal hemisphere
+relationship: start_stage ECAO:0000031 ! swimming blastula stage
+relationship: end_stage ECAO:0000035 ! mesenchyme blastula stage
+
+
+[Term]
+id: ECAO:1000399
+name: cell
+is_a: ECAO:1000351 ! anatomical structure
+relationship: start_stage ECAO:0000004 ! previtellogenic primary oocyte stage
+relationship: end_stage ECAO:0000053 ! adult stage
+def: "Anatomical structure that has as its parts a maximally connected cell compartment surrounded by a plasma membrane"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+property_value:Cell type (is-a) CL:0000000
+
+[Term]
+id: ECAO:1000400
+name: cell part
+is_a: ECAO:1000351 ! anatomical structure
+relationship: part_of ECAO:1000399 ! cell
+relationship: start_stage ECAO:0000009 ! mature oocyte stage
+relationship: end_stage ECAO:0000053 ! adult stage
+def: "Anatomical structure that is part of a cell and that has a granularity level equal to that of a protein complex or higher."
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+is_a: GO:0044464
+
+[Term]
+id: ECAO:1000401
+name: organ
+is_a: ECAO:1000352 ! anatomical system
+relationship: part_of ECAO:1000361 ! multicellular organism
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+
+
+relationship: end_stage ECAO:0000053 ! adult stage
+xref: UBERON:0000062
+
+[Term]
+id: ECAO:1000402
+name: digestive system element
+is_a: ECAO:1000351 ! anatomical structure
+relationship: part_of ECAO:1000362 ! digestive system
+relationship: start_stage ECAO:0000036 ! blastopore gastrula stage
+relationship: end_stage ECAO:0000053 ! adult stage
+def: "Any of the organs or elements that are part of the digestive system"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+xref: UBERON:0013765
+
+[Term]
+id: ECAO:1000403
+name: skeletal element
+is_a: ECAO:1000351 ! anatomical structure
+relationship: part_of ECAO:1000378 ! endoskeleton
+relationship: start_stage ECAO:0000038 ! mid gastrula stage
+relationship: end_stage ECAO:0000053 ! adult stage
+xref: UBERON:0004765
+
+[Term]
+id: ECAO:1000404
+name: embryonic structure
+is_a: ECAO:1000351 ! anatomical structure
+relationship: part_of ECAO:1000356 ! embryo
+relationship: start_stage ECAO:0000015 ! 1-cell stage
+relationship: end_stage ECAO:0000040 ! prism stage
+xref: UBERON:0002050
+
+[Term]
+id: ECAO:1000405
+name: larval structure
+is_a: ECAO:1000351 ! anatomical structure
+relationship: part_of ECAO:1000357 ! larva
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+
+
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000406
+name: adult structure
+is_a: ECAO:1000351 ! anatomical structure
+relationship: part_of ECAO:1000359 ! adult
+relationship: start_stage ECAO:0000050 ! postlarval juvenile stage
+relationship: end_stage ECAO:0000053 ! adult stage
+
+
+[Term]
+id: ECAO:1000407
+name: tissue
+is_a: ECAO:1000351 ! anatomical structure
+relationship: part_of ECAO:1000361 ! multicellular organism
+relationship: start_stage ECAO:0000024 ! 60-cell stage
+relationship: end_stage ECAO:0000053 ! adult stage
+xref: UBERON:0000479
+
+[Term]
+id: ECAO:1000408
+name: rudiment
+is_a: ECAO:1000351 ! anatomical structure
+relationship: part_of ECAO:1000357 ! larva
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+synonym: "adult rudiment" EXACT []
+synonym: "imaginal adult rudiment" EXACT []
+
+
+[Term]
+id: ECAO:1000409
+name: rudiment structure
+is_a: ECAO:1000351 ! anatomical structure
+relationship: part_of ECAO:1000408 ! rudiment
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000410
+name: non-rudiment adult structure
+is_a: ECAO:1000351 ! anatomical structure
+relationship: part_of ECAO:1000357 ! larva
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000411
+name: microtubule
+is_a: ECAO:1000426 ! intracellular part
+relationship: start_stage ECAO:0000004 ! previtellogenic primary oocyte stage
+relationship: end_stage ECAO:0000053 ! adult stage
+is_a: GO:0005874
+
+[Term]
+id: ECAO:1000412
+name: nucleus
+is_a: ECAO:1000426 ! intracellular part
+relationship: start_stage ECAO:0000009 ! mature oocyte stage
+relationship: end_stage ECAO:0000053 ! adult stage
+def: "A membrane-bounded organelle of in which chromosomes are housed and replicated. In most cells, it contains all of the cell's chromosomes except the organellar chromosomes, and is the site of RNA synthesis and processing. In some specialized cell types, RNA metabolism or DNA replication may be absent"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+is_a: GO:0005634
+
+[Term]
+id: ECAO:1000413
+name: germinal vesicle
+is_a: ECAO:1000412 ! nucleus
+relationship: part_of ECAO:1000457 ! oocyte
+relationship: start_stage ECAO:0000005 ! not fully grown oocyte stage
+relationship: end_stage ECAO:0000007 ! fully grown oocyte with off-centered germinal vesicle stage
+def: "The enlarged, fluid filled nucleus of a primary oocyte, the development of which is suspended in prophase I of the first meiotic division between embryohood and sexual maturity"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+property_value:Comments This structure has been defined from another sea urchin species but is present in P. lividus as well
+is_a: GO:0042585
+
+[Term]
+id: ECAO:1000414
+name: equatorial pigment band
+is_a: ECAO:1000426 ! intracellular part
+relationship: start_stage ECAO:0000006 ! fully grown oocyte with centered germinal vesicle stage
+relationship: end_stage ECAO:0000040 ! prism stage
+def: "The subequatorial accumulation of pigment granules (the so-called pigment band) in eggs or early stage embryos, which constitutes an unambiguous marker of animal-vegetal polarity"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+synonym: "pigment band" EXACT []
+synonym: "pigmented band" EXACT []
+comment: pubmed Sardet, C. and Chang, P. (1985). A marker of animal-vegetal polarity in the egg of the sea urchin paracentrotus lividus. Exp. Cell Res. 160, 7382.
+taxon: NTX:7656
+
+
+[Term]
+id: ECAO:1000415
+name: cytoplasm
+is_a: ECAO:1000426 ! intracellular part
+relationship: start_stage ECAO:0000005 ! not fully grown oocyte stage
+relationship: end_stage ECAO:0000053 ! adult stage
+def: "All of the contents of a cell excluding the plasma membrane and nucleus, but including other subcellular structures"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+is_a: GO:0005737
+
+[Term]
+id: ECAO:1000416
+name: centrosome
+is_a: ECAO:1000426 ! intracellular part
+relationship: start_stage ECAO:0000007 ! fully grown oocyte with off-centered germinal vesicle stage
+relationship: end_stage ECAO:0000053 ! adult stage
+is_a: GO:0005813
+
+[Term]
+id: ECAO:1000417
+name: mitotic spindle
+is_a: ECAO:1000426 ! intracellular part
+relationship: start_stage ECAO:0000015 ! 1-cell stage
+relationship: end_stage ECAO:0000053 ! adult stage
+is_a: GO:0072686
+
+[Term]
+id: ECAO:1000418
+name: meiotic spindle
+is_a: ECAO:1000426 ! intracellular part
+relationship: part_of ECAO:1000457 ! oocyte
+relationship: start_stage ECAO:0000007 ! fully grown oocyte with off-centered germinal vesicle stage
+relationship: end_stage ECAO:0000007 ! fully grown oocyte with off-centered germinal vesicle stage
+is_a: GO:0072687
+
+[Term]
+id: ECAO:1000419
+name: fertilization envelope
+is_a: ECAO:1000400 ! cell part
+relationship: part_of ECAO:1000356 ! embryo
+relationship: start_stage ECAO:0000015 ! 1-cell stage
+relationship: end_stage ECAO:0000029 ! late blastula stage
+def: "A structure that lies outside the plasma membrane and surrounds the egg. The fertilization envelope forms from the vitelline membrane after fertilization as a result of cortical granule release"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+synonym: "fertilization membrane" EXACT []
+is_a: GO:0060387
+
+[Term]
+id: ECAO:1000420
+name: cytoskeleton
+is_a: ECAO:1000426 ! intracellular part
+is_a: GO:0005856
+
+[Term]
+id: ECAO:1000421
+name: cytoskeletal part
+is_a: ECAO:1000420 ! cytoskeleton
+is_a: GO:0044430
+
+[Term]
+id: ECAO:1000422
+name: sperm aster
+is_a: ECAO:1000423 ! aster
+synonym: "spermatozoid aster" EXACT []
+
+
+[Term]
+id: ECAO:1000423
+name: aster
+is_a: ECAO:1000421 ! cytoskeletal part
+synonym: "spindle aster" EXACT []
+synonym: "mitotic aster" EXACT []
+is_a: GO:0005818
+
+[Term]
+id: ECAO:1000424
+name: acellular membrane
+is_a: ECAO:1000351 ! anatomical structure
+xref: UBERON:0005764
+
+[Term]
+id: ECAO:1000425
+name: vitelline membrane
+is_a: ECAO:1000424 ! acellular membrane
+synonym: "vitelline layer" EXACT []
+synonym: "vitelline envelope" EXACT []
+xref: UBERON:0003125
+
+[Term]
+id: ECAO:1000426
+name: intracellular part
+is_a: ECAO:1000400 ! cell part
+is_a: GO:0044424
+
+[Term]
+id: ECAO:1000427
+name: extracellular region
+is_a: ECAO:1000400 ! cell part
+is_a: GO:0005576
+
+[Term]
+id: ECAO:1000428
+name: extracellular matrix
+is_a: ECAO:1000427 ! extracellular region
+is_a: GO:0031012
+
+[Term]
+id: ECAO:1000429
+name: hyaline layer
+is_a: ECAO:1000428 ! extracellular matrix
+synonym: "hyaline membrane" EXACT []
+is_a: GO:0033166
+
+[Term]
+id: ECAO:1000430
+name: microvillus
+is_a: ECAO:1000400 ! cell part
+is_a: GO:0005902
+
+[Term]
+id: ECAO:1000431
+name: apical lamina
+is_a: ECAO:1000428 ! extracellular matrix
+relationship: part_of ECAO:1000429 ! hyaline layer
+synonym: "fibropellin layer" EXACT []
+is_a: GO:0032579
+
+[Term]
+id: ECAO:1000432
+name: secretory vesicle
+is_a: ECAO:1000426 ! intracellular part
+is_a: GO:0099503
+
+[Term]
+id: ECAO:1000433
+name: cilium
+is_a: ECAO:1000400 ! cell part
+is_a: GO:0072372
+
+[Term]
+id: ECAO:1000434
+name: filopodium
+is_a: ECAO:1000400 ! cell part
+is_a: GO:0030175
+
+[Term]
+id: ECAO:1000435
+name: basal lamina
+is_a: ECAO:1000424 ! acellular membrane
+xref: UBERON:0000482
+
+[Term]
+id: ECAO:1000436
+name: basal laminar vesicle
+is_a: ECAO:1000432 ! secretory vesicle
+synonym: "basal lamina vesicle" EXACT []
+synonym: "basal vesicle" EXACT []
+
+
+[Term]
+id: ECAO:1000437
+name: apical vesicle
+is_a: ECAO:1000432 ! secretory vesicle
+
+
+[Term]
+id: ECAO:1000438
+name: secretory granule
+is_a: ECAO:1000426 ! intracellular part
+is_a: GO:0030141
+
+[Term]
+id: ECAO:1000439
+name: cortical granule
+is_a: ECAO:1000438 ! secretory granule
+synonym: "cortical vesicle" EXACT []
+is_a: GO:0060473
+
+[Term]
+id: ECAO:1000440
+name: echinonectin granule
+is_a: ECAO:1000438 ! secretory granule
+synonym: "nectosome" EXACT []
+
+
+[Term]
+id: ECAO:1000441
+name: mitochondrion
+is_a: ECAO:1000426 ! intracellular part
+is_a: GO:0005739
+
+[Term]
+id: ECAO:1000442
+name: actin cytoskeleton
+is_a: ECAO:1000420 ! cytoskeleton
+is_a: GO:0015629
+
+[Term]
+id: ECAO:1000443
+name: actin filament
+is_a: ECAO:1000426 ! intracellular part
+relationship: part_of ECAO:1000442 ! actin cytoskeleton
+synonym: "microfilament" EXACT []
+synonym: "F-actin filament" EXACT []
+is_a: GO:0005884
+
+[Term]
+id: ECAO:1000444
+name: nuclear part
+is_a: ECAO:1000426 ! intracellular part
+relationship: part_of ECAO:1000412 ! nucleus
+is_a: GO:0044428
+
+[Term]
+id: ECAO:1000445
+name: nucleoplasm
+is_a: ECAO:1000444 ! nuclear part
+relationship: part_of ECAO:1000412 ! nucleus
+is_a: GO:0005654
+
+[Term]
+id: ECAO:1000446
+name: nuclear envelope
+is_a: ECAO:1000444 ! nuclear part
+relationship: part_of ECAO:1000412 ! nucleus
+is_a: GO:0005635
+
+[Term]
+id: ECAO:1000447
+name: endoplasmic reticulum
+is_a: ECAO:1000426 ! intracellular part
+relationship: start_stage ECAO:0000004 ! previtellogenic primary oocyte stage
+relationship: end_stage ECAO:0000053 ! adult stage
+is_a: GO:0005783
+
+[Term]
+id: ECAO:1000448
+name: spermatozoid entry point
+is_a: ECAO:1000400 ! cell part
+relationship: start_stage ECAO:0000009 ! mature oocyte stage
+relationship: end_stage ECAO:0000015 ! 1-cell stage
+
+
+[Term]
+id: ECAO:1000449
+name: plasma membrane
+is_a: ECAO:1000400 ! cell part
+relationship: start_stage ECAO:0000004 ! previtellogenic primary oocyte stage
+relationship: end_stage ECAO:0000053 ! adult stage
+synonym: "cell membrane" EXACT []
+is_a: GO:0005886
+
+[Term]
+id: ECAO:1000450
+name: polar body
+is_a: ECAO:1000399 ! cell
+relationship: part_of ECAO:1000457 ! oocyte
+relationship: start_stage ECAO:0000007 ! fully grown oocyte with off-centered germinal vesicle stage
+relationship: end_stage ECAO:0000008 ! fully grown oocyte with no nucleus stage
+def: "A small cell formed by the meiotic division of an oocyte"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+property_value:Cell type (is-a) CL:0002090
+
+[Term]
+id: ECAO:1000451
+name: spermatozoid part
+is_a: ECAO:1000400 ! cell part
+relationship: part_of ECAO:1000460 ! spermatozoid
+synonym: "sperm part" EXACT []
+is_a: GO:0097223
+
+[Term]
+id: ECAO:1000452
+name: spermatozoid head
+is_a: ECAO:1000451 ! spermatozoid part
+relationship: part_of ECAO:1000460 ! spermatozoid
+relationship: start_stage ECAO:0000011 ! developing spermatozoa stage
+relationship: end_stage ECAO:0000012 ! mature spermatozoid stage
+def: "The part of the late spermatid or spermatozoon that contains the nucleus and acrosome."
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+is_a: GO:0061827
+
+[Term]
+id: ECAO:1000453
+name: spermatozoid flagellum
+is_a: ECAO:1000451 ! spermatozoid part
+relationship: part_of ECAO:1000460 ! spermatozoid
+relationship: start_stage ECAO:0000011 ! developing spermatozoa stage
+relationship: end_stage ECAO:0000012 ! mature spermatozoid stage
+def: "A microtubule-based flagellum (or cilium) that is part of a sperm, a mature male germ cell that develops from a spermatid"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+synonym: "sperm tail" EXACT []
+is_a: GO:0036126
+
+[Term]
+id: ECAO:1000454
+name: acrosomal vesicle
+is_a: ECAO:1000432 ! secretory vesicle
+relationship: part_of ECAO:1000452 ! spermatozoid head
+relationship: start_stage ECAO:0000011 ! developing spermatozoa stage
+relationship: end_stage ECAO:0000012 ! mature spermatozoid stage
+def: "An organelle that develops over the anterior half of the head in the spermatozoa"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+synonym: "acrosome" EXACT []
+is_a: GO:0001669
+
+[Term]
+id: ECAO:1000455
+name: presumptive primordial germ cell
+is_a: ECAO:1000399 ! cell
+relationship: part_of ECAO:1000360 ! pre-metamorphic individual
+relationship: start_stage ECAO:0000022 ! 32-cell stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000456
+name: primordial germ cell
+is_a: ECAO:1000399 ! cell
+relationship: part_of ECAO:1000370 ! reproductive system
+relationship: start_stage ECAO:0000050 ! postlarval juvenile stage
+relationship: end_stage ECAO:0000053 ! adult stage
+synonym: "gamete" EXACT []
+property_value:Cell type (is-a) CL:0000670
+
+[Term]
+id: ECAO:1000457
+name: oocyte
+is_a: ECAO:1000456 ! primordial germ cell
+relationship: start_stage ECAO:0000004 ! previtellogenic primary oocyte stage
+relationship: end_stage ECAO:0000009 ! mature oocyte stage
+def: "A female haploid germ cell."
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+property_value:Cell type (is-a) CL:0000023
+
+[Term]
+id: ECAO:1000458
+name: immature occyte
+is_a: ECAO:1000457 ! oocyte
+synonym: "immature egg" EXACT []
+
+
+[Term]
+id: ECAO:1000459
+name: mature oocyte
+is_a: ECAO:1000457 ! oocyte
+relationship: part_of ECAO:1000457 ! oocyte
+relationship: start_stage ECAO:0000009 ! mature oocyte stage
+relationship: end_stage ECAO:0000009 ! mature oocyte stage
+def: "A mature female gamet that has entered meiosis."
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+synonym: "egg" EXACT []
+synonym: "unfertilized egg" EXACT []
+synonym: "female gamete" EXACT []
+synonym: "female germ cell" EXACT []
+property_value:Cell type (is-a) CL:0000023
+
+[Term]
+id: ECAO:1000460
+name: spermatozoid
+is_a: ECAO:1000456 ! primordial germ cell
+relationship: start_stage ECAO:0000012 ! mature spermatozoid stage
+relationship: end_stage ECAO:0000012 ! mature spermatozoid stage
+def: "A mature male germ cell "
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+synonym: "sperm" EXACT []
+synonym: "spermatozoa" EXACT []
+synonym: "spermatozoan" EXACT []
+synonym: "male gamete" EXACT []
+synonym: "mature sperm cell" EXACT []
+property_value:Cell type (is-a) CL:0000019
+
+[Term]
+id: ECAO:1000461
+name: early embryonic cell
+is_a: ECAO:1000399 ! cell
+relationship: part_of ECAO:1000356 ! embryo
+property_value:Cell type (is-a) CL:0000007
+
+[Term]
+id: ECAO:1000462
+name: blastomere
+is_a: ECAO:1000461 ! early embryonic cell
+relationship: part_of ECAO:1000356 ! embryo
+relationship: start_stage ECAO:0000017 ! 2-cell stage
+relationship: end_stage ECAO:0000024 ! 60-cell stage
+def: " An undifferentiated cell produced by early cleavages of the fertilized egg (zygote)"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+synonym: "blastoderm cell" EXACT []
+property_value:Cell type (is-a) CL:0000353
+
+[Term]
+id: ECAO:1000463
+name: blastomere of 2-cell embryo
+is_a: ECAO:1000462 ! blastomere
+
+
+[Term]
+id: ECAO:1000464
+name: blastomere of 4-cell embryo
+is_a: ECAO:1000462 ! blastomere
+
+
+[Term]
+id: ECAO:1000465
+name: mesomere
+is_a: ECAO:1000462 ! blastomere
+relationship: part_of ECAO:1000385 ! animal hemisphere
+relationship: start_stage ECAO:0000020 ! 16-cell stage
+relationship: end_stage ECAO:0000020 ! 16-cell stage
+def: "Intermediate size blastomere forming the animal hemisphere of the cleaving embryo"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+synonym: "mesomeres" EXACT []
+
+
+[Term]
+id: ECAO:1000466
+name: macromere
+is_a: ECAO:1000462 ! blastomere
+relationship: part_of ECAO:1000386 ! vegetal hemisphere
+relationship: start_stage ECAO:0000020 ! 16-cell stage
+relationship: end_stage ECAO:0000020 ! 16-cell stage
+def: "Larger blastomere of the vegetal hemisphere of the cleaving embryo located below the equator"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+synonym: "macromeres" EXACT []
+
+
+[Term]
+id: ECAO:1000467
+name: macromere daughter cell tier
+is_a: ECAO:1000503 ! cell tier
+relationship: part_of ECAO:1000386 ! vegetal hemisphere
+relationship: start_stage ECAO:0000021 ! 28-cell stage
+relationship: end_stage ECAO:0000022 ! 32-cell stage
+
+
+[Term]
+id: ECAO:1000468
+name: micromere
+is_a: ECAO:1000462 ! blastomere
+relationship: part_of ECAO:1000386 ! vegetal hemisphere
+relationship: start_stage ECAO:0000020 ! 16-cell stage
+relationship: end_stage ECAO:0000021 ! 28-cell stage
+def: "Small blastomere of the vegetal hemisphere of the cleaving embryo located at to the vegetal pole"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+synonym: "micromeres" EXACT []
+taxon: NTX:7656
+
+
+[Term]
+id: ECAO:1000469
+name: large micromere
+is_a: ECAO:1000462 ! blastomere
+relationship: part_of ECAO:1000386 ! vegetal hemisphere
+relationship: develops_from ECAO:1000468 ! micromere
+relationship: start_stage ECAO:0000022 ! 32-cell stage
+relationship: end_stage ECAO:0000024 ! 60-cell stage
+taxon: NTX:7656
+
+
+[Term]
+id: ECAO:1000470
+name: large micromere descendant cell
+is_a: ECAO:1000462 ! blastomere
+relationship: part_of ECAO:1000386 ! vegetal hemisphere
+relationship: develops_from ECAO:1000469 ! large micromere
+relationship: start_stage ECAO:0000026 ! very early blastula stage
+relationship: end_stage ECAO:0000032 ! late swimming blastula stage
+synonym: "large micromere progeny" EXACT []
+synonym: "presumptive PMC" EXACT []
+synonym: "presumptive skeletogenic mesenchyme cell" EXACT []
+synonym: "presumptive primary mesenchyme cell" EXACT []
+taxon: NTX:7656
+
+
+[Term]
+id: ECAO:1000471
+name: small micromere
+is_a: ECAO:1000462 ! blastomere
+relationship: part_of ECAO:1000386 ! vegetal hemisphere
+relationship: develops_from ECAO:1000468 ! micromere
+relationship: start_stage ECAO:0000022 ! 32-cell stage
+relationship: end_stage ECAO:0000039 ! late gastrula stage
+synonym: "SM" EXACT []
+taxon: NTX:7656
+
+
+[Term]
+id: ECAO:1000472
+name: small micromere descendant cell
+is_a: ECAO:1000462 ! blastomere
+relationship: part_of ECAO:1000386 ! vegetal hemisphere
+relationship: develops_from ECAO:1000471 ! small micromere
+relationship: start_stage ECAO:0000026 ! very early blastula stage
+relationship: end_stage ECAO:0000039 ! late gastrula stage
+synonym: "presumptive primordial germ cell" EXACT []
+taxon: NTX:7656
+
+
+[Term]
+id: ECAO:1000473
+name: presumptive neuron
+is_a: ECAO:1000399 ! cell
+relationship: part_of ECAO:1000371 ! nervous system
+relationship: start_stage ECAO:0000035 ! mesenchyme blastula stage
+relationship: end_stage ECAO:0000053 ! adult stage
+def: "A progenitor cell of the nervous system that will develop into a neuron"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+synonym: "neuronal progenitor cell" EXACT []
+
+
+[Term]
+id: ECAO:1000474
+name: animal pole domain presumptive neuron
+is_a: ECAO:1000473 ! presumptive neuron
+relationship: part_of ECAO:1000738 ! embryonic nervous system in development
+relationship: start_stage ECAO:0000035 ! mesenchyme blastula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+synonym: "apical pole domain presumptive neuron" EXACT []
+synonym: "animal pole domain neuronal progenitor cell" EXACT []
+
+
+[Term]
+id: ECAO:1000475
+name: oral hood presumptive neuron
+is_a: ECAO:1000473 ! presumptive neuron
+relationship: part_of ECAO:1000373 ! larval nervous system
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+synonym: "oral hood neuronal progenitor cell" EXACT []
+
+
+[Term]
+id: ECAO:1000476
+name: ectoderm presumptive neuron
+is_a: ECAO:1000473 ! presumptive neuron
+relationship: part_of ECAO:1000738 ! embryonic nervous system in development
+relationship: start_stage ECAO:0000035 ! mesenchyme blastula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+synonym: "ectoderm neuronal progenitor cell" EXACT []
+
+
+[Term]
+id: ECAO:1000477
+name: ciliary band presumptive neuron
+is_a: ECAO:1000473 ! presumptive neuron
+relationship: part_of ECAO:1000371 ! nervous system
+relationship: start_stage ECAO:0000035 ! mesenchyme blastula stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+synonym: "ciliary band neuronal progenitor cell" EXACT []
+
+
+[Term]
+id: ECAO:1000478
+name: endoderm associated presumptive neuron
+is_a: ECAO:1000473 ! presumptive neuron
+relationship: part_of ECAO:1000371 ! nervous system
+relationship: start_stage ECAO:0000040 ! prism stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+synonym: "endoderm associated neuronal progenitor cell" EXACT []
+comment: pubmed wei at al., 2011
+
+
+[Term]
+id: ECAO:1000479
+name: neuron
+is_a: ECAO:1000399 ! cell
+relationship: part_of ECAO:1000371 ! nervous system
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+relationship: end_stage ECAO:0000053 ! adult stage
+synonym: "nerve cell" EXACT []
+property_value:Cell type (is-a) CL:0000540
+
+[Term]
+id: ECAO:1000480
+name: larval neuron
+is_a: ECAO:1000479 ! neuron
+relationship: part_of ECAO:1000373 ! larval nervous system
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+relationship: end_stage ECAO:0000047 ! metamorphic larva stage
+
+
+[Term]
+id: ECAO:1000481
+name: serotonergic neuron
+is_a: ECAO:1000479 ! neuron
+relationship: part_of ECAO:1000371 ! nervous system
+property_value:Cell type (is-a) CL:0000850
+
+[Term]
+id: ECAO:1000482
+name: dopaminergic neruon
+is_a: ECAO:1000479 ! neuron
+relationship: part_of ECAO:1000371 ! nervous system
+property_value:Cell type (is-a) CL:0000700
+
+[Term]
+id: ECAO:1000483
+name: GABAergic neuron
+is_a: ECAO:1000479 ! neuron
+relationship: part_of ECAO:1000371 ! nervous system
+property_value:Cell type (is-a) CL:0000617
+
+[Term]
+id: ECAO:1000484
+name: sensory neuron
+is_a: ECAO:1000479 ! neuron
+relationship: part_of ECAO:1000371 ! nervous system
+synonym: "sensory cell" EXACT []
+property_value:Cell type (is-a) CL:0000101
+
+[Term]
+id: ECAO:1000485
+name: biopolar neuron
+is_a: ECAO:1000479 ! neuron
+relationship: part_of ECAO:1000371 ! nervous system
+property_value:Cell type (is-a) CL:0000103
+
+[Term]
+id: ECAO:1000486
+name: multipolar neuron
+is_a: ECAO:1000479 ! neuron
+relationship: part_of ECAO:1000371 ! nervous system
+property_value:Cell type (is-a) CL:0000104
+
+[Term]
+id: ECAO:1000487
+name: axon tract
+is_a: ECAO:1000488 ! neural structure
+relationship: part_of ECAO:1000371 ! nervous system
+synonym: "axonal tract" EXACT []
+synonym: "axon bundle" EXACT []
+xref: UBERON:0001018
+
+[Term]
+id: ECAO:1000488
+name: neural structure
+is_a: ECAO:1000351 ! anatomical structure
+relationship: part_of ECAO:1000371 ! nervous system
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+relationship: end_stage ECAO:0000053 ! adult stage
+synonym: "neuronal structure" EXACT []
+
+
+[Term]
+id: ECAO:1000489
+name: oral hood neuron
+is_a: ECAO:1000480 ! larval neuron
+relationship: part_of ECAO:1000373 ! larval nervous system
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000490
+name: ciliary band neuron
+is_a: ECAO:1000480 ! larval neuron
+relationship: part_of ECAO:1000373 ! larval nervous system
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+synonym: "peripheral neuron" EXACT []
+
+
+[Term]
+id: ECAO:1000491
+name: presumptive ciliary band cell
+is_a: ECAO:1000399 ! cell
+relationship: part_of ECAO:1000356 ! embryo
+
+
+[Term]
+id: ECAO:1000492
+name: endoderm associated neuron
+is_a: ECAO:1000480 ! larval neuron
+relationship: part_of ECAO:1000373 ! larval nervous system
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000493
+name: ganglion
+is_a: ECAO:1000488 ! neural structure
+xref: UBERON:0000045 
+
+[Term]
+id: ECAO:1000494
+name: apical ganglion
+is_a: ECAO:1000493 ! ganglion
+relationship: part_of ECAO:1000373 ! larval nervous system
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+synonym: "apical organ" EXACT []
+
+
+[Term]
+id: ECAO:1000495
+name: adult neuron
+is_a: ECAO:1000479 ! neuron
+relationship: part_of ECAO:1000374 ! adult nervous system
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000053 ! adult stage
+
+
+[Term]
+id: ECAO:1000496
+name: nerve ring
+is_a: ECAO:1000488 ! neural structure
+relationship: part_of ECAO:1000374 ! adult nervous system
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000053 ! adult stage
+
+
+[Term]
+id: ECAO:1000497
+name: basiepidermal nerve plexus
+is_a: ECAO:1000488 ! neural structure
+relationship: part_of ECAO:1000374 ! adult nervous system
+relationship: start_stage ECAO:0000050 ! postlarval juvenile stage
+relationship: end_stage ECAO:0000053 ! adult stage
+
+
+[Term]
+id: ECAO:1000498
+name: enteric nerve plexus
+is_a: ECAO:1000488 ! neural structure
+synonym: "enteric plexus" EXACT []
+synonym: "digestive nerve plexus" EXACT []
+xref: UBERON:0000429
+
+[Term]
+id: ECAO:1000499
+name: radial nerve cord
+is_a: ECAO:1000488 ! neural structure
+relationship: part_of ECAO:1000374 ! adult nervous system
+relationship: start_stage ECAO:0000050 ! postlarval juvenile stage
+relationship: end_stage ECAO:0000053 ! adult stage
+
+
+[Term]
+id: ECAO:1000500
+name: primary podia associated neuron
+is_a: ECAO:1000495 ! adult neuron
+relationship: part_of ECAO:1000374 ! adult nervous system
+relationship: start_stage ECAO:0000050 ! postlarval juvenile stage
+relationship: end_stage ECAO:0000053 ! adult stage
+
+
+[Term]
+id: ECAO:1000501
+name: spine associated neuron
+is_a: ECAO:1000495 ! adult neuron
+relationship: part_of ECAO:1000374 ! adult nervous system
+relationship: start_stage ECAO:0000050 ! postlarval juvenile stage
+relationship: end_stage ECAO:0000053 ! adult stage
+
+
+[Term]
+id: ECAO:1000502
+name: pedicellaria associated neuron
+is_a: ECAO:1000495 ! adult neuron
+relationship: part_of ECAO:1000374 ! adult nervous system
+relationship: start_stage ECAO:0000050 ! postlarval juvenile stage
+relationship: end_stage ECAO:0000053 ! adult stage
+
+
+[Term]
+id: ECAO:1000503
+name: cell tier
+is_a: ECAO:1000404 ! embryonic structure
+relationship: part_of ECAO:1000356 ! embryo
+relationship: start_stage ECAO:0000019 ! 8-cell stage
+relationship: end_stage ECAO:0000029 ! late blastula stage
+synonym: "blastomere tier" EXACT []
+
+
+[Term]
+id: ECAO:1000504
+name: animal quartet
+is_a: ECAO:1000503 ! cell tier
+relationship: part_of ECAO:1000385 ! animal hemisphere
+relationship: start_stage ECAO:0000019 ! 8-cell stage
+relationship: end_stage ECAO:0000019 ! 8-cell stage
+def: "Group of four cells of equal size forming the animal hemisphere of an eight-cell stage embryo"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+
+
+[Term]
+id: ECAO:1000505
+name: vegetal quartet
+is_a: ECAO:1000503 ! cell tier
+relationship: part_of ECAO:1000386 ! vegetal hemisphere
+relationship: start_stage ECAO:0000019 ! 8-cell stage
+relationship: end_stage ECAO:0000019 ! 8-cell stage
+def: "Group of four cells of equal size forming the vegetal hemisphere of an eight-cell stage embryo"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+
+
+[Term]
+id: ECAO:1000506
+name: animal tier 1
+is_a: ECAO:1000503 ! cell tier
+relationship: part_of ECAO:1000385 ! animal hemisphere
+relationship: develops_from ECAO:1000465 ! mesomere
+relationship: start_stage ECAO:0000021 ! 28-cell stage
+relationship: end_stage ECAO:0000024 ! 60-cell stage
+synonym: "an1" EXACT []
+
+
+[Term]
+id: ECAO:1000507
+name: animal tier 2 
+is_a: ECAO:1000503 ! cell tier
+relationship: part_of ECAO:1000385 ! animal hemisphere
+relationship: develops_from ECAO:1000465 ! mesomere
+relationship: start_stage ECAO:0000021 ! 28-cell stage
+relationship: end_stage ECAO:0000024 ! 60-cell stage
+synonym: "an2" EXACT []
+
+
+[Term]
+id: ECAO:1000508
+name: vegetal tier 1 
+is_a: ECAO:1000503 ! cell tier
+relationship: part_of ECAO:1000386 ! vegetal hemisphere
+relationship: develops_from ECAO:1000466 ! macromere
+relationship: start_stage ECAO:0000023 ! 56-cell stage
+relationship: end_stage ECAO:0000027 ! early blastula stage
+synonym: "veg1" EXACT []
+synonym: "ectoendoderm" EXACT []
+
+
+[Term]
+id: ECAO:1000509
+name: vegetal tier 2 
+is_a: ECAO:1000503 ! cell tier
+relationship: part_of ECAO:1000386 ! vegetal hemisphere
+relationship: develops_from ECAO:1000466 ! macromere
+relationship: start_stage ECAO:0000023 ! 56-cell stage
+relationship: end_stage ECAO:0000027 ! early blastula stage
+synonym: "veg2" EXACT []
+synonym: "endomesoderm" EXACT []
+
+
+[Term]
+id: ECAO:1000510
+name: vegetal tier 1 upper
+is_a: ECAO:1000503 ! cell tier
+relationship: part_of ECAO:1000386 ! vegetal hemisphere
+relationship: develops_from ECAO:1000508 ! vegetal tier 1 
+relationship: start_stage ECAO:0000028 ! mid blastula stage
+relationship: end_stage ECAO:0000029 ! late blastula stage
+synonym: "veg1U" EXACT []
+synonym: "veg1 upper" EXACT []
+synonym: "presumptive vegetal ectoderm" EXACT []
+comment: pubmed Lhomond et al 2012 (Frizzled1/2/7)
+
+
+[Term]
+id: ECAO:1000511
+name: vegetal tier 1 lower
+is_a: ECAO:1000503 ! cell tier
+relationship: part_of ECAO:1000386 ! vegetal hemisphere
+relationship: develops_from ECAO:1000508 ! vegetal tier 1 
+relationship: start_stage ECAO:0000028 ! mid blastula stage
+relationship: end_stage ECAO:0000029 ! late blastula stage
+synonym: "veg1L" EXACT []
+synonym: "veg1 lower" EXACT []
+comment: pubmed Lhomond et al 2012 (Frizzled1/2/7)
+
+
+[Term]
+id: ECAO:1000512
+name: vegetal tier 2 upper
+is_a: ECAO:1000503 ! cell tier
+relationship: part_of ECAO:1000386 ! vegetal hemisphere
+relationship: develops_from ECAO:1000509 ! vegetal tier 2 
+relationship: start_stage ECAO:0000028 ! mid blastula stage
+relationship: end_stage ECAO:0000029 ! late blastula stage
+synonym: "veg2U" EXACT []
+synonym: "veg2 upper" EXACT []
+comment: pubmed Lhomond et al 2012 (Frizzled1/2/7)
+
+
+[Term]
+id: ECAO:1000513
+name: vegetal tier 2 lower
+is_a: ECAO:1000503 ! cell tier
+relationship: part_of ECAO:1000386 ! vegetal hemisphere
+relationship: develops_from ECAO:1000509 ! vegetal tier 2 
+relationship: start_stage ECAO:0000028 ! mid blastula stage
+relationship: end_stage ECAO:0000029 ! late blastula stage
+synonym: "veg2L" EXACT []
+synonym: "veg2 lower" EXACT []
+synonym: "presumptive non-skeletogenic mesoderm" EXACT []
+comment: pubmed Lhomond et al 2012 (Frizzled1/2/7)
+
+
+[Term]
+id: ECAO:1000514
+name: germ layer
+is_a: ECAO:1000404 ! embryonic structure
+relationship: start_stage ECAO:0000020 ! 16-cell stage
+relationship: end_stage ECAO:0000040 ! prism stage
+synonym: "primary germ layer" EXACT []
+synonym: "embryonic germ layer" EXACT []
+xref: UBERON:0000923
+
+[Term]
+id: ECAO:1000515
+name: presumptive ectoderm
+is_a: ECAO:1000404 ! embryonic structure
+relationship: part_of ECAO:1000385 ! animal hemisphere
+relationship: develops_from ECAO:1000465 ! mesomere
+relationship: start_stage ECAO:0000020 ! 16-cell stage
+relationship: end_stage ECAO:0000024 ! 60-cell stage
+xref: UBERON:0006601
+
+[Term]
+id: ECAO:1000516
+name: ectoderm
+is_a: ECAO:1000514 ! germ layer
+relationship: part_of ECAO:1000385 ! animal hemisphere
+relationship: start_stage ECAO:0000024 ! 60-cell stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+def: "Primary germ layer that is the outer of the embryo's three germ layers and gives rise to epidermis and neural tissue."
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+xref: UBERON:0000924
+
+[Term]
+id: ECAO:1000517
+name: oral ectoderm
+is_a: ECAO:1000542 ! larval tissue
+relationship: part_of ECAO:1000516 ! ectoderm
+relationship: start_stage ECAO:0000024 ! 60-cell stage
+relationship: end_stage ECAO:0000040 ! prism stage
+
+
+[Term]
+id: ECAO:1000518
+name: aboral ectoderm
+is_a: ECAO:1000542 ! larval tissue
+relationship: part_of ECAO:1000516 ! ectoderm
+relationship: start_stage ECAO:0000024 ! 60-cell stage
+relationship: end_stage ECAO:0000040 ! prism stage
+
+
+[Term]
+id: ECAO:1000519
+name: animal ectoderm
+is_a: ECAO:1000354 ! anatomical region
+relationship: part_of ECAO:1000516 ! ectoderm
+
+
+[Term]
+id: ECAO:1000520
+name: vegetal ectoderm
+is_a: ECAO:1000354 ! anatomical region
+relationship: part_of ECAO:1000516 ! ectoderm
+
+
+[Term]
+id: ECAO:1000521
+name: ventral ectoderm
+is_a: ECAO:1000541 ! embryonic tissue
+relationship: part_of ECAO:1000516 ! ectoderm
+
+
+[Term]
+id: ECAO:1000522
+name: dorsal ectoderm
+is_a: ECAO:1000541 ! embryonic tissue
+relationship: part_of ECAO:1000516 ! ectoderm
+
+
+[Term]
+id: ECAO:1000523
+name: ectoendoderm
+is_a: ECAO:1000514 ! germ layer
+relationship: part_of ECAO:1000386 ! vegetal hemisphere
+relationship: develops_from ECAO:1000508 ! vegetal tier 1 
+relationship: start_stage ECAO:0000024 ! 60-cell stage
+relationship: end_stage ECAO:0000030 ! hatched blastula stage
+synonym: "vegetal tier 1" EXACT []
+synonym: "veg1" EXACT []
+
+
+[Term]
+id: ECAO:1000524
+name: endomesoderm
+is_a: ECAO:1000514 ! germ layer
+relationship: part_of ECAO:1000386 ! vegetal hemisphere
+relationship: develops_from ECAO:1000509 ! vegetal tier 2 
+relationship: start_stage ECAO:0000024 ! 60-cell stage
+relationship: end_stage ECAO:0000030 ! hatched blastula stage
+synonym: "vegetal tier 2" EXACT []
+synonym: "veg2" EXACT []
+synonym: "mesoendoderm" EXACT []
+xref: XAO:0003044
+
+[Term]
+id: ECAO:1000525
+name: inner animal pole domain
+is_a: ECAO:1000541 ! embryonic tissue
+relationship: part_of ECAO:1000393 ! animal pole domain 
+relationship: start_stage ECAO:0000035 ! mesenchyme blastula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+synonym: "inner apical pole domain" EXACT []
+
+
+[Term]
+id: ECAO:1000526
+name: outer animal pole domain
+is_a: ECAO:1000541 ! embryonic tissue
+relationship: part_of ECAO:1000393 ! animal pole domain 
+relationship: start_stage ECAO:0000035 ! mesenchyme blastula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+synonym: "outer apical pole domain" EXACT []
+
+
+[Term]
+id: ECAO:1000527
+name: central ectoderm
+is_a: ECAO:1000541 ! embryonic tissue
+relationship: part_of ECAO:1000516 ! ectoderm
+relationship: start_stage ECAO:0000035 ! mesenchyme blastula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+comment: pubmed Li, E., Cui, M., Peter, I. S. and Davidson, E. H. (2014). Encoding regulatory state boundaries in the pregastrular oral ectoderm of the sea urchin embryo. Proc. Natl. Acad. Sci. U.S.A. 111, E906-913.
+
+
+[Term]
+id: ECAO:1000528
+name: border ectoderm
+is_a: ECAO:1000541 ! embryonic tissue
+relationship: part_of ECAO:1000516 ! ectoderm
+relationship: develops_from ECAO:1000523 ! ectoendoderm
+relationship: start_stage ECAO:0000035 ! mesenchyme blastula stage
+relationship: end_stage ECAO:0000035 ! mesenchyme blastula stage
+synonym: "BE" EXACT []
+comment: pubmed Ref McIntyre
+property_value:Comments This structure has been defined from another sea urchin species but is present in P. lividus as well
+
+
+[Term]
+id: ECAO:1000529
+name: near-apical ectoderm
+is_a: ECAO:1000541 ! embryonic tissue
+relationship: part_of ECAO:1000516 ! ectoderm
+
+[Term]
+id: ECAO:1000530
+name: apical ectoderm
+is_a: ECAO:1000541 ! embryonic tissue
+relationship: part_of ECAO:1000516 ! ectoderm
+
+[Term]
+id: ECAO:1000531
+name: posterior ectoderm
+is_a: ECAO:1000541 ! embryonic tissue
+relationship: part_of ECAO:1000516 ! ectoderm
+
+
+[Term]
+id: ECAO:1000532
+name: veg1-lateral ectoderm
+is_a: ECAO:1000541 ! embryonic tissue
+relationship: part_of ECAO:1000516 ! ectoderm
+
+[Term]
+id: ECAO:1000533
+name: veg-1 oral ectoderm
+is_a: ECAO:1000541 ! embryonic tissue
+relationship: part_of ECAO:1000516 ! ectoderm
+
+[Term]
+id: ECAO:1000534
+name: lateral ectoderm
+is_a: ECAO:1000541 ! embryonic tissue
+relationship: part_of ECAO:1000516 ! ectoderm
+
+[Term]
+id: ECAO:1000535
+name: right lateral ectoderm
+is_a: ECAO:1000534 ! lateral ectoderm
+relationship: part_of ECAO:1000516 ! ectoderm
+relationship: start_stage ECAO:0000039 ! late gastrula stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000536
+name: left lateral ectoderm
+is_a: ECAO:1000534 ! lateral ectoderm
+relationship: part_of ECAO:1000516 ! ectoderm
+relationship: start_stage ECAO:0000039 ! late gastrula stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000537
+name: arm tip ectoderm
+is_a: ECAO:1000541 ! embryonic tissue
+relationship: part_of ECAO:1000545 ! ciliary band
+
+
+[Term]
+id: ECAO:1000538
+name: dorsal arm tip ectoderm
+is_a: ECAO:1000541 ! embryonic tissue
+relationship: part_of ECAO:1000537 ! arm tip ectoderm
+relationship: develops_from ECAO:1000528 ! border ectoderm
+relationship: start_stage ECAO:0000036 ! blastopore gastrula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+
+
+[Term]
+id: ECAO:1000539
+name: ventral arm tip ectoderm
+is_a: ECAO:1000541 ! embryonic tissue
+relationship: part_of ECAO:1000537 ! arm tip ectoderm
+relationship: develops_from ECAO:1000528 ! border ectoderm
+relationship: start_stage ECAO:0000036 ! blastopore gastrula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+
+
+[Term]
+id: ECAO:1000540
+name: apical tuft
+is_a: ECAO:1000404 ! embryonic structure
+relationship: part_of ECAO:1000393 ! animal pole domain 
+relationship: start_stage ECAO:0000030 ! hatched blastula stage
+relationship: end_stage ECAO:0000042 ! early pluteus larva stage
+
+
+
+
+[Term]
+id: ECAO:1000541
+name: embryonic tissue
+is_a: ECAO:1000407 ! tissue
+relationship: part_of ECAO:1000356 ! embryo
+relationship: start_stage ECAO:0000035 ! mesenchyme blastula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+xref: UBERON:0005291
+
+[Term]
+id: ECAO:1000542
+name: larval tissue
+is_a: ECAO:1000407 ! tissue
+relationship: part_of ECAO:1000357 ! larva
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+
+
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000543
+name: adult tissue
+is_a: ECAO:1000407 ! tissue
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000053 ! adult stage
+
+
+[Term]
+id: ECAO:1000544
+name: stomodeum
+is_a: ECAO:1000404 ! embryonic structure
+relationship: part_of ECAO:1000521 ! ventral ectoderm
+relationship: start_stage ECAO:0000035 ! mesenchyme blastula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+synonym: "presumptive mouth" EXACT []
+xref: UBERON:0000930
+
+[Term]
+id: ECAO:1000545
+name: ciliary band
+is_a: ECAO:1000351 ! anatomical structure
+relationship: part_of ECAO:1000516 ! ectoderm
+relationship: start_stage ECAO:0000035 ! mesenchyme blastula stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000546
+name: oral hood ciliary band
+is_a: ECAO:1000405 ! larval structure
+relationship: part_of ECAO:1000545 ! ciliary band
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+
+
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000547
+name: arm ciliary band
+is_a: ECAO:1000405 ! larval structure
+relationship: part_of ECAO:1000545 ! ciliary band
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000548
+name: vegetal ciliary band
+is_a: ECAO:1000404 ! embryonic structure
+relationship: part_of ECAO:1000545 ! ciliary band
+relationship: start_stage ECAO:0000035 ! mesenchyme blastula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+
+
+[Term]
+id: ECAO:1000549
+name: lateral ciliary band
+is_a: ECAO:1000404 ! embryonic structure
+relationship: part_of ECAO:1000545 ! ciliary band
+relationship: start_stage ECAO:0000035 ! mesenchyme blastula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+
+
+[Term]
+id: ECAO:1000550
+name: oral hood
+is_a: ECAO:1000405 ! larval structure
+relationship: part_of ECAO:1000357 ! larva
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+synonym: "oh" EXACT []
+synonym: "preoral lobe" EXACT []
+synonym: "PL" EXACT []
+comment: pubmed gossellin and jangoux 1998 et Smith et al., 2008
+
+
+[Term]
+id: ECAO:1000551
+name: apex
+is_a: ECAO:1000405 ! larval structure
+relationship: part_of ECAO:1000357 ! larva
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000552
+name: larval arm
+is_a: ECAO:1000405 ! larval structure
+relationship: part_of ECAO:1000357 ! larva
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000553
+name: right anterolateral arm
+is_a: ECAO:1000552 ! larval arm
+relationship: part_of ECAO:1000357 ! larva
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+synonym: "AL" EXACT []
+synonym: "ALA" EXACT []
+
+
+[Term]
+id: ECAO:1000554
+name: left anterolateral arm
+is_a: ECAO:1000552 ! larval arm
+relationship: part_of ECAO:1000357 ! larva
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+synonym: "AL" EXACT []
+synonym: "ALA" EXACT []
+
+
+[Term]
+id: ECAO:1000555
+name: right postoral arm
+is_a: ECAO:1000552 ! larval arm
+relationship: part_of ECAO:1000357 ! larva
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+synonym: "PO" EXACT []
+
+
+[Term]
+id: ECAO:1000556
+name: left postoral arm
+is_a: ECAO:1000552 ! larval arm
+relationship: part_of ECAO:1000357 ! larva
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+synonym: "PO" EXACT []
+
+
+[Term]
+id: ECAO:1000557
+name: right posterodorsal arm
+is_a: ECAO:1000552 ! larval arm
+relationship: part_of ECAO:1000357 ! larva
+relationship: start_stage ECAO:0000044 ! 6-arm pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+synonym: "PD" EXACT []
+
+
+[Term]
+id: ECAO:1000558
+name: left posterodorsal arm
+is_a: ECAO:1000552 ! larval arm
+relationship: part_of ECAO:1000357 ! larva
+relationship: start_stage ECAO:0000044 ! 6-arm pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+synonym: "PD" EXACT []
+
+
+[Term]
+id: ECAO:1000559
+name: right preoral arm
+is_a: ECAO:1000552 ! larval arm
+relationship: part_of ECAO:1000357 ! larva
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+synonym: "PR" EXACT []
+synonym: "PRO" EXACT []
+
+
+[Term]
+id: ECAO:1000560
+name: left preoral arm
+is_a: ECAO:1000552 ! larval arm
+relationship: part_of ECAO:1000357 ! larva
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+synonym: "PR" EXACT []
+synonym: "PRO" EXACT []
+
+
+[Term]
+id: ECAO:1000561
+name: spicule granule
+is_a: ECAO:1000562 ! spicule rudiment
+relationship: part_of ECAO:1000381 ! rudiment endoskeleton
+synonym: "spicule dot" EXACT []
+
+
+[Term]
+id: ECAO:1000562
+name: spicule rudiment
+is_a: ECAO:1000403 ! skeletal element
+relationship: part_of ECAO:1000381 ! rudiment endoskeleton
+synonym: "spicule primordium" EXACT []
+
+
+[Term]
+id: ECAO:1000563
+name: triradiate spicule rudiment
+is_a: ECAO:1000739 ! rudiment spicule
+relationship: part_of ECAO:1000381 ! rudiment endoskeleton
+synonym: "triradiate spicule" EXACT []
+
+
+[Term]
+id: ECAO:1000564
+name: hexaradiate spicule rudiment 
+is_a: ECAO:1000739 ! rudiment spicule
+relationship: part_of ECAO:1000381 ! rudiment endoskeleton
+synonym: "hexaradiate spicule" EXACT []
+
+
+[Term]
+id: ECAO:1000565
+name: embryonic spicule
+is_a: ECAO:1000403 ! skeletal element
+relationship: part_of ECAO:1000379 ! embryonic endoskeleton
+
+
+[Term]
+id: ECAO:1000566
+name: larval spicule
+is_a: ECAO:1000403 ! skeletal element
+relationship: part_of ECAO:1000380 ! larval endoskeleton
+relationship: start_stage ECAO:0000038 ! mid gastrula stage
+relationship: end_stage ECAO:0000053 ! adult stage
+def: "A triradiate or hexaradiate minute calcareous skeletal element that initiates most if not all skeletal structures found within the sea urchin embryo, larva and adult."
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+synonym: "primary triradiate skeletal rudiment" EXACT []
+comment: pubmed Heyland, A. and Hodin, J. (2014). A detailed staging scheme for late larval development in Strongylocentrotus purpuratus focused on readily-visible juvenile structures within the rudiment. BMC Developmental Biology 14, 22.
+
+
+[Term]
+id: ECAO:1000567
+name: triradiate embryonic spicule
+is_a: ECAO:1000403 ! skeletal element
+relationship: part_of ECAO:1000378 ! endoskeleton
+relationship: start_stage ECAO:0000039 ! late gastrula stage
+relationship: end_stage ECAO:0000053 ! adult stage
+
+
+[Term]
+id: ECAO:1000568
+name: triradiate larval spicule
+is_a: ECAO:1000403 ! skeletal element
+relationship: part_of ECAO:1000378 ! endoskeleton
+relationship: start_stage ECAO:0000039 ! late gastrula stage
+relationship: end_stage ECAO:0000053 ! adult stage
+
+
+[Term]
+id: ECAO:1000569
+name: skeletal rod
+is_a: ECAO:1000403 ! skeletal element
+relationship: part_of ECAO:1000380 ! larval endoskeleton
+synonym: "spicule rod" EXACT []
+
+
+[Term]
+id: ECAO:1000570
+name: anonymous rod
+is_a: ECAO:1000569 ! skeletal rod
+relationship: part_of ECAO:1000380 ! larval endoskeleton
+
+
+[Term]
+id: ECAO:1000571
+name: right anterolateral rod
+is_a: ECAO:1000569 ! skeletal rod
+relationship: part_of ECAO:1000380 ! larval endoskeleton
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000572
+name: left anterolateral rod
+is_a: ECAO:1000569 ! skeletal rod
+relationship: part_of ECAO:1000380 ! larval endoskeleton
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000573
+name: right postoral rod
+is_a: ECAO:1000569 ! skeletal rod
+relationship: part_of ECAO:1000380 ! larval endoskeleton
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000574
+name: left postoral rod
+is_a: ECAO:1000569 ! skeletal rod
+relationship: part_of ECAO:1000380 ! larval endoskeleton
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000575
+name: right posterodorsal rod
+is_a: ECAO:1000569 ! skeletal rod
+relationship: part_of ECAO:1000380 ! larval endoskeleton
+relationship: start_stage ECAO:0000044 ! 6-arm pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000576
+name: left posterodorsal rod
+is_a: ECAO:1000569 ! skeletal rod
+relationship: part_of ECAO:1000380 ! larval endoskeleton
+relationship: start_stage ECAO:0000044 ! 6-arm pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000577
+name: right preoral rod
+is_a: ECAO:1000569 ! skeletal rod
+relationship: part_of ECAO:1000380 ! larval endoskeleton
+relationship: start_stage ECAO:0000044 ! 6-arm pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000578
+name: left preoral rod
+is_a: ECAO:1000569 ! skeletal rod
+relationship: part_of ECAO:1000380 ! larval endoskeleton
+relationship: start_stage ECAO:0000044 ! 6-arm pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000579
+name: dorsal arch
+is_a: ECAO:1000403 ! skeletal element
+relationship: part_of ECAO:1000380 ! larval endoskeleton
+relationship: start_stage ECAO:0000044 ! 6-arm pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000580
+name: right dorsoventral connecting rod
+is_a: ECAO:1000569 ! skeletal rod
+relationship: part_of ECAO:1000378 ! endoskeleton
+relationship: start_stage ECAO:0000040 ! prism stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000581
+name: left dorsoventral connecting rod
+is_a: ECAO:1000569 ! skeletal rod
+relationship: part_of ECAO:1000378 ! endoskeleton
+relationship: start_stage ECAO:0000040 ! prism stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000582
+name: right ventral transverse rod
+is_a: ECAO:1000569 ! skeletal rod
+relationship: part_of ECAO:1000378 ! endoskeleton
+relationship: start_stage ECAO:0000040 ! prism stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000583
+name: left ventral transverse rod
+is_a: ECAO:1000569 ! skeletal rod
+relationship: part_of ECAO:1000378 ! endoskeleton
+relationship: start_stage ECAO:0000040 ! prism stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000584
+name: scheitel
+is_a: ECAO:1000403 ! skeletal element
+synonym: "body rod end" EXACT []
+
+
+[Term]
+id: ECAO:1000585
+name: body rod
+is_a: ECAO:1000569 ! skeletal rod
+relationship: part_of ECAO:1000378 ! endoskeleton
+
+
+[Term]
+id: ECAO:1000586
+name: left body rod
+is_a: ECAO:1000585 ! body rod
+relationship: part_of ECAO:1000378 ! endoskeleton
+relationship: start_stage ECAO:0000040 ! prism stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000587
+name: right body rod
+is_a: ECAO:1000585 ! body rod
+relationship: part_of ECAO:1000378 ! endoskeleton
+relationship: start_stage ECAO:0000040 ! prism stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000588
+name: right recurrent rod
+is_a: ECAO:1000569 ! skeletal rod
+relationship: part_of ECAO:1000380 ! larval endoskeleton
+relationship: start_stage ECAO:0000044 ! 6-arm pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000589
+name: left recurrent rod
+is_a: ECAO:1000569 ! skeletal rod
+relationship: part_of ECAO:1000380 ! larval endoskeleton
+relationship: start_stage ECAO:0000044 ! 6-arm pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000590
+name: right anteroventral transverse rod
+is_a: ECAO:1000569 ! skeletal rod
+relationship: part_of ECAO:1000380 ! larval endoskeleton
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000591
+name: left anteroventral transverse rod
+is_a: ECAO:1000569 ! skeletal rod
+relationship: part_of ECAO:1000380 ! larval endoskeleton
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000592
+name: right anterodorsal transverse rod
+is_a: ECAO:1000569 ! skeletal rod
+relationship: part_of ECAO:1000380 ! larval endoskeleton
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000593
+name: left anterodorsal transverse rod
+is_a: ECAO:1000569 ! skeletal rod
+relationship: part_of ECAO:1000380 ! larval endoskeleton
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000594
+name: mouth
+is_a: ECAO:1000351 ! anatomical structure
+xref: UBERON:0000165
+
+[Term]
+id: ECAO:1000595
+name: larval mouth
+is_a: ECAO:1000594 ! mouth
+relationship: part_of ECAO:1000364 ! larval digestive system
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000596
+name: anus
+is_a: ECAO:1000351 ! anatomical structure
+xref: UBERON:0001245
+
+[Term]
+id: ECAO:1000597
+name: larval anus
+is_a: ECAO:1000596 ! anus
+relationship: part_of ECAO:1000364 ! larval digestive system
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+
+
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000598
+name: presumptive endoderm
+is_a: ECAO:1000404 ! embryonic structure
+synonym: "prospective endoderm" EXACT []
+xref: UBERON:0006595
+
+[Term]
+id: ECAO:1000599
+name: endoderm
+is_a: ECAO:1000514 ! germ layer
+relationship: part_of ECAO:1000386 ! vegetal hemisphere
+relationship: start_stage ECAO:0000028 ! mid blastula stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+xref: UBERON:0000925
+
+[Term]
+id: ECAO:1000600
+name: archenteron
+is_a: ECAO:1000404 ! embryonic structure
+relationship: part_of ECAO:1000363 ! embryonic digestive system
+relationship: start_stage ECAO:0000036 ! blastopore gastrula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+synonym: "developing digestive tract" EXACT []
+xref: UBERON:0004735
+
+[Term]
+id: ECAO:1000601
+name: hindgut
+is_a: ECAO:1000402 ! digestive system element
+relationship: part_of ECAO:1000600 ! archenteron
+relationship: start_stage ECAO:0000038 ! mid gastrula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+xref: UBERON:0001046
+
+[Term]
+id: ECAO:1000602
+name: dorsal hindgut
+is_a: ECAO:1000354 ! anatomical region
+relationship: part_of ECAO:1000601 ! hindgut
+relationship: start_stage ECAO:0000038 ! mid gastrula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+
+
+[Term]
+id: ECAO:1000603
+name: ventral hindgut
+is_a: ECAO:1000354 ! anatomical region
+relationship: part_of ECAO:1000601 ! hindgut
+relationship: start_stage ECAO:0000038 ! mid gastrula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+
+
+[Term]
+id: ECAO:1000604
+name: midgut
+is_a: ECAO:1000402 ! digestive system element
+relationship: part_of ECAO:1000600 ! archenteron
+relationship: start_stage ECAO:0000038 ! mid gastrula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+xref: UBERON:0001045
+
+[Term]
+id: ECAO:1000605
+name: ventral midgut
+is_a: ECAO:1000354 ! anatomical region
+relationship: part_of ECAO:1000604 ! midgut
+relationship: start_stage ECAO:0000038 ! mid gastrula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+
+
+[Term]
+id: ECAO:1000606
+name: dorsal midgut
+is_a: ECAO:1000354 ! anatomical region
+relationship: part_of ECAO:1000604 ! midgut
+relationship: start_stage ECAO:0000038 ! mid gastrula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+
+
+[Term]
+id: ECAO:1000607
+name: anterior midgut
+is_a: ECAO:1000354 ! anatomical region
+
+
+[Term]
+id: ECAO:1000608
+name: posterior midgut
+is_a: ECAO:1000354 ! anatomical region
+
+
+[Term]
+id: ECAO:1000609
+name: anterior hindgut
+is_a: ECAO:1000354 ! anatomical region
+
+
+[Term]
+id: ECAO:1000610
+name: posterior hindgut
+is_a: ECAO:1000354 ! anatomical region
+
+
+[Term]
+id: ECAO:1000611
+name: foregut
+is_a: ECAO:1000402 ! digestive system element
+relationship: part_of ECAO:1000600 ! archenteron
+relationship: start_stage ECAO:0000038 ! mid gastrula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+synonym: "tip of the digestive tract" EXACT []
+xref: UBERON:0001041
+
+[Term]
+id: ECAO:1000612
+name: ventral foregut
+is_a: ECAO:1000354 ! anatomical region
+relationship: part_of ECAO:1000611 ! foregut
+relationship: start_stage ECAO:0000038 ! mid gastrula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+
+
+[Term]
+id: ECAO:1000613
+name: dorsal foregut
+is_a: ECAO:1000354 ! anatomical region
+relationship: part_of ECAO:1000611 ! foregut
+relationship: start_stage ECAO:0000038 ! mid gastrula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+
+
+[Term]
+id: ECAO:1000614
+name: anterior foregut
+is_a: ECAO:1000354 ! anatomical region
+
+
+[Term]
+id: ECAO:1000615
+name: posterior foregut
+is_a: ECAO:1000354 ! anatomical region
+
+
+[Term]
+id: ECAO:1000616
+name: tip of archenteron
+is_a: ECAO:1000354 ! anatomical region
+relationship: part_of ECAO:1000600 ! archenteron
+relationship: start_stage ECAO:0000037 ! early gastrula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+synonym: "archenteron roof" EXACT []
+xref: UBERON:3010432
+
+[Term]
+id: ECAO:1000617
+name: presumptive mesoderm
+is_a: ECAO:1000404 ! embryonic structure
+synonym: "prospective mesoderm" EXACT []
+xref: UBERON:0006603
+
+[Term]
+id: ECAO:1000618
+name: mesoderm
+is_a: ECAO:1000514 ! germ layer
+relationship: part_of ECAO:1000386 ! vegetal hemisphere
+relationship: start_stage ECAO:0000020 ! 16-cell stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+xref: UBERON:0000926
+
+[Term]
+id: ECAO:1000619
+name: skeletogenic mesoderm
+is_a: ECAO:1000404 ! embryonic structure
+relationship: part_of ECAO:1000618 ! mesoderm
+relationship: develops_from ECAO:1000469 ! large micromere
+relationship: start_stage ECAO:0000022 ! 32-cell stage
+relationship: end_stage ECAO:0000034 ! early mesenchyme blastula stage
+def: "The subset of the mesoderm that will give rise to the skeletal elements."
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+
+
+[Term]
+id: ECAO:1000620
+name: skeletogenic mesenchyme
+is_a: ECAO:1000541 ! embryonic tissue
+relationship: part_of ECAO:1000360 ! pre-metamorphic individual
+relationship: develops_from ECAO:1000619 ! skeletogenic mesoderm
+relationship: start_stage ECAO:0000034 ! early mesenchyme blastula stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+def: "Skeletogenic mesenchyme is the tissue made up of loosely connected mesoderm cells. It is located in the blastocoel and will produce all of the skeletal elements."
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+synonym: "SM" EXACT []
+synonym: "primary mesenchyme" EXACT []
+
+
+[Term]
+id: ECAO:1000621
+name: skeletogenic mesenchyme cell
+is_a: ECAO:1000399 ! cell
+relationship: part_of ECAO:1000620 ! skeletogenic mesenchyme
+synonym: "PMC" EXACT []
+synonym: "primary mesenchyme cell" EXACT []
+property_value:Cell type (is-a) CL:0007001
+
+[Term]
+id: ECAO:1000622
+name: syncytium
+is_a: ECAO:1000399 ! cell
+synonym: "multinucleate cell" EXACT []
+synonym: "multinucleated cell" EXACT []
+synonym: "syncytium" EXACT []
+synonym: "syncytial cell" EXACT []
+property_value:Cell type (is-a) CL:0000228
+
+[Term]
+id: ECAO:1000623
+name: skeletogenic mesenchyme syncytium
+is_a: ECAO:1000622 ! syncytium
+relationship: part_of ECAO:1000620 ! skeletogenic mesenchyme
+relationship: start_stage ECAO:0000037 ! early gastrula stage
+relationship: end_stage ECAO:0000043 ! 4-arm pluteus larva stage
+def: "Anatomical structure composed of skeletogenic mesenchyme cells that have fused to form a single syncytial network."
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+comment: pubmed Hodor and Ettensohn, 2008
+
+
+[Term]
+id: ECAO:1000624
+name: subequatorial skeletogenic mesenchyme ring
+is_a: ECAO:1000404 ! embryonic structure
+relationship: part_of ECAO:1000620 ! skeletogenic mesenchyme
+synonym: "SM ring" EXACT []
+synonym: "subequatorial SM ring" EXACT []
+synonym: "PMC ring" EXACT []
+synonym: "subequatorial PMC ring" EXACT []
+synonym: "primary mesenchyme cell ring" EXACT []
+synonym: "subequatorial primary mesenchyme cell ring" EXACT []
+
+
+[Term]
+id: ECAO:1000625
+name: ventral skeletogenic mesenchyme chain
+is_a: ECAO:1000404 ! embryonic structure
+relationship: part_of ECAO:1000624 ! subequatorial skeletogenic mesenchyme ring
+relationship: start_stage ECAO:0000037 ! early gastrula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+def: "Subpopulation of skeletogenic mesenchyme forming a chain on the oral (i.e. ventral) side of the embryo."
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+
+
+[Term]
+id: ECAO:1000626
+name: dorsal skeletogenic mesenchyme chain
+is_a: ECAO:1000404 ! embryonic structure
+relationship: part_of ECAO:1000624 ! subequatorial skeletogenic mesenchyme ring
+relationship: start_stage ECAO:0000037 ! early gastrula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+def: "Subpopulation of skeletogenic mesenchyme forming a chain on the aboral (i.e. dorsal) side of the embryo."
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+
+
+[Term]
+id: ECAO:1000627
+name: ventrolateral skeletogenic mesenchyme cluster
+is_a: ECAO:1000404 ! embryonic structure
+relationship: part_of ECAO:1000620 ! skeletogenic mesenchyme
+relationship: start_stage ECAO:0000037 ! early gastrula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+def: "Subpopulation of skeletogenic mesenchyme forming a cluster (i.e. a group of cells) in the ventrolateral region of the embryo."
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+
+
+[Term]
+id: ECAO:1000628
+name: lateral chains of skeletogenic mesenchyme
+is_a: ECAO:1000404 ! embryonic structure
+relationship: part_of ECAO:1000620 ! skeletogenic mesenchyme
+relationship: start_stage ECAO:0000037 ! early gastrula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+def: "Subpopulation of skeletogenic mesenchyme forming a chain on either side of the developing digestive tract, along the blastocoel wall and towards the animal pole."
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+
+
+[Term]
+id: ECAO:1000629
+name: right lateral chain of skeletogenic mesenchyme
+is_a: ECAO:1000628 ! lateral chains of skeletogenic mesenchyme
+relationship: part_of ECAO:1000620 ! skeletogenic mesenchyme
+relationship: start_stage ECAO:0000037 ! early gastrula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+def: "Subpopulation of skeletogenic mesenchyme forming a chain along the blastocoel wall towards the animal pole on the right side of the embryo."
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+
+
+[Term]
+id: ECAO:1000630
+name: left lateral chain of skeletogenic mesenchyme
+is_a: ECAO:1000628 ! lateral chains of skeletogenic mesenchyme
+relationship: part_of ECAO:1000620 ! skeletogenic mesenchyme
+relationship: start_stage ECAO:0000037 ! early gastrula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+def: "Subpopulation of skeletogenic mesenchyme forming a chain along the blastocoel wall towards the animal pole on the left side of the embryo."
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+
+
+[Term]
+id: ECAO:1000631
+name: non-skeletogenic mesoderm
+is_a: ECAO:1000404 ! embryonic structure
+relationship: part_of ECAO:1000618 ! mesoderm
+relationship: start_stage ECAO:0000031 ! swimming blastula stage
+relationship: end_stage ECAO:0000039 ! late gastrula stage
+
+
+[Term]
+id: ECAO:1000632
+name: ventral non-skeletogenic mesoderm
+is_a: ECAO:1000404 ! embryonic structure
+relationship: part_of ECAO:1000631 ! non-skeletogenic mesoderm
+relationship: start_stage ECAO:0000035 ! mesenchyme blastula stage
+relationship: end_stage ECAO:0000038 ! mid gastrula stage
+
+
+[Term]
+id: ECAO:1000633
+name: dorsal non-skeletogenic mesoderm
+is_a: ECAO:1000404 ! embryonic structure
+relationship: part_of ECAO:1000631 ! non-skeletogenic mesoderm
+relationship: start_stage ECAO:0000035 ! mesenchyme blastula stage
+relationship: end_stage ECAO:0000038 ! mid gastrula stage
+
+
+[Term]
+id: ECAO:1000634
+name: non-skeletogenic mesenchyme
+is_a: ECAO:1000541 ! embryonic tissue
+relationship: part_of ECAO:1000360 ! pre-metamorphic individual
+relationship: develops_from ECAO:1000631 ! non-skeletogenic mesoderm
+relationship: start_stage ECAO:0000037 ! early gastrula stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+synonym: "secondary mesenchyme" EXACT []
+synonym: "NSM" EXACT []
+
+
+[Term]
+id: ECAO:1000635
+name: non-skeletogenic mesenchyme cell
+is_a: ECAO:1000399 ! cell
+synonym: "SMC" EXACT []
+synonym: "secondary mesenchyme cell" EXACT []
+
+
+[Term]
+id: ECAO:1000636
+name: presumptive blastocoelar cell
+is_a: ECAO:1000399 ! cell
+relationship: part_of ECAO:1000631 ! non-skeletogenic mesoderm
+relationship: start_stage ECAO:0000035 ! mesenchyme blastula stage
+relationship: end_stage ECAO:0000039 ! late gastrula stage
+
+
+[Term]
+id: ECAO:1000637
+name: presumptive pigment cell
+is_a: ECAO:1000399 ! cell
+relationship: part_of ECAO:1000631 ! non-skeletogenic mesoderm
+relationship: start_stage ECAO:0000035 ! mesenchyme blastula stage
+relationship: end_stage ECAO:0000039 ! late gastrula stage
+synonym: "presumptive pigmented cell" EXACT []
+synonym: "presumptive immunocyte" EXACT []
+
+
+[Term]
+id: ECAO:1000638
+name: pigment cell
+is_a: ECAO:1000399 ! cell
+relationship: part_of ECAO:1000366 ! immune system
+relationship: start_stage ECAO:0000039 ! late gastrula stage
+relationship: end_stage ECAO:0000051 ! exotrophic juvenile stage
+def: "a cell that contains red coloring matter"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+synonym: "pigmented cell" EXACT []
+synonym: "pigmented immunocyte" EXACT []
+property_value:Cell type (is-a) CL:0000147
+
+[Term]
+id: ECAO:1000639
+name: embryonic pigment cell
+is_a: ECAO:1000638 ! pigment cell
+relationship: part_of ECAO:1000356 ! embryo
+relationship: develops_from ECAO:1000637 ! presumptive pigment cell
+relationship: start_stage ECAO:0000039 ! late gastrula stage
+relationship: end_stage ECAO:0000040 ! prism stage
+
+
+[Term]
+id: ECAO:1000640
+name: larval pigment cell
+is_a: ECAO:1000638 ! pigment cell
+relationship: part_of ECAO:1000368 ! larval immune system
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000641
+name: adult pigment cell
+is_a: ECAO:1000638 ! pigment cell
+relationship: part_of ECAO:1000359 ! adult
+relationship: start_stage ECAO:0000050 ! postlarval juvenile stage
+relationship: end_stage ECAO:0000050 ! postlarval juvenile stage
+
+
+[Term]
+id: ECAO:1000642
+name: blastocoelar cell
+is_a: ECAO:1000399 ! cell
+relationship: part_of ECAO:1000366 ! immune system
+relationship: develops_from ECAO:1000636 ! presumptive blastocoelar cell
+relationship: start_stage ECAO:0000039 ! late gastrula stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000643
+name: globular cell
+is_a: ECAO:1000642 ! blastocoelar cell
+relationship: part_of ECAO:1000368 ! larval immune system
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+
+
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+comment: pubmed Ho et al., 2016
+
+
+[Term]
+id: ECAO:1000644
+name: filopodial cell
+is_a: ECAO:1000642 ! blastocoelar cell
+relationship: part_of ECAO:1000368 ! larval immune system
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+
+
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+comment: pubmed Ho et al., 2016
+
+
+[Term]
+id: ECAO:1000645
+name: ovoid cell
+is_a: ECAO:1000642 ! blastocoelar cell
+relationship: part_of ECAO:1000368 ! larval immune system
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+comment: pubmed Ho et al., 2016
+
+
+[Term]
+id: ECAO:1000646
+name: amoeboid cell
+is_a: ECAO:1000642 ! blastocoelar cell
+relationship: part_of ECAO:1000368 ! larval immune system
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+comment: pubmed Ho et al., 2016
+
+
+[Term]
+id: ECAO:1000647
+name: muscle precursor cell
+is_a: ECAO:1000399 ! cell
+relationship: part_of ECAO:1000375 ! muscular system
+relationship: start_stage ECAO:0000040 ! prism stage
+relationship: end_stage ECAO:0000042 ! early pluteus larva stage
+
+
+synonym: "presumptive muscle cell" EXACT []
+property_value:Cell type (is-a) CL:0000680
+
+[Term]
+id: ECAO:1000648
+name: larval muscle
+is_a: ECAO:1000542 ! larval tissue
+relationship: part_of ECAO:1000376 ! larval muscular system
+relationship: start_stage ECAO:0000043 ! 4-arm pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+synonym: "contractile muscle" EXACT []
+
+
+[Term]
+id: ECAO:1000649
+name: adult muscle
+is_a: ECAO:1000543 ! adult tissue
+relationship: part_of ECAO:1000377 ! adult muscular system
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000053 ! adult stage
+
+
+[Term]
+id: ECAO:1000650
+name: blastocoel
+is_a: ECAO:1000355 ! anatomical space
+relationship: start_stage ECAO:0000026 ! very early blastula stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+xref: UBERON:0000090
+
+[Term]
+id: ECAO:1000651
+name: sphincter
+is_a: ECAO:1000402 ! digestive system element
+relationship: part_of ECAO:1000362 ! digestive system
+relationship: start_stage ECAO:0000040 ! prism stage
+relationship: end_stage ECAO:0000053 ! adult stage
+
+
+[Term]
+id: ECAO:1000652
+name: pyloric sphincter
+is_a: ECAO:1000651 ! sphincter
+relationship: part_of ECAO:1000364 ! larval digestive system
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+
+
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+synonym: "midgut-hindgut constriction" EXACT []
+comment: pubmed Ref pour structure tube digestif prism/plut: Annunziata, R., Perillo, M., Andrikou, C., Cole, A. G., Martinez, P. and Arnone, M. I. (2014). Pattern and process during sea urchin gut morphogenesis: The regulatory landscape. genesis 52, 251268.
+
+
+[Term]
+id: ECAO:1000653
+name: cardiac sphincter
+is_a: ECAO:1000651 ! sphincter
+relationship: part_of ECAO:1000364 ! larval digestive system
+relationship: start_stage ECAO:0000043 ! 4-arm pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+synonym: "foregut-midgut constriction" EXACT []
+
+
+[Term]
+id: ECAO:1000654
+name: anal sphincter
+is_a: ECAO:1000651 ! sphincter
+relationship: part_of ECAO:1000364 ! larval digestive system
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+synonym: "hindgut-ectoderm constriction" EXACT []
+
+
+[Term]
+id: ECAO:1000655
+name: sphincter muscle cell
+is_a: ECAO:1000399 ! cell
+relationship: part_of ECAO:1000656 ! sphincter muscle
+synonym: "sphincter muscle cell" EXACT []
+synonym: "myoepithelial cell" EXACT []
+
+
+[Term]
+id: ECAO:1000656
+name: sphincter muscle
+is_a: ECAO:1000648 ! larval muscle
+relationship: part_of ECAO:1000364 ! larval digestive system
+relationship: develops_from ECAO:1000599 ! endoderm
+relationship: start_stage ECAO:0000043 ! 4-arm pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+synonym: "sphincteric muscle" EXACT []
+xref: UBERON:0004590
+
+[Term]
+id: ECAO:1000657
+name: pyloric sphincteric muscle
+is_a: ECAO:1000740 ! sphincteric muscle
+relationship: part_of ECAO:1000652 ! pyloric sphincter
+relationship: start_stage ECAO:0000043 ! 4-arm pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+synonym: "pyloric sphincter" EXACT []
+xref: UBERON:0001202
+
+[Term]
+id: ECAO:1000658
+name: cardiac sphincteric muscle
+is_a: ECAO:1000740 ! sphincteric muscle
+relationship: part_of ECAO:1000653 ! cardiac sphincter
+relationship: start_stage ECAO:0000043 ! 4-arm pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+synonym: "cardiac sphincter" EXACT []
+
+
+[Term]
+id: ECAO:1000659
+name: anal sphincteric muscle
+is_a: ECAO:1000740 ! sphincteric muscle
+relationship: part_of ECAO:1000654 ! anal sphincter
+relationship: start_stage ECAO:0000043 ! 4-arm pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+synonym: "anal sphincter" EXACT []
+xref: UBERON:0004916
+
+[Term]
+id: ECAO:1000660
+name: larval esophagus
+is_a: ECAO:1000402 ! digestive system element
+relationship: part_of ECAO:1000364 ! larval digestive system
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000661
+name: circumesophageal muscle precursor cell
+is_a: ECAO:1000399 ! cell
+relationship: part_of ECAO:1000741 ! presumptive circumesophageal muscle
+synonym: "presumptive circumesophageal muscle cell" EXACT []
+
+
+[Term]
+id: ECAO:1000662
+name: circumesophageal muscle
+is_a: ECAO:1000648 ! larval muscle
+relationship: part_of ECAO:1000660 ! larval esophagus
+relationship: start_stage ECAO:0000043 ! 4-arm pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000663
+name: larval stomach
+is_a: ECAO:1000402 ! digestive system element
+relationship: part_of ECAO:1000364 ! larval digestive system
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+
+
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000664
+name: larval intestine
+is_a: ECAO:1000402 ! digestive system element
+relationship: part_of ECAO:1000364 ! larval digestive system
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+
+
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000665
+name: coelom
+is_a: ECAO:1000351 ! anatomical structure
+relationship: part_of ECAO:1000353 ! whole organism
+relationship: start_stage ECAO:0000040 ! prism stage
+relationship: end_stage ECAO:0000053 ! adult stage
+xref: UBERON:0011997
+
+[Term]
+id: ECAO:1000666
+name: unpaired coelomic pouch
+is_a: ECAO:1000665 ! coelom
+relationship: part_of ECAO:1000356 ! embryo
+relationship: start_stage ECAO:0000040 ! prism stage
+relationship: end_stage ECAO:0000040 ! prism stage
+synonym: "unpaired coelomic rudiment" EXACT []
+
+
+[Term]
+id: ECAO:1000667
+name: right coelomic pouch 
+is_a: ECAO:1000665 ! coelom
+relationship: part_of ECAO:1000357 ! larva
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+relationship: end_stage ECAO:0000044 ! 6-arm pluteus larva stage
+
+
+[Term]
+id: ECAO:1000668
+name: left coelomic pouch 
+is_a: ECAO:1000665 ! coelom
+relationship: part_of ECAO:1000357 ! larva
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+relationship: end_stage ECAO:0000044 ! 6-arm pluteus larva stage
+synonym: "left coelomic sac" EXACT []
+comment: pubmed Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS ONE 5.
+property_value:Comments This structure has been defined from another sea urchin species but is present in P. lividus as well
+
+
+[Term]
+id: ECAO:1000669
+name: right coelomic constriction
+is_a: ECAO:1000351 ! anatomical structure
+
+
+[Term]
+id: ECAO:1000670
+name: left coelomic constriction
+is_a: ECAO:1000351 ! anatomical structure
+
+
+[Term]
+id: ECAO:1000671
+name: vestibule
+is_a: ECAO:1000405 ! larval structure
+relationship: part_of ECAO:1000699 ! larval epidermis
+relationship: develops_from ECAO:1000521 ! ventral ectoderm
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000045 ! 8-arm pluteus larva stage
+synonym: "amniotic sac" EXACT []
+comment: pubmed Vellutini, B. C. and Migotto, A. E. (2010). Embryonic, Larval, and Juvenile Development of the Sea Biscuit Clypeaster subdepressus (Echinodermata: Clypeasteroida). PLoS ONE 5.Chino et al., 1994 Formery et al., (in prep.)Smith et al., 2008
+property_value:Comments This structure has been defined from another sea urchin species but is present in P. lividus as well
+
+
+
+
+[Term]
+id: ECAO:1000672
+name: oral epithelium
+is_a: ECAO:1000542 ! larval tissue
+synonym: "oral epidermis" EXACT []
+synonym: "circumoral epithelium" EXACT []
+synonym: "circumoral ectoderm" EXACT []
+xref: UBERON:0002424
+
+[Term]
+id: ECAO:1000673
+name: aboral epithelium
+is_a: ECAO:1000542 ! larval tissue
+
+
+[Term]
+id: ECAO:1000674
+name: vestibular pore
+is_a: ECAO:1000351 ! anatomical structure
+relationship: part_of ECAO:1000357 ! larva
+relationship: develops_from ECAO:1000697 ! left lateral field
+relationship: start_stage ECAO:0000046 ! competent pluteus larva stage
+relationship: end_stage ECAO:0000047 ! metamorphic larva stage
+def: "Opening located in the left lateral field"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+comment: pubmed gossellin and jangoux 1998
+
+
+[Term]
+id: ECAO:1000675
+name: left axocoel
+is_a: ECAO:1000678 ! axocoel
+relationship: part_of ECAO:1000357 ! larva
+relationship: develops_from ECAO:1000668 ! left coelomic pouch 
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000045 ! 8-arm pluteus larva stage
+
+
+[Term]
+id: ECAO:1000676
+name: axial coelom
+is_a: ECAO:1000665 ! coelom
+relationship: part_of ECAO:1000359 ! adult
+relationship: develops_from ECAO:1000675 ! left axocoel
+relationship: start_stage ECAO:0000050 ! postlarval juvenile stage
+relationship: end_stage ECAO:0000053 ! adult stage
+comment: pubmed Ziegler et al 2009
+
+
+[Term]
+id: ECAO:1000677
+name: hydrocoel
+is_a: ECAO:1000665 ! coelom
+relationship: part_of ECAO:1000357 ! larva
+synonym: "central coelom" EXACT []
+
+
+[Term]
+id: ECAO:1000678
+name: axocoel
+is_a: ECAO:1000665 ! coelom
+relationship: part_of ECAO:1000357 ! larva
+synonym: "anterior coelom" EXACT []
+
+
+[Term]
+id: ECAO:1000679
+name: somatocoel
+is_a: ECAO:1000665 ! coelom
+relationship: part_of ECAO:1000357 ! larva
+synonym: "posterior coelom" EXACT []
+
+
+[Term]
+id: ECAO:1000680
+name: left hydrocoel
+is_a: ECAO:1000677 ! hydrocoel
+relationship: part_of ECAO:1000357 ! larva
+relationship: develops_from ECAO:1000668 ! left coelomic pouch 
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000045 ! 8-arm pluteus larva stage
+
+
+[Term]
+id: ECAO:1000681
+name: left somatocoel
+is_a: ECAO:1000679 ! somatocoel
+relationship: part_of ECAO:1000357 ! larva
+relationship: develops_from ECAO:1000668 ! left coelomic pouch 
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000045 ! 8-arm pluteus larva stage
+
+
+[Term]
+id: ECAO:1000682
+name: right axohydrocoel
+is_a: ECAO:1000665 ! coelom
+relationship: part_of ECAO:1000357 ! larva
+relationship: develops_from ECAO:1000667 ! right coelomic pouch 
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000045 ! 8-arm pluteus larva stage
+synonym: "anterior sac" EXACT []
+
+
+[Term]
+id: ECAO:1000683
+name: right somatocoel
+is_a: ECAO:1000679 ! somatocoel
+relationship: part_of ECAO:1000357 ! larva
+relationship: develops_from ECAO:1000667 ! right coelomic pouch 
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000045 ! 8-arm pluteus larva stage
+
+
+[Term]
+id: ECAO:1000684
+name: stone canal
+is_a: ECAO:1000351 ! anatomical structure
+relationship: part_of ECAO:1000383 ! water vascular system
+relationship: develops_from ECAO:1000668 ! left coelomic pouch 
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000053 ! adult stage
+
+
+[Term]
+id: ECAO:1000685
+name: ring canal
+is_a: ECAO:1000406 ! adult structure
+relationship: part_of ECAO:1000383 ! water vascular system
+relationship: develops_from ECAO:1000680 ! left hydrocoel
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000053 ! adult stage
+
+
+[Term]
+id: ECAO:1000686
+name: radial canal
+is_a: ECAO:1000406 ! adult structure
+relationship: part_of ECAO:1000383 ! water vascular system
+relationship: develops_from ECAO:1000680 ! left hydrocoel
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000053 ! adult stage
+
+
+[Term]
+id: ECAO:1000687
+name: hydropore
+is_a: ECAO:1000351 ! anatomical structure
+relationship: part_of ECAO:1000691 ! primary pore canal
+relationship: start_stage ECAO:0000043 ! 4-arm pluteus larva stage
+relationship: end_stage ECAO:0000053 ! adult stage
+
+
+[Term]
+id: ECAO:1000688
+name: right axocoel
+is_a: ECAO:1000678 ! axocoel
+relationship: part_of ECAO:1000357 ! larva
+relationship: develops_from ECAO:1000682 ! right axohydrocoel
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000689
+name: right hydrocoel
+is_a: ECAO:1000677 ! hydrocoel
+relationship: part_of ECAO:1000357 ! larva
+relationship: develops_from ECAO:1000682 ! right axohydrocoel
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000690
+name: axial sinus
+is_a: ECAO:1000406 ! adult structure
+relationship: develops_from ECAO:1000689 ! right hydrocoel
+relationship: start_stage ECAO:0000050 ! postlarval juvenile stage
+relationship: end_stage ECAO:0000053 ! adult stage
+comment: pubmed Smith et al., 2008
+
+
+[Term]
+id: ECAO:1000691
+name: primary pore canal
+is_a: ECAO:1000405 ! larval structure
+relationship: part_of ECAO:1000383 ! water vascular system
+relationship: develops_from ECAO:1000634 ! non-skeletogenic mesenchyme
+relationship: start_stage ECAO:0000043 ! 4-arm pluteus larva stage
+relationship: end_stage ECAO:0000043 ! 4-arm pluteus larva stage
+synonym: "hydropore canal" EXACT []
+
+
+[Term]
+id: ECAO:1000692
+name: axial organ
+is_a: ECAO:1000406 ! adult structure
+relationship: part_of ECAO:1000384 ! hemal system
+relationship: start_stage ECAO:0000051 ! exotrophic juvenile stage
+relationship: end_stage ECAO:0000053 ! adult stage
+comment: pubmed Ziegler et al., 2009
+
+
+[Term]
+id: ECAO:1000693
+name: ciliated epaulette
+is_a: ECAO:1000405 ! larval structure
+relationship: part_of ECAO:1000699 ! larval epidermis
+relationship: develops_from ECAO:1000545 ! ciliary band
+relationship: start_stage ECAO:0000044 ! 6-arm pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+comment: pubmed gossellin and jangoux 1998
+
+
+[Term]
+id: ECAO:1000694
+name: anterior ciliated epaulette
+is_a: ECAO:1000693 ! ciliated epaulette
+relationship: part_of ECAO:1000357 ! larva
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+comment: pubmed gossellin and jangoux 1998
+
+
+[Term]
+id: ECAO:1000695
+name: posterior ciliated epaulette
+is_a: ECAO:1000693 ! ciliated epaulette
+relationship: part_of ECAO:1000357 ! larva
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+comment: pubmed gossellin and jangoux 1998
+
+
+[Term]
+id: ECAO:1000696
+name: lateral field
+is_a: ECAO:1000354 ! anatomical region
+relationship: part_of ECAO:1000357 ! larva
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+def: "The lateral field is located in the aboral ectoderm of the larva. It separates the anterior and posterior pairs of epaulettes"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+comment: pubmed gossellin and jangoux 1998
+
+
+[Term]
+id: ECAO:1000697
+name: left lateral field
+is_a: ECAO:1000696 ! lateral field
+relationship: part_of ECAO:1000357 ! larva
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+def: "The left lateral field is the lateral field located on the left side of the larva"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+comment: pubmed gossellin and jangoux 1998
+
+
+[Term]
+id: ECAO:1000698
+name: right lateral field
+is_a: ECAO:1000696 ! lateral field
+relationship: part_of ECAO:1000357 ! larva
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+def: "The right lateral field is the lateral field located on the right side of the larva"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+comment: pubmed gossellin and jangoux 1998
+
+
+[Term]
+id: ECAO:1000699
+name: larval epidermis
+is_a: ECAO:1000542 ! larval tissue
+relationship: part_of ECAO:1000516 ! ectoderm
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+
+
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000700
+name: ambulacral plate
+is_a: ECAO:1000403 ! skeletal element
+relationship: part_of ECAO:1000382 ! adult endoskeleton
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000053 ! adult stage
+
+
+[Term]
+id: ECAO:1000701
+name: interambulacral plate
+is_a: ECAO:1000403 ! skeletal element
+relationship: part_of ECAO:1000382 ! adult endoskeleton
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000053 ! adult stage
+synonym: "int" EXACT []
+
+
+[Term]
+id: ECAO:1000702
+name: ambulacra
+is_a: ECAO:1000351 ! anatomical structure
+
+
+[Term]
+id: ECAO:1000703
+name: interambulacra
+is_a: ECAO:1000351 ! anatomical structure
+
+
+[Term]
+id: ECAO:1000704
+name: genital plate
+is_a: ECAO:1000403 ! skeletal element
+relationship: part_of ECAO:1000382 ! adult endoskeleton
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000053 ! adult stage
+
+
+[Term]
+id: ECAO:1000705
+name: appendage
+is_a: ECAO:1000351 ! anatomical structure
+
+[Term]
+id: ECAO:1000706
+name: pedicellaria
+is_a: ECAO:1000705 ! appendage
+relationship: part_of ECAO:1000382 ! adult endoskeleton
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000051 ! exotrophic juvenile stage
+xref: UBERON:0008261
+
+[Term]
+id: ECAO:1000707
+name: ocular plate
+is_a: ECAO:1000403 ! skeletal element
+relationship: part_of ECAO:1000382 ! adult endoskeleton
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000053 ! adult stage
+synonym: "terminal plate" EXACT []
+
+
+[Term]
+id: ECAO:1000708
+name: buccal plate
+is_a: ECAO:1000403 ! skeletal element
+relationship: part_of ECAO:1000382 ! adult endoskeleton
+relationship: start_stage ECAO:0000051 ! exotrophic juvenile stage
+relationship: end_stage ECAO:0000053 ! adult stage
+
+
+[Term]
+id: ECAO:1000709
+name: genital plate AB
+is_a: ECAO:1000704 ! genital plate
+relationship: part_of ECAO:1000382 ! adult endoskeleton
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000053 ! adult stage
+comment: pubmed Carpenter, P.H. (1884). Report upon the Crinoidea collected during the voyage of HMS Challenger during the years 18731876, part 1. General morphology with descriptions of the stalked crinoids: Reports of the Scientific Results of the Voyage of HMS Challenger: Zoology
+
+
+[Term]
+id: ECAO:1000710
+name: genital plate BC
+is_a: ECAO:1000704 ! genital plate
+relationship: part_of ECAO:1000382 ! adult endoskeleton
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000053 ! adult stage
+comment: pubmed Carpenter, P.H. (1884). Report upon the Crinoidea collected during the voyage of HMS Challenger during the years 18731876, part 1. General morphology with descriptions of the stalked crinoids: Reports of the Scientific Results of the Voyage of HMS Challenger: Zoology
+
+
+[Term]
+id: ECAO:1000711
+name: genital plate CD
+is_a: ECAO:1000704 ! genital plate
+relationship: part_of ECAO:1000382 ! adult endoskeleton
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000053 ! adult stage
+comment: pubmed Carpenter, P.H. (1884). Report upon the Crinoidea collected during the voyage of HMS Challenger during the years 18731876, part 1. General morphology with descriptions of the stalked crinoids: Reports of the Scientific Results of the Voyage of HMS Challenger: Zoology
+
+
+[Term]
+id: ECAO:1000712
+name: genital plate DE
+is_a: ECAO:1000704 ! genital plate
+relationship: part_of ECAO:1000382 ! adult endoskeleton
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000053 ! adult stage
+comment: pubmed Carpenter, P.H. (1884). Report upon the Crinoidea collected during the voyage of HMS Challenger during the years 18731876, part 1. General morphology with descriptions of the stalked crinoids: Reports of the Scientific Results of the Voyage of HMS Challenger: Zoology
+
+
+[Term]
+id: ECAO:1000713
+name: genital plate EA
+is_a: ECAO:1000704 ! genital plate
+relationship: part_of ECAO:1000382 ! adult endoskeleton
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000053 ! adult stage
+comment: pubmed Carpenter, P.H. (1884). Report upon the Crinoidea collected during the voyage of HMS Challenger during the years 18731876, part 1. General morphology with descriptions of the stalked crinoids: Reports of the Scientific Results of the Voyage of HMS Challenger: Zoology
+
+
+[Term]
+id: ECAO:1000714
+name: podia
+is_a: ECAO:1000705 ! appendage
+synonym: "tube foot" EXACT []
+xref: UBERON:0008247
+
+[Term]
+id: ECAO:1000715
+name: primary podia
+is_a: ECAO:1000714 ! podia
+relationship: part_of ECAO:1000383 ! water vascular system
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000050 ! postlarval juvenile stage
+synonym: "primary tube foot" EXACT []
+
+
+[Term]
+id: ECAO:1000716
+name: disk of primary podia
+is_a: ECAO:1000403 ! skeletal element
+relationship: part_of ECAO:1000715 ! primary podia
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000050 ! postlarval juvenile stage
+
+
+[Term]
+id: ECAO:1000717
+name: secondary podia
+is_a: ECAO:1000714 ! podia
+relationship: part_of ECAO:1000383 ! water vascular system
+relationship: start_stage ECAO:0000051 ! exotrophic juvenile stage
+relationship: end_stage ECAO:0000053 ! adult stage
+synonym: "secondary tube foot" EXACT []
+
+
+[Term]
+id: ECAO:1000718
+name: disk of secondary podia
+is_a: ECAO:1000403 ! skeletal element
+relationship: part_of ECAO:1000717 ! secondary podia
+relationship: start_stage ECAO:0000051 ! exotrophic juvenile stage
+relationship: end_stage ECAO:0000053 ! adult stage
+
+
+[Term]
+id: ECAO:1000719
+name: spine
+is_a: ECAO:1000705 ! appendage
+relationship: part_of ECAO:1000382 ! adult endoskeleton
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000053 ! adult stage
+synonym: "spine appendage" EXACT []
+xref: UBERON:0008260
+
+[Term]
+id: ECAO:1000720
+name: juvenile spine
+is_a: ECAO:1000719 ! spine
+relationship: part_of ECAO:1000382 ! adult endoskeleton
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000051 ! exotrophic juvenile stage
+synonym: "splayed spines" EXACT []
+
+
+[Term]
+id: ECAO:1000721
+name: definitive spine
+is_a: ECAO:1000719 ! spine
+relationship: part_of ECAO:1000382 ! adult endoskeleton
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000053 ! adult stage
+synonym: "adult spine" EXACT []
+
+
+[Term]
+id: ECAO:1000722
+name: ampulla
+is_a: ECAO:1000406 ! adult structure
+relationship: part_of ECAO:1000383 ! water vascular system
+relationship: develops_from ECAO:1000686 ! radial canal
+relationship: start_stage ECAO:0000050 ! postlarval juvenile stage
+relationship: end_stage ECAO:0000053 ! adult stage
+synonym: "tube foot ampulla" EXACT []
+xref: UBERON:0008252
+
+[Term]
+id: ECAO:1000723
+name: adult mouth
+is_a: ECAO:1000594 ! mouth
+relationship: part_of ECAO:1000365 ! adult digestive system
+relationship: start_stage ECAO:0000051 ! exotrophic juvenile stage
+relationship: end_stage ECAO:0000053 ! adult stage
+
+
+[Term]
+id: ECAO:1000724
+name: adult anus
+is_a: ECAO:1000596 ! anus
+relationship: part_of ECAO:1000365 ! adult digestive system
+relationship: start_stage ECAO:0000051 ! exotrophic juvenile stage
+relationship: end_stage ECAO:0000053 ! adult stage
+
+
+[Term]
+id: ECAO:1000725
+name: dental sac
+is_a: ECAO:1000351 ! anatomical structure
+relationship: part_of ECAO:1000408 ! rudiment
+relationship: start_stage ECAO:0000045 ! 8-arm pluteus larva stage
+relationship: end_stage ECAO:0000050 ! postlarval juvenile stage
+
+
+[Term]
+id: ECAO:1000726
+name: tooth
+is_a: ECAO:1000406 ! adult structure
+relationship: part_of ECAO:1000727 ! aristotle's lantern
+relationship: develops_from ECAO:1000725 ! dental sac
+relationship: start_stage ECAO:0000051 ! exotrophic juvenile stage
+relationship: end_stage ECAO:0000053 ! adult stage
+xref: XAO:0000431
+
+[Term]
+id: ECAO:1000727
+name: aristotle's lantern
+is_a: ECAO:1000406 ! adult structure
+relationship: part_of ECAO:1000365 ! adult digestive system
+relationship: start_stage ECAO:0000051 ! exotrophic juvenile stage
+relationship: end_stage ECAO:0000053 ! adult stage
+xref: UBERON:0008253
+
+[Term]
+id: ECAO:1000728
+name: madreporite
+is_a: ECAO:1000704 ! genital plate
+relationship: part_of ECAO:1000378 ! endoskeleton
+relationship: develops_from ECAO:1000711 ! genital plate CD
+relationship: start_stage ECAO:0000051 ! exotrophic juvenile stage
+relationship: end_stage ECAO:0000053 ! adult stage
+xref: UBERON:0009476
+
+[Term]
+id: ECAO:1000729
+name: gonopore
+is_a: ECAO:1000406 ! adult structure
+relationship: part_of ECAO:1000704 ! genital plate
+relationship: start_stage ECAO:0000051 ! exotrophic juvenile stage
+relationship: end_stage ECAO:0000053 ! adult stage
+synonym: "genital pore" EXACT []
+
+
+[Term]
+id: ECAO:1000730
+name: gonad
+is_a: ECAO:1000406 ! adult structure
+relationship: part_of ECAO:1000370 ! reproductive system
+relationship: start_stage ECAO:0000053 ! adult stage
+relationship: end_stage ECAO:0000053 ! adult stage
+xref: UBERON:0000991
+
+[Term]
+id: ECAO:1000731
+name: ovary
+is_a: ECAO:1000730 ! gonad
+relationship: part_of ECAO:1000370 ! reproductive system
+relationship: start_stage ECAO:0000053 ! adult stage
+relationship: end_stage ECAO:0000053 ! adult stage
+xref: UBERON:0000992
+
+[Term]
+id: ECAO:1000732
+name: testis
+is_a: ECAO:1000730 ! gonad
+relationship: part_of ECAO:1000370 ! reproductive system
+relationship: start_stage ECAO:0000053 ! adult stage
+relationship: end_stage ECAO:0000053 ! adult stage
+xref: UBERON:0000473
+
+[Term]
+id: ECAO:1000733
+name: adult digestive tract
+is_a: ECAO:1000401 ! organ
+relationship: part_of ECAO:1000365 ! adult digestive system
+relationship: develops_from ECAO:1000364 ! larval digestive system
+relationship: start_stage ECAO:0000051 ! exotrophic juvenile stage
+relationship: end_stage ECAO:0000053 ! adult stage
+
+
+[Term]
+id: ECAO:1000734
+name: mesentery
+is_a: ECAO:1000351 ! anatomical structure
+relationship: part_of ECAO:1000359 ! adult
+relationship: start_stage ECAO:0000051 ! exotrophic juvenile stage
+relationship: end_stage ECAO:0000053 ! adult stage
+xref: UBERON:0002095
+
+[Term]
+id: ECAO:1000735
+name: sphaeridium
+is_a: ECAO:1000705 ! appendage
+relationship: part_of ECAO:1000382 ! adult endoskeleton
+relationship: start_stage ECAO:0000051 ! exotrophic juvenile stage
+relationship: end_stage ECAO:0000053 ! adult stage
+
+
+[Term]
+id: ECAO:1000736
+name: perivisceral cavity
+is_a: ECAO:1000354 ! anatomical region
+relationship: part_of ECAO:1000359 ! adult
+relationship: start_stage ECAO:0000050 ! postlarval juvenile stage
+relationship: end_stage ECAO:0000053 ! adult stage
+
+
+[Term]
+id: ECAO:1000737
+name: photosensory cell
+is_a: ECAO:1000399 ! cell
+relationship: part_of ECAO:1000359 ! adult
+synonym: "photoreceptor cell" EXACT []
+property_value:Cell type (is-a) CL:0000210
+
+
+[Typedef]
+id: develops_from
+name: develops from
+xref: RO:0002202
+is_transitive: true
+
+[Typedef]
+id: end_stage
+name: ends during
+def: "Anatomical structure/expression stops being viable, obvious or of utility during this developmental stage." [XAO:curators]
+
+[Typedef]
+id: part_of
+name: part of
+xref: BFO:0000050
+is_transitive: true
+
+[Typedef]
+id: preceded_by
+name: preceded by
+is_transitive: true
+
+[Typedef]
+id: start_stage
+name: starts during
+def: "Anatomical structure/expression begins being viable, obvious or of utility during this developmental stage." [XAO:curators]
+
+
+
