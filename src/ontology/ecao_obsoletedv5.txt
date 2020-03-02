@@ -1,0 +1,171 @@
+[Term]
+id: ECAO:1000475
+name: oral hood presumptive neuron
+is_a: ECAO:1000473 ! presumptive neuron
+relationship: part_of ECAO:1000373 ! larval nervous system
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+synonym: "oral hood neuronal progenitor cell" EXACT []
+
+
+[Term]
+id: ECAO:1000476
+name: ectoderm presumptive neuron
+
+
+
+
+
+
+
+[Term]
+id: ECAO:1000489
+name: oral hood neuron
+is_a: ECAO:1000480 ! larval neuron
+relationship: part_of ECAO:1000373 ! larval nervous system
+relationship: start_stage ECAO:0000042 ! early pluteus larva stage
+relationship: end_stage ECAO:0000046 ! competent pluteus larva stage
+
+
+[Term]
+id: ECAO:1000490
+name: ciliary band neuron
+is_a: ECAO:1000480 ! larval neuron
+
+
+
+
+
+
+
+
+
+
+[Term]
+id: ECAO:1000497
+name: basiepidermal nerve plexus
+is_a: ECAO:1000488 ! neural structure
+relationship: part_of ECAO:1000374 ! adult nervous system
+relationship: start_stage ECAO:0000050 ! postlarval juvenile stage
+relationship: end_stage ECAO:0000053 ! adult stage
+
+
+[Term]
+id: ECAO:1000498
+name: enteric nerve plexus
+is_a: ECAO:1000488 ! neural structure
+
+
+
+
+
+
+-- reclassified:
+
+[Term]
+id: ECAO:0000594
+name: ventrolateral PMC cluster
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "ventrolateral PMC cluster"
+
+[Term]
+id: ECAO:1000738
+name: embryonic nervous system in development
+is_a: ECAO:1000350
+def: "embryonic nervous system in development"
+
+[Term]
+id: ECAO:1000739
+name: rudiment spicule
+is_a: ECAO:1000350
+def: "rudiment spicule"
+
+[Term]
+id: ECAO:1000740
+name: sphincteric muscle
+is_a: ECAO:1000350
+def: "sphincteric muscle"
+
+[Term]
+id: ECAO:1000741
+name: presumptive circumesophageal muscle
+is_a: ECAO:1000350
+def: "presumptive circumesophageal muscle"
+
+[Term]
+id: ECAO:1000350
+name: echinoderm anatomy
+def: "Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species."
+comment: pending EAOv2 amendment
+xref: UBERON:0001062
+
+
+
+
+
+
+
+
+
+
+
+[Term]
+id: ECAO:0000595
+name: embryonic nervous system in development
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "embryonic nervous system in development"
+
+[Term]
+id: ECAO:0000596
+name: rudiment spicule
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "rudiment spicule"
+
+[Term]
+id: ECAO:0000597
+name: sphincteric muscle
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "sphincteric muscle"
+
+[Term]
+id: ECAO:0000598
+name: presumptive circumesophageal muscle
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+def: "presumptive circumesophageal muscle"
+
+
+
+
+
+-- restatements:
+
+
+property_value:UBERON type UBERON:0001062
+xref: UBERON:0001062
+
+
+
+property_value:Cell type (is-a) OBI:0100026
+xref: OBI:0100026
+
+is_a:GO GO:0005938
+is_a: GO:0005938
+
+
+
+is_a: ECAO:9000002
+is_a: ECAO:1000350
+
+
+
+taxon:URCH x
+taxon: NTX:7656
+
+
+is_a:NoOnto x
+removed
