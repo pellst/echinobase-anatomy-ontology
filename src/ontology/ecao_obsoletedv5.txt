@@ -246,3 +246,132 @@ xref: NTX:7656ao
 
 xref: NTX:7656ao
 xref: NTX:7656
+
+
+# problem with stage pointing to anatomy in place of stage version : fixed with simple substitution
+relationship: start_stage ECAO:1000459 ! mature oocyte
+
+relationship: start_stage ECAO:1000459 ! mature oocyte
+relationship: start_stage ECAO:0000009 ! mature oocyte stage
+
+
+
+
+
+INFO - Inserting relationship of type: is_a between subject: 1000400 and object: 1000351
+INFO - Script running in Live mode, commit all changes
+INFO - Inserting relationship of type: part_of between subject: 1000400 and object: 1000399
+INFO - Script running in Live mode, commit all changes
+INFO - Inserting relationship of type: start_stage between subject: 1000400 and object: 1000459
+DBD::DB2::st execute failed: [IBM][CLI Driver][DB2/LINUXX8664] SQL0104N  An unexpected token "," was found following "SET starts_stage_id=".  Expected tokens may include:  "<space>".  SQLSTATE=42601
+Unable to execute UPDATE anatomy_item SET starts_stage_id=, modified_by=13, modified_at=CURRENT TIMESTAMP WHERE anatomy_item_id=5338 [IBM][CLI Driver][DB2/LINUXX8664] SQL0104N  An unexpected token "," was found following "SET starts_stage_id=".  Expected tokens may include:  "<space>".  SQLSTATE=42601
+ERROR - rolling back all changes
+
+
+INFO - Script running in Live mode, commit all changes
+INFO - Inserting relationship of type: start_stage between subject: 1000400 and object: 1000459
+DEBUG - Run Stm RunSqlSelectQuery: select anatomy_item_id from anatomy_item at, dbxref d where at.dbxref_id=d.dbxref_id and d.accession='1000400'
+DEBUG - Run Stm RunSqlSelectQuery: select stage_id from stage s, dbxref d where s.dbxref_id=d.dbxref_id and d.accession='1000459'
+Use of uninitialized value $fieldValue in concatenation (.) or string at C:/Users/troy.pells/Documents/perl_modules/XenbaseChadoTools.pm line 1043, <ONTOLOGY> line 4723.
+DEBUG - Run Stm RunSqlUpdateQuery: UPDATE anatomy_item SET starts_stage_id=, modified_by=13, modified_at=CURRENT TIMESTAMP WHERE anatomy_item_id=5338
+DEBUG - Run Stm RunSqlInsertQuery: UPDATE anatomy_item SET starts_stage_id=, modified_by=13, modified_at=CURRENT TIMESTAMP WHERE anatomy_item_id=5338
+ERROR - DBError : [IBM][CLI Driver][DB2/LINUXX8664] SQL0104N  An unexpected token "," was found following "SET starts_stage_id=".  Expected tokens may include:  "<space>".  SQLSTATE=42601
+
+ (SQL-42601)
+Unable to execute UPDATE anatomy_item SET starts_stage_id=, modified_by=13, modified_at=CURRENT TIMESTAMP WHERE anatomy_item_id=5338 [IBM][CLI Driver][DB2/LINUXX8664] SQL0104N  An unexpected token "," was found following "SET starts_stage_id=".  Expected tokens may include:  "<space>".  SQLSTATE=42601
+
+ (SQL-42601)ERROR - Unable to execute RunSqlInsertQuery: UPDATE anatomy_item SET starts_stage_id=, modified_by=13, modified_at=CURRENT TIMESTAMP WHERE anatomy_item_id=5338
+ERROR - rolling back all changes
+
+2020/03/02 12:10:25 INFO> AnatomyOntologyLoader.pl:552 Xenbase::AnatomyOnt::ExecuteInitialRunMode - termId: 1000459
+2020/03/02 12:10:25 DEBUG> SqlQueryTools.pm:61 SqlQueryTools::RunSqlSelectQuery - Run Stm RunSqlSelectQuery: SELECT DBXREF_ID FROM DBXREF WHERE DB_ID=76 AND ACCESSION='1000459'
+2020/03/02 12:10:25 INFO> AnatomyOntologyLoader.pl:978 Xenbase::AnatomyOnt::InsertNewTerm - InsertAnatomyItem term XAO: 1000459
+2020/03/02 12:10:25 DEBUG> SqlQueryTools.pm:61 SqlQueryTools::RunSqlSelectQuery - Run Stm RunSqlSelectQuery: select anatomy_item_id from anatomy_item c where c.dbxref_id = 5772443
+
+
+[Term]
+id: ECAO:1000400
+name: cell part
+is_a: ECAO:1000351 ! anatomical structure
+
+
+
+[Term]
+id: ECAO:0000574
+name: cell part
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+
+
+[Term]
+id: ECAO:1000400
+name: cell part
+is_a: ECAO:1000351 ! anatomical structure
+relationship: part_of ECAO:1000399 ! cell
+relationship: start_stage ECAO:1000459 ! mature oocyte
+relationship: end_stage ECAO:0000053 ! adult stage
+def: "Anatomical structure that is part of a cell and that has a granularity level equal to that of a protein complex or higher."
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+xref GO:0044464
+is_a: GO:0044464
+
+
+relationship: start_stage ECAO:1000459 ! mature oocyte
+relationship: start_stage ECAO:0000009 ! mature oocyte stage
+
+
+
+[Term]
+id: ECAO:0000009
+name: mature oocyte stage
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+
+
+[Term]
+id: ECAO:0000582
+name: mature oocyte
+namespace: ecao_developmental_stage
+is_a: ECAO:0000001
+
+
+
+
+
+INFO - Script running in Live mode, commit all changes
+INFO - TermAddCount:0
+INFO - TermUpdCount:393
+INFO - TermDelCount:0
+INFO - RelationAddCount:0
+INFO - RelationUpdCount:845
+INFO - RelationDelCount:0
+INFO - SynonymAddCount:0
+INFO - SynonymUpdCount:252
+INFO - SynonymDelCount:0
+INFO - TermName_xenopus_anatomy_cnt:393
+INFO - TermNamespace_dev_stage_cnt:95
+INFO - TermDefinition_cnt:160
+INFO - RelationDevelopFrom_cnt:52
+INFO - RelationPartOf_cnt:358
+INFO - RelationStartStage_cnt:296
+INFO - RelationEndStage_cnt:296
+INFO - RelationPrecededBy_cnt:48
+INFO - Synonym_cnt:252
+INFO - Subset_cnt:0
+INFO - Alt_id_cnt:0
+INFO - IS_A_cnt:387
+INFO - XREF_cnt:367
+INFO - ALT_ID_cnt:0
+INFO -                                 Developmental Stages: 95
+INFO -                                 Anatomy Items: 393
+INFO -                                 Definitions: 160
+INFO -                                 Cross References: 367
+INFO -                                 Relationships:
+INFO -                                                 part_of: 358
+INFO -                                                 develops_from: 52
+INFO -                                                 is_a: 387
+INFO - Script running in Live mode, commit all changes
+
+
+
