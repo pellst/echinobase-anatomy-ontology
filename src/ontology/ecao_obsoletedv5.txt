@@ -165,7 +165,84 @@ is_a: ECAO:1000350
 
 taxon:URCH x
 taxon: NTX:7656
-
+xref: NTX:
 
 is_a:NoOnto x
 removed
+
+
+property_value:UBERON (non-exact) GO:
+xref GO:
+
+ECAO:0000595
+ECAO:1000738
+
+
+ECAO:0000598
+ECAO:1000741
+
+
+id: ECAO:0000042
+name: early pluteus larva stage
+
+ECAO:1000001 ! early pluteus larva stage
+ECAO:0000042 ! early pluteus larva stage
+
+
+
+
+[Term]
+id: ECAO:0000050
+name: postlarval juvenile stage
+
+
+relationship: start_stage ECAO:1000001 ! late juvenile stage
+ECAO:1000001 ! late juvenile stage
+ECAO:0000050 ! postlarval juvenile stage
+
+
+relationship: start_stage ECAO:1000001 ! early juvenile stage
+ECAO:1000001 ! early juvenile stage
+ECAO:0000050 ! postlarval juvenile stage
+
+
+
+[Term]
+id: ECAO:1000358
+name: juvenile
+is_a: ECAO:1000361 ! multicellular organism
+relationship: part_of ECAO:1000353 ! whole organism
+relationship: develops_from ECAO:1000357 ! larva
+relationship: start_stage ECAO:1000001 ! late juvenile stage
+relationship: end_stage ECAO:0000051 ! exotrophic juvenile stage
+xref: UBERON:0034919
+
+
+[Term]
+id: ECAO:1000365
+name: adult digestive system
+is_a: ECAO:1000362 ! digestive system
+relationship: part_of ECAO:1000359 ! adult
+relationship: start_stage ECAO:1000001 ! early juvenile stage
+relationship: end_stage ECAO:0000053 ! adult stage
+def: "Anatomical system that processes ingested substances in the adult"
+comment: pending EAOv2 amendment
+is_a: ECAO:1000350
+xref: NTX:7656
+
+
+
+[Term]
+id: ECAO:1000369
+name: adult immune system
+is_a: ECAO:1000366 ! immune system
+relationship: part_of ECAO:1000359 ! adult
+relationship: start_stage ECAO:1000001 ! early juvenile stage
+relationship: end_stage ECAO:0000053 ! adult stage
+xref: XAO:0003154
+xref: NTX:7656ao
+
+
+
+xref: NTX:7656ao
+xref: NTX:7656
