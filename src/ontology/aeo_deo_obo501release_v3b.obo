@@ -8,7 +8,6 @@ ontology: ecao
 [Term]
 id: ECAO:0000001
 name: life cycle period
-is_a: ECAO:0000001
 
 [Term]
 id: ECAO:0000002
