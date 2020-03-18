@@ -1,6 +1,6 @@
 # ECAO ( Echinobase Anatomy Ontology ) - Runbook (0.1)
 
-This runbooks provides the steps to prepare the templates and the scripts involved in the XPO generation. 
+This runbooks provides the steps to prepare the templates and the scripts involved in the ECAO generation. 
 The github repo [ECAO](https://github.com/pellst/echinobase-anatomy-ontology/). 
 
 
