@@ -1,0 +1,49 @@
+https://www.planttext.com/
+
+
+@startuml
+
+title XPO - with ROBOT, DOS-DP, ODK - Activity Diagram 
+
+
+start
+
+
+
+while (Prepare new XPO release?)  is (Yes)
+ fork
+  :Makefile target - Initiating Step;
+  :Amend ROBOT call;
+ fork again
+  :Makefile target - Patterns (experimental);
+  :Amend pattern;
+  :Amend sparql;
+ fork again
+  :Makefile target - Release Management;
+  :Release build XPO;
+
+ end fork 
+
+  :Build xpo-edit.owl;
+
+  
+ fork
+  :Build xpo-simple.obo;
+ fork again
+  :Build xpo-intersect.obo;
+ end fork
+ 
+  :Anatomy Ontology Loader - handle intersection_of;
+  
+  :Review Phenotype Search on XAO terms;
+
+  
+  
+endwhile (No)
+:Go To Sleep;
+
+stop
+
+@enduml
+
+
