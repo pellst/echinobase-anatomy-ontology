@@ -589,6 +589,10 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/XPO_0102262> ObjectSomeValuesF
 
 A step by step series of examples that tell you how to get a development env running
 
+Typically on linux o/s we install docker and follow the ODK installation steps.
+
+Handy script for deployment steps [xpo_docker_deploy.sh](https://gist.github.com/pellst/17fece5f3dc8531d9d3cb5d4268fea18)
+
 
 ```
 finished
@@ -596,10 +600,19 @@ finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
+
+
+
 ## Running the tests
 
 Explain how to run the automated tests for this system
 
+# the XPO test pipeline can be run with the shell script located in /src/ontology
+```
+./test.sh
+```
+
+The test are run by the following statements
 ```
 
 # command to run tests
@@ -624,11 +637,46 @@ Explain what these tests test and why
 Give an example
 ```
 
+
+
+
+
 ## Deployment
 
 Add additional notes about how to deploy this on a live system
 
-Typically on linux o/s we install docker and follow the ODK installation steps.
+The two aspects to the deployment. Obtaining the XPO and running the pipeline in order to build the XPO.owl and XPO.obo. 
+This is build phase. Then there are the steps to release the XPO.owl and use the XPO.obo in the Anatomy Ontology Loader.
+
+Per the Installation section. Typically on linux o/s we install docker and follow the ODK installation steps.
+Handy script for deployment steps [xpo_docker_deploy.sh](https://gist.github.com/pellst/17fece5f3dc8531d9d3cb5d4268fea18)
+
+
+```
+cd /home/ec2-user
+mkdir exports
+cd /home/ec2-user/exports
+curl -LOk https://github.com/obophenotype/xenopus-phenotype-ontology/archive/master.zip
+unzip master.zip
+
+cd xenopus-phenotype-ontology-master
+cd /home/ec2-user/exports/xenopus-phenotype-ontology-master/src/ontology
+chmod 777 run.sh 
+```
+
+
+# the XPO build pipeline can be run with the shell script located in /src/ontology
+```
+./build.sh
+```
+
+This includes the steps that can be optionally run to test and prepare-release, for which we have helper scripts
+
+```
+./test.sh
+./prepare-release.sh
+
+```
 
 
 
@@ -662,7 +710,7 @@ Determine how the mapping from  XPO:0103336 is made to the xenbase_phenotype_ann
 
 ```
 
-### The Makefile contains this for the XPO-simple.owl. We see that equivalent-classes-allowed none:
+### The Makefile contains this for the XPO-simple.owl. We see that equivalent-classes-allowed none, for ELK:
 
 ```
 
