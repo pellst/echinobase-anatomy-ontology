@@ -45,6 +45,24 @@ Describe the steps that are taken to run this python script:
 /src/scripts has xpo_anatomy_pipeline.py
 https://github.com/obophenotype/xenopus-phenotype-ontology/blob/master/src/scripts/xpo_anatomy_pipeline.py
 
+see the /src/patterns/Makefile for: 
+
+anatomy_pipeline: download_patterns $(XAO) $(ID_MAP) $(RESERVED_IRI) 
+	echo "Using $(XAO_IRI), make sure this is correct!"
+	python3 ../scripts/xpo_anatomy_pipeline.py  $(XAO) $(ID_MAP) $(RESERVED_IRI) dosdp-patterns $(SPARQLDIR) $(PIPELINE_DATA_PATH) $(PATTERN_CONFIG)
+
+
+#########################################
+### Generating all ROBOT templates ######
+#########################################
+
+TEMPLATES=$(patsubst %.tsv, templates/%.owl, $(notdir $(wildcard $(TEMPLATEDIR)/*.tsv)))
+
+templates/%.owl: templates/%.tsv
+	robot -vvv merge --catalog ../ontology/catalog-v001.xml --input $(SRC) template   --prefix 'rdfs: http://www.w3.org/2000/01/rdf-schema#'  --prefix "IAO: http://purl.obolibrary.org/obo/IAO_" --template $< --output $@ && \
+	robot annotate --input $@ --ontology-iri $(OBOPURL)xpo/patterns/$@ -o $@
+
+
 
 
 /src/metadata has the xenbase_phenotype_annotation.csv
