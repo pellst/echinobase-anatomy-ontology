@@ -1,0 +1,4229 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/xpo/patterns/templates/xpo-obsolete.owl#"
+     xml:base="http://purl.obolibrary.org/obo/xpo/patterns/templates/xpo-obsolete.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/xpo/patterns/templates/xpo-obsolete.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0100997 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0100997">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal equatorial belt</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0102629 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0102629">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal equatorial belt morphology</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103403 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103403">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased number of multiciliated cell in the epidermis inner layer</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103437 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103437">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased size of the left part of branchial arch skeleton</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103439 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103439">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased size of the right part of branchial arch skeleton</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103454 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103454">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete bifurcated left hindlimb</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103455 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103455">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete bifurcated right hindlimb</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103456 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103456">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete bifurcated left forelimb</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103457 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103457">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete bifurcated right forelimb</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103469 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103469">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete bifurcated anterior-posterior axis</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103581 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103581">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased length of posterior region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103585 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103585">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased number of forelimb digit 2</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103586 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103586">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased number of forelimb digit 3</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103587 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103587">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased number of forelimb digit 4</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103588 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103588">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased number of forelimb digit 5</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103590 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103590">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased number of hindlimb digit 1</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103591 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103591">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased number of hindlimb digit 2</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103592 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103592">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased number of hindlimb digit 3</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103593 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103593">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased number of hindlimb digit 4</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103594 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103594">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased number of hindlimb digit 5</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103651 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103651">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased number of multiciliated cell in the epidermis outer layer</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103656 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103656">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete malformed left part of branchial arch skeleton</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103657 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103657">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete malformed right part of branchial arch skeleton</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103658 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103658">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete malformed left eye</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103659 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103659">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete malformed right eye </rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103660 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103660">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete malformed left inner ear</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103661 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103661">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete malformed right inner ear</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103662 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103662">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete malformed left olfactory pit</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103663 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103663">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete malformed right olfactory pit</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103664 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103664">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete malformed left optic vesicle</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103665 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103665">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete malformed right optic vesicle</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103666 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103666">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete malformed posterior region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103667 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103667">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete malformed ventral trunk</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103668 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103668">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete malformed ventral region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103669 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103669">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete malformed left part of brain</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103670 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103670">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete malformed right part of brain</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103671 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103671">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete malformed dorsal region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103677 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103677">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete malformed cartilage element in head</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103678 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103678">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete malformed Meckel&apos;s cartilage in left side</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103679 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103679">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete malformed tarsus in regenerating hindlimb</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103703 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103703">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal bending of dorsal tail</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103710 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103710">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased pigmentation in the antero-ventral region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103760 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103760">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased size of the left part of branchial arch skeleton</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103762 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103762">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased size of the right part of branchial arch skeleton</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103763 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103763">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased size of the anterior region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103764 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103764">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased size of the antero-ventral region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103765 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103765">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased size of the dorsal region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103767 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103767">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased size of the left eye</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103768 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103768">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased size of the postero-ventral region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103769 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103769">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased size of the right eye</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103782 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103782">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally blistered epidermis in trunk</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103787 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103787">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally blistered anterior dorsal fin</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103788 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103788">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally blistered ventral trunk</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103835 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103835">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased number of autopod in the regenerating forelimb</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103840 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103840">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased number of autopod in the regenerating hindlimb</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103901 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103901">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete absent left eye</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103902 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103902">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete absent left inner ear</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103903 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103903">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete absent left olfactory pit</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103904 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103904">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete absent right eye</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103905 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103905">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete absent right inner ear</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103906 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103906">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete absent right olfactory pit</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0103924 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0103924">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased neural precursor cell proliferation in optic tectum</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107274 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107274">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal anterior region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107275 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107275">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal posterior region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107277">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal ventral region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107279">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal antero-dorsal region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107280">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal antero-ventral region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107281 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107281">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal postero-dorsal region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107282 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107282">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal postero-ventral region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107337 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107337">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal ventro-lateral region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107338 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107338">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal dorso-lateral region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107358 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107358">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal morphology of apical region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107360 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107360">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal morphology of basal region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107361 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107361">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal morphology of anterior region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107362 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107362">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal morphology of posterior region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107363 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107363">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal morphology of dorsal region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107364 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107364">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal morphology of ventral region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107365 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107365">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal morphology of medial region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107366 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107366">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal morphology of antero-dorsal region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107367">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal morphology of antero-ventral region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107368 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107368">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal morphology of postero-dorsal region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107369 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107369">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal morphology of postero-ventral region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107396 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107396">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal left olfactory pit morphology</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107397 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107397">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal right olfactory pit morphology</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107400">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal left eye morphology</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107401 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107401">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal right eye morphology</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107402 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107402">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal left inner ear morphology</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107403 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107403">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal right inner ear morphology</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107414 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107414">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal left part of branchial arch skeleton morphology</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107415 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107415">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal right part of branchial arch skeleton morphology</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107416 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107416">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal left forelimb morphology</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107417 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107417">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal right forelimb morphology</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107418 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107418">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal left hindlimb morphology</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107419 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107419">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal right hindlimb morphology</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107422 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107422">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal left part of brain morphology</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107423 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107423">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal right part of brain morphology</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107424 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107424">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal morphology of ventro-lateral region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0107425 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0107425">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal morphology of dorso-lateral region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115309">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) open of brain (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115318 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115318">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) separated from of epidermis outer layer (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115321 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115321">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) normal amount of ciliated epidermal cell (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115330 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115330">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) transformed to of neuroectoderm (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115343 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115343">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) fused with of somite (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115399 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115399">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) uncoiled of small intestine (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115501 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115501">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) wholly anterioralized of whole organism (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115502 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115502">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) wholly dorsalized of whole organism (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115503 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115503">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) wholly posterioralized of whole organism (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115504 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115504">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) wholly ventralized of whole organism (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115522 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115522">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) condensed of head (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115554 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115554">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) circular of mouth (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115557 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115557">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) triangular of mouth (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115577 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115577">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) fused with of hindlimb digit (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115608 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115608">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) incomplete structure of Meckel&apos;s cartilage (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115644 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115644">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) surrounding of retinal pigmented epithelium (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115690 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115690">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) normal amount of retinal cone cell (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115691 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115691">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) normal amount of retinal rod cell (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115697 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115697">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) normal amount of angioblast (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115701 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115701">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) fused with of anterior branchial crest (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115708 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115708">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) incomplete structure of ceratohyal (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115724 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115724">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) incomplete structure of basihyal (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115729 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115729">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) incomplete structure of infrarostral (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115731 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115731">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) incomplete structure of palatoquadrati (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115734 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115734">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) incomplete structure of trabecula cranii (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115739 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115739">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) fused with of hindlimb digit 2 (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115764 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115764">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) dissociated from of epidermal cell (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115765 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115765">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) uncoiled of external coil of the small intestine (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115767 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115767">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) uncoiled of internal coil of the small intestine (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115806 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115806">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete duplicated left hindlimb</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115807 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115807">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete duplicated right hindlimb</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115808 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115808">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete duplicated left forelimb</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115809 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115809">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete duplicated right forelimb</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115828 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115828">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete duplicated left eye</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115829 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115829">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete duplicated right eye</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115831 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115831">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete duplicated left part of brain</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115832 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115832">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete duplicated right part of brain</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115851 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115851">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) quality of heart in left atrium (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115852 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115852">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) quality of hindlimb in metacarpus (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115884 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115884">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) quality of metacarpus in hindlimb digit 5 (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115891 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115891">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) quality of hindlimb bud in dorsal margin (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115948 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115948">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) absent of eye in left (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115949 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115949">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) absent of inner ear in left (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115950 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115950">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) absent of olfactory pit in left (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0115997 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0115997">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) increased size of eye in left (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116000">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) decreased size of branchial arch skeleton in left (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116014">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) fused with of somite in left side (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116015">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) fused with of forelimb in digit (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116016">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) fused with of forelimb digit 2 in metacarpus (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116017">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) fused with of hindlimb in tarsus (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116018">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) fused with of hindlimb digit 2 in metatarsus (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116019">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) fused with of regenerating hindlimb in tibia-fibula (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116020">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) fused with of regenerating hindlimb in spike (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116021">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) fused with of eye in left (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116022">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) fused with of optic stalk in left (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116023">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) fused with of eye in right (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116024">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) fused with of olfactory pit in right (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116026">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) malformed of eye in lens (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116027">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) malformed of epithelium in foregut (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116029">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) malformed of ventral in trunk (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116030">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) malformed of brain in left (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116031">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) malformed of eye in left (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116032">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) malformed of inner ear in left (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116033">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) malformed of optic vesicle in left (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116034">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) malformed of olfactory pit in left (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116035">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) malformed of Meckel&apos;s cartilage in left (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116036">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) malformed of branchial arch skeleton in left (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116037">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) malformed of eye in right (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116038">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) malformed of inner ear in right (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116042">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) truncated of anterior in embryo (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116043">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) truncated of posterior in tail (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116044">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) disorganized of myofibril assembly in heart (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116045">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) disorganized of muscle fiber development in skeletal muscle (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116046">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) disorganized of regenerating tail in neuron (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116070">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) duplicated of brain in left (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116071">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) duplicated of eye in left (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116072">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) duplicated of forelimb in left (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116082">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) bifurcated of hindlimb in left (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116141">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) normal amount of migratory neural crest cell in tail region (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116142">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) normal amount of hindlimb in digit (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116143">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) normal amount of regenerating hindlimb in digit (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116162 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116162">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) oblique orientation of heart in left atrium (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116166 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116166">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) incomplete structure of cartilage element in branchial arch (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116167 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116167">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal(ly) incomplete structure of cartilage element in head (T)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116432 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116432">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal animal organ development</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116437 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116437">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal camera-type eye development</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116447 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116447">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal digestive tract morphogenesis</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116451 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116451">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal embryonic morphogenesis</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116452 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116452">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal embryonic organ development</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116459 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116459">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal gland development</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116463 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116463">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal hemopoietic or lymphoid organ development</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116473 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116473">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal neural crest cell development</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116474 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116474">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal nose development</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116478 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116478">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal pharyngeal system development</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116479 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116479">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal post-anal tail morphogenesis</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116481 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116481">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal renal system development</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116483 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116483">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal respiratory tube development</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0116484 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0116484">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal sensory organ development</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0125187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0125187">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete absent zygote cortex</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0125564 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0125564">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete absent oocyte cortex</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0125615 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0125615">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete absent wedge region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0125636 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0125636">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete absent ooplasm</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0125687 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0125687">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete absent plasma membrane</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0125823 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0125823">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete absent cytoplasm</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0125898 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0125898">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete absent subcortical cytoplasm</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0126022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0126022">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete absent sperm entry point</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0126024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0126024">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete absent centromere</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0126141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0126141">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete absent equatorial belt</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0126236 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0126236">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete absent vegetal cortex</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0126810 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0126810">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally localised zygote cortex</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0127201 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0127201">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete Abnormally localised oocyte cortex</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0127279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0127279">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally localised ooplasm</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0127332 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0127332">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally localised plasma membrane</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0127475 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0127475">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally localised cytoplasm</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0127552 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0127552">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally localised subcortical cytoplasm</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0127681 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0127681">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally localised sperm entry point</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0127802 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0127802">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally localised equatorial belt</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0127900 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0127900">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally localised vegetal cortex</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0128677 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0128677">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased size of the subcortical cytoplasm</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0129074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0129074">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased size of the sperm entry point</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0129095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0129095">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased size of the cytoplasm</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0129146 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0129146">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased size of the equatorial belt</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0129158 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0129158">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased size of the ooplasm</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0129411 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0129411">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased size of the plasma membrane</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0130156 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0130156">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased size of the subcortical cytoplasm</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0130551 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0130551">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased size of the sperm entry point</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0130572 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0130572">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased size of the cytoplasm</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0130622 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0130622">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased size of the equatorial belt</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0130634 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0130634">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased size of the ooplasm</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0130885 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0130885">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased size of the plasma membrane</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0132562 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0132562">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal development of cytoplasm</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0132754 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0132754">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal development of equatorial belt</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0132776 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0132776">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal development of subcortical cytoplasm</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0132990 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0132990">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal development of sperm entry point</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0133706 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0133706">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in equatorial belt</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0133713 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0133713">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in germ plasm</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0133714 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0133714">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in germinal vesicle</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0133725 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0133725">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in mitochondrial cloud</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0133752 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0133752">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in sperm entry point</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0134452 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0134452">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in cell part</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0134453 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0134453">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in wedge region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0134454 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0134454">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in ring structure</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0134621 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0134621">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in zygote cortex</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0134753 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0134753">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in ciliary axoneme</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0134754 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0134754">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in basal body</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0134774 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0134774">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in cilium</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0134775 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0134775">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in mitotic spindle</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0134776 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0134776">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in growth cone</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0134777 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0134777">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in centriole</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0134778 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0134778">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in kinetochore</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0134779 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0134779">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in centromere</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0134780 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0134780">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in centrosome</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0134781 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0134781">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in axon</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0134782 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0134782">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in dendrite</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0134804 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0134804">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in nucleus</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0134805 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0134805">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in cytoplasm</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0134834 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0134834">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in motor axon</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0134848 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0134848">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in lampbrush chromosome</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0134882 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0134882">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in germinal granule</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0134883 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0134883">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in ooplasm</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0134884 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0134884">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in oocyte cortex</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0134885 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0134885">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in endoplasmic reticulum</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0134887 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0134887">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in microtubule</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0134888 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0134888">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in vegetal cortex</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0134897 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0134897">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in astrocyte end-foot</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0134903 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0134903">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in subcortical cytoplasm</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0134918 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0134918">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in plasma membrane</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0135002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0135002">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in apical junction complex</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0135003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0135003">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in filopodium</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0135018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0135018">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in yolk platelet</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0135020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0135020">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in sarcomere</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0135021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0135021">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in spindle microtubule</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0135022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0135022">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in astral microtubule</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0135026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0135026">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in Roux spot</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0135032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0135032">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in adherens junction</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0135046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0135046">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in myofibril</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0135047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0135047">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in M band</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0135048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0135048">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in actin cytoskeleton</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0135052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0135052">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in neuron projection</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0135053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0135053">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in cortical actin cytoskeleton</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0135054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0135054">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased apoptosis in actin filament</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0135257 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0135257">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in equatorial belt</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0135264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0135264">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in germ plasm</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0135265 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0135265">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in germinal vesicle</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0135276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0135276">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in mitochondrial cloud</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0135303 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0135303">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in sperm entry point</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136003">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in cell part</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136004">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in wedge region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136005">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in ring structure</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136172 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136172">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in zygote cortex</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136304">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in ciliary axoneme</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136305 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136305">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in basal body</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136325 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136325">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in cilium</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136326 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136326">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in mitotic spindle</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136327 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136327">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in growth cone</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136328 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136328">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in centriole</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136329 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136329">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in kinetochore</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136330 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136330">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in centromere</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136331 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136331">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in centrosome</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136332 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136332">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in axon</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136333 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136333">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in dendrite</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136355 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136355">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in nucleus</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136356 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136356">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in cytoplasm</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136385 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136385">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in motor axon</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136399 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136399">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in lampbrush chromosome</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136433 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136433">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in germinal granule</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136434 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136434">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in ooplasm</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136435 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136435">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in oocyte cortex</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136436 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136436">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in endoplasmic reticulum</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136438 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136438">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in microtubule</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136439 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136439">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in vegetal cortex</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136448 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136448">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in astrocyte end-foot</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136454 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136454">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in subcortical cytoplasm</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136469 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136469">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in plasma membrane</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136553 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136553">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in apical junction complex</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136554 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136554">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in filopodium</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136569 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136569">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in yolk platelet</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136571 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136571">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in sarcomere</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136572 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136572">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in spindle microtubule</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136573 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136573">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in astral microtubule</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136577 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136577">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in Roux spot</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136583 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136583">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in adherens junction</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136597 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136597">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in myofibril</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136598 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136598">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in M band</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136599 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136599">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in actin cytoskeleton</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136603 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136603">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in neuron projection</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136604 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136604">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in cortical actin cytoskeleton</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136605 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136605">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete increased cell population proliferation in actin filament</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136808 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136808">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in equatorial belt</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136815 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136815">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in germ plasm</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136816 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136816">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in germinal vesicle</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136827 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136827">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in mitochondrial cloud</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0136854 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0136854">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in sperm entry point</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0137554 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0137554">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in cell part</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0137555 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0137555">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in wedge region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0137556 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0137556">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in ring structure</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0137723 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0137723">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in zygote cortex</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0137855 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0137855">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in ciliary axoneme</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0137856 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0137856">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in basal body</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0137876 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0137876">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in cilium</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0137877 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0137877">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in mitotic spindle</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0137878 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0137878">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in growth cone</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0137879 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0137879">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in centriole</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0137880 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0137880">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in kinetochore</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0137881 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0137881">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in centromere</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0137882 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0137882">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in centrosome</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0137883 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0137883">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in axon</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0137884 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0137884">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in dendrite</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0137906 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0137906">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in nucleus</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0137907 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0137907">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in cytoplasm</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0137936 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0137936">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in motor axon</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0137950 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0137950">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in lampbrush chromosome</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0137984 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0137984">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in germinal granule</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0137985 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0137985">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in ooplasm</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0137986 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0137986">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in oocyte cortex</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0137987 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0137987">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in endoplasmic reticulum</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0137989 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0137989">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in microtubule</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0137990 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0137990">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in vegetal cortex</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0137999 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0137999">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in astrocyte end-foot</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0138005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0138005">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in subcortical cytoplasm</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0138020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0138020">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in plasma membrane</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0138104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0138104">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in apical junction complex</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0138105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0138105">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in filopodium</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0138120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0138120">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in yolk platelet</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0138122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0138122">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in sarcomere</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0138123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0138123">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in spindle microtubule</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0138124 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0138124">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in astral microtubule</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0138128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0138128">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in Roux spot</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0138134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0138134">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in adherens junction</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0138148 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0138148">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in myofibril</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0138149 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0138149">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in M band</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0138150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0138150">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in actin cytoskeleton</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0138154 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0138154">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in neuron projection</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0138155 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0138155">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in cortical actin cytoskeleton</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0138156 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0138156">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased apoptosis in actin filament</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0138359 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0138359">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in equatorial belt</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0138366 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0138366">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in germ plasm</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0138367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0138367">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in germinal vesicle</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0138378 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0138378">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in mitochondrial cloud</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0138405 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0138405">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in sperm entry point</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139105">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in cell part</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139106">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in wedge region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139107">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in ring structure</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139274 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139274">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in zygote cortex</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139406 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139406">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in ciliary axoneme</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139407 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139407">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in basal body</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139427 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139427">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in cilium</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139428 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139428">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in mitotic spindle</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139429 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139429">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in growth cone</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139430 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139430">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in centriole</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139431 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139431">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in kinetochore</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139432 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139432">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in centromere</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139433 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139433">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in centrosome</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139434 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139434">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in axon</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139435 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139435">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in dendrite</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139457 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139457">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in nucleus</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139458 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139458">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in cytoplasm</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139487 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139487">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in motor axon</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139501 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139501">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in lampbrush chromosome</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139535 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139535">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in germinal granule</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139536 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139536">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in ooplasm</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139537 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139537">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in oocyte cortex</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139538 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139538">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in endoplasmic reticulum</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139540 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139540">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in microtubule</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139541 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139541">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in vegetal cortex</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139550 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139550">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in astrocyte end-foot</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139556 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139556">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in subcortical cytoplasm</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139571 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139571">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in plasma membrane</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139655 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139655">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in apical junction complex</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139656 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139656">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in filopodium</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139671 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139671">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in yolk platelet</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139673 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139673">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in sarcomere</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139674 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139674">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in spindle microtubule</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139675 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139675">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in astral microtubule</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139679 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139679">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in Roux spot</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139685 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139685">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in adherens junction</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139699 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139699">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in myofibril</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139700 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139700">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in M band</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139701 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139701">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in actin cytoskeleton</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139705 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139705">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in neuron projection</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139706 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139706">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in cortical actin cytoskeleton</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139707 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139707">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete decreased cell population proliferation in actin filament</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139788 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139788">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic cell part</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139789 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139789">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic axon</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139790 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139790">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic neuron projection</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139861 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139861">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic ciliary axoneme</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0139874 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0139874">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic ooplasm</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140031">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic wedge region</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140118">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic vegetal cortex</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140141">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic germ plasm</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140171 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140171">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic cilium</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140189 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140189">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic myofibril</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140231 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140231">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic sarcomere</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140261">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic actin cytoskeleton</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140293 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140293">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic oocyte cortex</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140295 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140295">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic mitotic spindle</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140334 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140334">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic nucleus</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140356 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140356">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic basal body</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140382 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140382">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic ring structure</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140399 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140399">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic adherens junction</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140426 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140426">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic lampbrush chromosome</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140483 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140483">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic germinal granule</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140499 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140499">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic astrocyte end-foot</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140535 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140535">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic motor axon</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140607 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140607">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic microtubule</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140611 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140611">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic sperm entry point</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140638 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140638">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic centrosome</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140695 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140695">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic cytoplasm</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140707 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140707">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic mitochondrial cloud</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140710 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140710">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic centromere</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140771 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140771">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic actin filament</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140778 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140778">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic equatorial belt</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140784 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140784">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic yolk platelet</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140796 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140796">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic centriole</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140807 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140807">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic zygote cortex</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140811 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140811">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic spindle microtubule</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140935 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140935">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic kinetochore</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140936 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140936">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic growth cone</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140962 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140962">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic plasma membrane</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140977 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140977">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic apical junction complex</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140978 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140978">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic Roux spot</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0140984 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0140984">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic endoplasmic reticulum</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0141042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0141042">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic cortical actin cytoskeleton</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0141074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0141074">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic germinal vesicle</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0141127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0141127">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic M band</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0141129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0141129">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic subcortical cytoplasm</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0141161 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0141161">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic astral microtubule</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0141177 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0141177">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic filopodium</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XPO_0141215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XPO_0141215">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormally necrotic dendrite</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
