@@ -277,7 +277,7 @@ xpo-xenbase.obo:
 
 
 ```
-
+xpo_table.csv can be found in this folder: xenopus-phenotype-ontology\src\ontology
 
 In the examples that follow we make use of XPO_0102262 to provide comparison and trace it through the various phases of the pipeline.
 xpo_table.csv contains the following fields:
