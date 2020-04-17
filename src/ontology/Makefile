@@ -39,6 +39,10 @@ prepare_release: all
 	(test -f subsets/*owl && cp subsets/* $(RELEASEDIR)/subsets && git add $(RELEASEDIR)/subsets/* || echo "no subsets") &&\
 	echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on github"
 
+
+#subsystem:
+#        $(MAKE) -C ../patterns
+
 # ----------------------------------------
 # Main release targets
 # ----------------------------------------

@@ -25,9 +25,9 @@ SRC=../ontology/ecao-edit.owl
 #############################################
 
 .PHONY: .FORCE
+ecao_pattern_pipeline: anatomy_pipeline
 
 #ECAO_pattern_pipeline: templates anatomy_pipeline missing_iris
-ECAO_pattern_pipeline: anatomy_pipeline
 
 #../patterns/tmp/subclasses.sparql:
 #	sh ../scripts/generate_sparql_subclass_query.sh blacklist_branch.txt $@
