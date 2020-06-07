@@ -725,6 +725,8 @@ XAO:0000179,PATO:0000587,decreased size
 Determine how the mapping from  XPO:0103336 is made to the xenbase_phenotype_annotation.csv record for: XAO:0000179,PATO:0000587,decreased size
 
 
+The python script to prepare the XPO needs to be integrated into the XPO build pipeline. We would benefit from a more detailed understanding of ROBOT and how it works with the transformation from OWL to OBO and specifically the java code that handles the intersection_of annotations.For now we are making do with the id_map.tsv as the data source.
+xao_for_xpo.py
 
 ```
 
